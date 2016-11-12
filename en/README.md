@@ -34,16 +34,19 @@ Editing the book can be done either by updating the markdown files with a text e
 # Table of Content
 
 * [Introduction](book/0introduction.md)
-* [Install/Uninstall](book/1install.md)
-* [Administration Menu](book/2administration.md)
-* [Preferences](book/3preferences.md)
-* [Operating Instructions](book/4operations.md)
-* [The User Side](book/5userside.md)
-* [Blocks](book/6blocks.md)
-* [Templates](book/7templates.md)
-* [Miscellaneous](book/8other.md) 
+* [Overview](book/1overview.md)
+* [Start guide](book/2startguide.md)
+* [Installation](book/3installation.md)
+* [Administration](book/4admin.md)
+* [Operations](book/5operations.md)
+* [Copyright notice](book/6copyright.md)
 * [Module Credits](book/9credits.md)
 * [About XOOPS CMS](book/10aboutxoops.md)
+* [Module Credits](book/9credits.md)
+* [About XOOPS CMS](book/10aboutxoops.md)
+* [Appendix A](book/appendix.md)
+
+
 
 ##License:
 
