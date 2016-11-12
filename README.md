@@ -35,7 +35,7 @@ Editing the book can be done either by updating the markdown files with a text e
 
 # Table of Content
 
-* [Introduction](book/0introduction.md)
+* [Introduction](en/book/0introduction.md)
 * [Overview](book/1overview/README.md)
 * [Start guide](book/2startguide/README.md)
 * [Installation](book/3installation/README.md)
