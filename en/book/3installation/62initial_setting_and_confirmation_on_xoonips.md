@@ -14,9 +14,9 @@ Click on [System Configuration].
 
 Assign a directory where the web server is authorized to write.
 
-| **[root@xoonips-server ~]# mkdir /var/www/xoonipsupload** | ← Create a directory. |
-| --- | --- |
-| **[root@xoonips-server ~]# chmod a+w /var/www/xoonipsupload** | ← Change permissions. |
+ **[root@xoonips-server ~]# mkdir /var/www/xoonipsupload** | ← Create a directory. 
+ --- | --- 
+ **[root@xoonips-server ~]# chmod a+w /var/www/xoonipsupload** | ← Change permissions. 
 
 ![](../../assets/xoonips-install10.png)
 
@@ -42,15 +42,15 @@ Enter the desired value of width and height of the index tree and click on the [
 
 The size of display area within the block can be changed by indicating the width of the index tree in percentage (%).
 
-| Width indicated in 100%. | Width indicated in 50%. |
-| --- | --- |
-| ![](../../assets/xoonips-install14.png) | ![](../../assets/xoonips-install15.png) |
+ Width indicated in 100%. | Width indicated in 50%. 
+--- | --- 
+ ![](../../assets/xoonips-install14.png) | ![](../../assets/xoonips-install15.png) 
 
 The range of display area can be changed by indicating the height of the index tree in pixels.
 
-| Height indicated in 400 pixels. | Height indicated in 200 pixels. |
-| --- | --- |
-| ![](../../assets/xoonips-install16.png) | ![](../../assets/xoonips-install17.png) |
+ Height indicated in 400 pixels. | Height indicated in 200 pixels. 
+ --- | --- 
+ ![](../../assets/xoonips-install16.png) | ![](../../assets/xoonips-install17.png) 
 
 #### 6.2.3. Setup print formats {#6-2-3-setup-print-formats}
 
@@ -92,12 +92,12 @@ Click on [OAI-PMH].
 
 *   &quot;Repository Configurations&quot; is for providing metadata to another server.
 
-*   | Repository Name | Example：INCF Japan Node XooNIps site |
-    | --- | --- |
-    | Database ID | Set identification data by using site name, etc. to distinguish sites. Example: www.neuroinf.jp |
-    | Number of days for tracking item deletion | Indicate the days for tracking the item deletion. |
-    | (institution) variable | Set the variable of institution for reply. |
-    | (publisher) variable | Set the variable of publisher for reply. |
+*    Repository Name | Example：INCF Japan Node XooNIps site 
+     --- | --- 
+     Database ID | Set identification data by using site name, etc. to distinguish sites. Example: www.neuroinf.jp 
+     Number of days for tracking item deletion | Indicate the days for tracking the item deletion. 
+     (institution) variable | Set the variable of institution for reply. 
+     (publisher) variable | Set the variable of publisher for reply. 
 
 *   The harvester setup is for collecting metadata from another server.
 
@@ -115,11 +115,11 @@ Click on [Proxy].
 
 ![](../../assets/xoonips-install25.png)
 
-| Host | Enter a host name or IP address of the proxy server. |
-| --- | --- |
-| Port | Enter the port number of the proxy server. |
-| User Name | Enter the user name if required to authenticate the proxy server. |
-| Password | Enter the password for authentication. |
+ Host | Enter a host name or IP address of the proxy server. 
+ --- | --- 
+ Port | Enter the port number of the proxy server. 
+ User Name | Enter the user name if required to authenticate the proxy server. 
+ Password | Enter the password for authentication. 
 
 #### 6.2.7. Setup for event notification {#6-2-7-setup-for-event-notification}
 
@@ -141,19 +141,19 @@ Choose one from the following.
 
 &quot;Enable Specific Events&quot; accepts multiple choices.
 
-| To whom | Indications at the pulldown menu | Purposes |
-| :-: | :-: | :-: |
-| Administrator | Administrator: Item transferred | Notify when an item has been transferred. |
-| Administrator: Account certified | Notify when an account has been certified. |
-| Administrator: Item certified | Notify when a publishing item has been certified. |
-| Administrator: Request for group item certification | Notify when there is a request for approval of transferring an item to a group area. |
-| User | XooNIps User: Item transferred | Notify when an item has been transferred. |
-| XooNIps User: Item updated | Notify when an item has been updated. |
-| XooNIps User: Item certified | Notify when a publishing item has been certified. |
-| XooNIps User: Item rejected | Notify when a publishing item has been rejected. |
-| XooNIps User: File downloaded | Notify when a file has been downloaded. |
-| XooNIps User: Group item certified | Notify when an item has been approved of being registered in a group area. |
-| XooNIps User: Group item rejected | Notify when an item has been rejected to be registered in a group area. |
+ To whom | Indications at the pulldown menu | Purposes 
+ :-: | :-: | :-: 
+ Administrator | Administrator: Item transferred | Notify when an item has been transferred. 
+ Administrator: Account certified | Notify when an account has been certified. 
+ Administrator: Item certified | Notify when a publishing item has been certified. 
+ Administrator: Request for group item certification | Notify when there is a request for approval of transferring an item to a group area. 
+ User | XooNIps User: Item transferred | Notify when an item has been transferred. 
+ XooNIps User: Item updated | Notify when an item has been updated. 
+ XooNIps User: Item certified | Notify when a publishing item has been certified. 
+ XooNIps User: Item rejected | Notify when a publishing item has been rejected. 
+ XooNIps User: File downloaded | Notify when a file has been downloaded. 
+ XooNIps User: Group item certified | Notify when an item has been approved of being registered in a group area. 
+ XooNIps User: Group item rejected | Notify when an item has been rejected to be registered in a group area. 
 
 #### 6.2.8. XOOPS Extension {#6-2-8-xoops-extension}
 
