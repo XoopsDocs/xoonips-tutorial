@@ -38,8 +38,3 @@
 
     *   The most frequently used search keyword
 
-| ![Prev](../../assets/etc\prev.gif)  |   |  ![Next](../../assets/etc\next.gif) |
-| --- | --- | --- |
-|   | ![Home](../../assets/etc\home.gif)  |   |
-
-Last updated: 2011/07/12
