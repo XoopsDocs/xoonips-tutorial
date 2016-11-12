@@ -95,12 +95,14 @@ Click on [OAI-PMH].
 *   &quot;Repository Configurations&quot; is for providing metadata to another server.
 
 
+
 Repository Name | Example：INCF Japan Node XooNIps site 
 --- | --- 
 Database ID | Set identification data by using site name, etc. to distinguish sites. Example: www.neuroinf.jp 
 Number of days for tracking item deletion | Indicate the days for tracking the item deletion. 
 (institution) variable | Set the variable of institution for reply. 
 (publisher) variable | Set the variable of publisher for reply. 
+
 
 
 *   The harvester setup is for collecting metadata from another server.
@@ -119,11 +121,13 @@ Click on [Proxy].
 
 ![](../../assets/xoonips-install25.png)
 
+
  Host | Enter a host name or IP address of the proxy server. 
  --- | --- 
  Port | Enter the port number of the proxy server. 
  User Name | Enter the user name if required to authenticate the proxy server. 
  Password | Enter the password for authentication. 
+
 
 #### 6.2.7. Setup for event notification {#6-2-7-setup-for-event-notification}
 
