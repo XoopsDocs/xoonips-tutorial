@@ -1,4 +1,4 @@
-### 1.3. &quot;Group information&quot; (XooNIps&gt;&gt;Site Policies&gt;&gt;Group Information) {#1-3-group-information-xoonips-site-policies-group-information}
+### 1.3. &quot;Group information&quot; (XooNIps -> Site Policies -> Group Information) {#1-3-group-information-xoonips-site-policies-group-information}
 
 Policy settings for the group information (Define the maximum number of items to be registered in a group area and the limit of HDD area to be used by the group).
 

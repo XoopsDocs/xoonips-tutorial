@@ -1,4 +1,4 @@
-### 1.5. &quot;Item Types&quot; (XooNIps&gt;Site Policies&gt;Item Information&gt;Item Types) {#1-5-item-types-xoonips-site-policies-item-information-item-types}
+### 1.5. &quot;Item Types&quot; (XooNIps -> Site Policies -> Item Information -> Item Types) {#1-5-item-types-xoonips-site-policies-item-information-item-types}
 
 How to change the title and order of item types shown on the homepage:
 
@@ -8,7 +8,7 @@ Ex. Change a title Paper to English.
 
 **Figure 4.5. &quot;Dispaly Setting&quot;**
 
-Change Paper to English on the &quot;Display Setting&quot; (XooNIps&gt;&gt;Site Policies&gt;&gt;Item Information&gt;&gt;Item Types).
+Change Paper to English on the &quot;Display Setting&quot; (XooNIps -> Site Policies -> Item Information -> Item Types).
 
 ![Display Setting 2](../../assets/xoonips-policy6.png)
 
