@@ -9,6 +9,12 @@ Policy settings for the item importing and exporting.
     **Table 4.7. Export**
 
     | Category | Description |
-    |:--|:--|
-    |Export enabled | Choose 'Yes' or 'No' |
+    | :-- | :-- |
+    | Export enabled | Choose 'Yes' or 'No' |
+
+
+Another test:
+
+Group | Domain | First Appearance ------------------------- | --------------- | ---------------- ShinRa | Mako Reactors | FFVII Moogles | MogNet | FFIII Vana'diel Chocobo Society | Chocobo Raising | FFXI:TOAU
+
 	
