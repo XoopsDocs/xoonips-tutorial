@@ -146,16 +146,16 @@ Choose one from the following.
  To whom | Indications at the pulldown menu | Purposes 
  :-: | :-: | :-: 
  Administrator | Administrator: Item transferred | Notify when an item has been transferred. 
-| Administrator: Account certified | Notify when an account has been certified. 
-| Administrator: Item certified | Notify when a publishing item has been certified. 
-| Administrator: Request for group item certification | Notify when there is a request for approval of transferring an item to a group area. 
+ | Administrator: Account certified | Notify when an account has been certified. 
+ | Administrator: Item certified | Notify when a publishing item has been certified. 
+ | Administrator: Request for group item certification | Notify when there is a request for approval of transferring an item to a group area. 
  User | XooNIps User: Item transferred | Notify when an item has been transferred. 
-| XooNIps User: Item updated | Notify when an item has been updated. 
-| XooNIps User: Item certified | Notify when a publishing item has been certified. 
-| XooNIps User: Item rejected | Notify when a publishing item has been rejected. 
-| XooNIps User: File downloaded | Notify when a file has been downloaded. 
-| XooNIps User: Group item certified | Notify when an item has been approved of being registered in a group area. 
-| XooNIps User: Group item rejected | Notify when an item has been rejected to be registered in a group area. 
+ | XooNIps User: Item updated | Notify when an item has been updated. 
+ | XooNIps User: Item certified | Notify when a publishing item has been certified. 
+ | XooNIps User: Item rejected | Notify when a publishing item has been rejected. 
+ | XooNIps User: File downloaded | Notify when a file has been downloaded. 
+ | XooNIps User: Group item certified | Notify when an item has been approved of being registered in a group area. 
+ | XooNIps User: Group item rejected | Notify when an item has been rejected to be registered in a group area. 
 
 #### 6.2.8. XOOPS Extension {#6-2-8-xoops-extension}
 
