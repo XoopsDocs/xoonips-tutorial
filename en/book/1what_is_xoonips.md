@@ -1,12 +1,12 @@
-## 1.�What is XooNIps ？ {#1-what-is-xoonips}
+## 1. What is XooNIps ？ {#1-what-is-xoonips}
 
-XooNIps is an easy-to-use software that can facilitates to build a database website for organizing enormous volume of information in various types of electronic formats, such as research papers, experrimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
+**XooNIps** is an easy-to-use software that can facilitates to build a database website for organizing enormous volume of information in various types of electronic formats, such as research papers, experrimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
 
-In other words, XooNIps is a neuroinformatics tool for neuroscientists who make full use of immense and complex materials, such as experimental data and programs of mathematical model.
+In other words, **XooNIps** is a neuroinformatics tool for neuroscientists who make full use of immense and complex materials, such as experimental data and programs of mathematical model.
 
 Neuroinformatics is an emerging research field where neuroscience and informatics are combined to breakthrough the enigma of the brain. In November 2005, International Neuroinformatics Coordinating Facility (INCF) was established for facilitating international collaborations in this interdisciplinary field. Under these circumstances, the Laboratory for Neuroinformatics, RIKEN BSI, embarked on developing XooNIps which is now in public as an open source (free) software. Lately, it also has been used as an institutional repository system by universities and other institutions.
 
-Main features:
+#### Main features:
 
 *   By using XooNIps, even non-experts of computer systems can create a database.
 

@@ -1,4 +1,4 @@
-## 1.�User&#039;s authority {#1-user-s-authority}
+## 1. User&#039;s authority {#1-user-s-authority}
 
 | Guest | Browse and retrieve the data. |
 | --- | --- |
