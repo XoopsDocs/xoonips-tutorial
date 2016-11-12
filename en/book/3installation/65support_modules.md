@@ -45,9 +45,3 @@ Download the most updated module from the website.
 | **[root@xoonips-server ~]# cp html/class/smarty/plugins/* var/www/html/class/smarty/plugins/** | ← Copy the expanded files. |
 
 Perform installation from &quot;Module Installation&quot; at &quot;Legacy System&quot; on the Administration menu (same as XooNIps and item type module).
-
-| ![Prev](../../assets/etc\prev.gif)  |   |  ![Next](../../assets/etc\next.gif) |
-| --- | --- | --- |
-|   | ![Home](../../assets/etc\home.gif)  |   |
-
-Last updated: 2011/07/12

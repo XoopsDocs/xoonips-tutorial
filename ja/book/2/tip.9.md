@@ -17,9 +17,3 @@
 ![OAI-PMH](../../assets/xoonips-mente14.png)
 
 **Figure 4.29. OAI-PMH**
-
-| ![Prev](../../assets/etc\prev.gif)  |   |  ![Next](../../assets/etc\next.gif) |
-| --- | --- | --- |
-|   | ![Home](../../assets/etc\home.gif)  |   |
-
-Last updated: 2011/07/12

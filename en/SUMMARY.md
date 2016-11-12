@@ -100,16 +100,7 @@
 		* [5.6. Change the moderator](book/5operations/56change_the_moderator.md)
 * [6. Copyright notice](book/6copyright/README.md)
 * [Appendix A.](book/7appendixREADME.md)
-	* [1. Organizations](book/7appendix7appendix\1organizations.md)
-	* [2. XooNIps based Online Databases](book/7appendix7appendix\2xoonips_based_online_databases.md)
-
-
-### Part II
-
-* [We love feedback](part2/feedback_please.md)
-* [Better tools for authors](part2/better_tools.md)
-
-----
-
-* [Last part without title](part3/title.md)
-
+	* [1. Organizations](book/7appendix/1organizations.md)
+	* [2. XooNIps based Online Databases](book/7appendix/2xoonips_based_online_databases.md)
+* [Module Credits](9credits.md)
+* [About XOOPS CMS](10aboutxoops.md)

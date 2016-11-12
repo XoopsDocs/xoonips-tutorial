@@ -7,9 +7,3 @@
 ![モデレーターの変更](../../assets/xoonips-operate78.png)
 
 **Figure 5.94. モデレーターの変更**
-
-| ![Prev](../../assets/etc\prev.gif)  |   |  ![Next](../../assets/etc\next.gif) |
-| --- | --- | --- |
-|   | ![Home](../../assets/etc\home.gif)  |   |
-
-Last updated: 2011/07/12

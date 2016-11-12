@@ -7,9 +7,3 @@ Note: the pulldown menu derives from the &quot;Moderator Group&quot; (&quot;XOOP
 ![Change the moderator](../../assets/xoonips-operate78.png)
 
 **Figure 5.94. Change the moderator**
-
-| ![Prev](../../assets/etc\prev.gif)  |   |  ![Next](../../assets/etc\next.gif) |
-| --- | --- | --- |
-|   | ![Home](../../assets/etc\home.gif)  |   |
-
-Last updated: 2011/07/12
