@@ -10,4 +10,5 @@ Policy settings for the item importing and exporting.
 
     | Category | Description |
     | :-- | :-- |
-    | &quot;Export enabled&quot; | Choose &quot;Yes&quot; or &quot;No&quot;. |
+    |Export enabled | Choose 'Yes' or 'No' |
+	
