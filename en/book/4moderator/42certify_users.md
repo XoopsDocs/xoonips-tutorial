@@ -4,7 +4,7 @@ To entitle non-registered users (new users/guests) to use the XooNIps functions,
 
 Click on the link [Certify Users] at &quot;XooNIps Moderator menu&quot;.
 
-![Certify users](images\xoonips-operate91.png)
+![Certify users](../../assets/xoonips-operate91.png)
 
 **Figure�5.71.�Certify users**
 
