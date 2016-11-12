@@ -2,7 +2,7 @@
 
 Access to http://server name/.
 
-![](images\xoonips-install01.png)
+![](../../assets/xoonips-install01.png)
 
 Enter the following information and click on the [Login] button.
 
@@ -10,26 +10,26 @@ Enter the following information and click on the [Login] button.
 | --- | --- |
 | Password | Administrator&#039;s password |
 
-![](images\xoonips-install02.png)
+![](../../assets/xoonips-install02.png)
 
 Click on [Administration Menu].
 
-![](images\xoonips-install03.png)
+![](../../assets/xoonips-install03.png)
 
 Click on [Module Installation].
 
-![](images\xoonips-install04.png)
+![](../../assets/xoonips-install04.png)
 
 Click on the install icon at &quot;Control&quot;.
 
-![](images\xoonips-install05.png)
+![](../../assets/xoonips-install05.png)
 
 Click on the &quot;Install&quot; button.
 
-![](images\xoonips-install06.png)
+![](../../assets/xoonips-install06.png)
 
 Click on [Module Management].
 
-![](images\xoonips-install07.png)
+![](../../assets/xoonips-install07.png)
 
 If the XooNIps is successfully installed, the screen shows as above.

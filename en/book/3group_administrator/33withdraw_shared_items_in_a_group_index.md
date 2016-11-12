@@ -6,6 +6,6 @@ Go to the &quot;Detail&quot; screen of the intended item. Use the &quot;Index Tr
 
 Click on the [Withdraw] button at the &quot;Index&quot; field, and a confirmation dialog box will appear, then click on [OK].
 
-![Withdraw shared items in a group index](images\xoonips-operate59.png)
+![Withdraw shared items in a group index](../../assets/xoonips-operate59.png)
 
 **Figure�5.64.�Withdraw shared items in a group index**

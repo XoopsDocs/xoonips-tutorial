@@ -4,7 +4,7 @@ How to create/delete a group:
 
 Click on the link [Edit Groups] at the &quot;XooNIps Moderator menu&quot;.
 
-![Create/delete a group](images\xoonips-operate66.png)
+![Create/delete a group](../../assets/xoonips-operate66.png)
 
 **Figure�5.76.�Create/delete a group**
 
@@ -38,7 +38,7 @@ Click on the link [Edit Groups] at the &quot;XooNIps Moderator menu&quot;.
 
     Enter the maximum value of data for the group area.
 
-![Create/delete a group](images\xoonips-operate67.png)
+![Create/delete a group](../../assets/xoonips-operate67.png)
 
 **Figure�5.77.�Create/delete a group**
 

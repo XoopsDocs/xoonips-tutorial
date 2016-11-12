@@ -2,7 +2,7 @@
 
 How to manage user information (editing/deleting user information, registering new users, etc.).
 
-!["User Management"](images\xoonips-mente2.png)
+!["User Management"](../../assets/xoonips-mente2.png)
 
 **Figure�4.17.�&quot;User Management&quot;**
 
@@ -185,7 +185,7 @@ The required fields vary with the setups made on (XooNIps - Site Policies -) Use
 
     Choose &quot;Yes&quot;, if wish to receive email messages about news update on XooNIps.
 
-!["Register New User"](images\xoonips-mente3.png)
+!["Register New User"](../../assets/xoonips-mente3.png)
 
 **Figure�4.18.�&quot;Register New User&quot;**
 

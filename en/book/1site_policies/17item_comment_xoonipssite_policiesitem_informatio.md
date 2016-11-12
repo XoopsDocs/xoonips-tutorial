@@ -12,7 +12,7 @@ It has to be installed d3forum module and create forum before setting these opti
 
     Set the forum ID made with d3forum.
 
-!["Item Comment"](images\xoonips-policy9.png)
+!["Item Comment"](../../assets/xoonips-policy9.png)
 
 **Figure�4.9.�&quot;Item Comment&quot;**
 
@@ -22,11 +22,11 @@ Modify the last line of &quot;xoonips_detail.html&quot; by using the template ed
 
 Delete &lt;*{3 letters and the last 3 letters}*&gt; at the beginning.
 
-![Item Comment (Setting 2)](images\xoonips-policy10.png)
+![Item Comment (Setting 2)](../../assets/xoonips-policy10.png)
 
 **Figure�4.10.�Item Comment (Setting 2)**
 
-![Item Comment (Setting - 3)](images\xoonips-policy11.png)
+![Item Comment (Setting - 3)](../../assets/xoonips-policy11.png)
 
 **Figure�4.11.�Item Comment (Setting - 3)**
 
@@ -34,7 +34,7 @@ Enter the line below at the &quot;Format for comment-integration&quot; field (It
 
 **{XOOPS_URL}/modules/xoonips/detail.php?item_id=%s**
 
-![Item Comment (Setting - 4)](images\xoonips-policy12.png)
+![Item Comment (Setting - 4)](../../assets/xoonips-policy12.png)
 
 **Figure�4.12.�Item Comment (Setting - 4)**
 

@@ -4,7 +4,7 @@ Each item can be searched by detailed conditions.
 
 Click on the link [Advanced].
 
-![Advanced search](images\xoonips-operate5.png)
+![Advanced search](../../assets/xoonips-operate5.png)
 
 **Figure�5.5.�Advanced search**
 
@@ -12,6 +12,6 @@ On a &quot;Search Items&quot; screen, check an item type (ex. &quot;Title&quot;,
 
 Item types can be chosen more than one.
 
-![Advanced search 2](images\xoonips-operate6.png)
+![Advanced search 2](../../assets/xoonips-operate6.png)
 
 **Figure�5.6.�Advanced search 2**

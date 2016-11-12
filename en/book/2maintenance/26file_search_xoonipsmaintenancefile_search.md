@@ -10,6 +10,6 @@ Management for the file search indexes:
 
     Click on [Rescan] when the version of a plugin is updated and it is necessary to rebuild the file search indexes.
 
-!["File Search"](images\xoonips-mente13.png)
+!["File Search"](../../assets/xoonips-mente13.png)
 
 **Figure�4.28.�&quot;File Search&quot;**

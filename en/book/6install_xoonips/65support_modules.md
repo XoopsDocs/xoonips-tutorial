@@ -46,8 +46,8 @@ Download the most updated module from the website.
 
 Perform installation from &quot;Module Installation&quot; at &quot;Legacy System&quot; on the Administration menu (same as XooNIps and item type module).
 
-| ![Prev](images\etc\prev.gif)� | � | �![Next](images\etc\next.gif) |
+| ![Prev](../../assets/etc\prev.gif)� | � | �![Next](../../assets/etc\next.gif) |
 | --- | --- | --- |
-| � | ![Home](images\etc\home.gif)  | � |
+| � | ![Home](../../assets/etc\home.gif)  | � |
 
 Last updated: 2011/07/12

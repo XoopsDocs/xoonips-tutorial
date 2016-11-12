@@ -6,7 +6,7 @@ To obtain a new account, the requester has to be checked / identified by the mod
 
 To prevent from malicious users.
 
-![User registration](images\overview04.png)
+![User registration](../../assets/overview04.png)
 
 **Figure�1.4.�User registration**
 
@@ -16,6 +16,6 @@ The items to be registered and shared in the public and a group area have to be 
 
 To manage quality control
 
-![peer-review system](images\overview05.png)
+![peer-review system](../../assets/overview05.png)
 
 **Figure�1.5.�peer-review system**

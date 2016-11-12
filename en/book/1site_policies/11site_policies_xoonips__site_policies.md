@@ -1,6 +1,6 @@
 ### 1.1.�&quot;Site Policies&quot; (XooNIps &gt;&gt; Site Policies) {#1-1-site-policies-xoonips-site-policies}
 
-!["Site Policies"](images\xoonips-policy1.png)
+!["Site Policies"](../../assets/xoonips-policy1.png)
 
 **Figure�4.1.�&quot;Site Policies&quot;**
 

@@ -6,6 +6,6 @@ This function allows to perform &quot;Download&quot;, &quot;Upload&quot;, &quot;
 
 By uploading the ranking files, the sum of access rankings can be taken over even if the site will be moved.
 
-!["Access Rankings"](images\xoonips-mente12.png)
+!["Access Rankings"](../../assets/xoonips-mente12.png)
 
 **Figure�4.27.�&quot;Access Rankings&quot;**

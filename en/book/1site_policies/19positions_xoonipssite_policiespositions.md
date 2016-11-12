@@ -16,6 +16,6 @@ List possible job titles as user information.
 
     Add a new job title. Enter a new job title in the field and click on [Add].
 
-!["Positions"](images\xoonips-policy14.png)
+!["Positions"](../../assets/xoonips-policy14.png)
 
 **Figure�4.14.�&quot;Positions&quot;**

@@ -2,6 +2,6 @@
 
 There are various operations to manage a XooNIps website.
 
-!["Maintenance"](images\xoonips-mente1.png)
+!["Maintenance"](../../assets/xoonips-mente1.png)
 
 **Figure�4.16.�&quot;Maintenance&quot;**

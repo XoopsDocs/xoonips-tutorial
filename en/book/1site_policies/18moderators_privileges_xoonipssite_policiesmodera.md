@@ -4,6 +4,6 @@ Policy settings for the moderators privileges.
 
 If choose yes, the moderators can modify any user&#039;s items.
 
-!["Moderators Privileges"](images\xoonips-policy13.png)
+!["Moderators Privileges"](../../assets/xoonips-policy13.png)
 
 **Figure�4.13.�&quot;Moderators Privileges&quot;**

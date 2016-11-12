@@ -4,7 +4,7 @@
 
 The site&#039;s operation environment, (ex. manner of user registration and item publication, etc.) can be easily set up by following the directions given on the Administration screen. You will simply choose the most appropriate one from the pulldown lists.
 
-![Administration screen](images\overview01.png)
+![Administration screen](../../assets/overview01.png)
 
 **Figure�1.1.�Administration screen**
 
@@ -56,6 +56,6 @@ The following are the benefits from using XOOPS.
 
     *   XOOPS templates (themes) enable to easily change the visual effects such as layout, etc.
 
-![CMS system](images\overview02.png)
+![CMS system](../../assets/overview02.png)
 
 **Figure�1.2.�CMS system**

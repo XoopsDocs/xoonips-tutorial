@@ -2,11 +2,11 @@
 
 How to set up XooNIps.
 
-![](images\xoonips-install08.png)
+![](../../assets/xoonips-install08.png)
 
 Click on [XooNIps] on the Administration menu.
 
-![](images\xoonips-install09.png)
+![](../../assets/xoonips-install09.png)
 
 Click on [System Configuration].
 
@@ -18,11 +18,11 @@ Assign a directory where the web server is authorized to write.
 | --- | --- |
 | **[root@xoonips-server ~]# chmod a+w /var/www/xoonipsupload** | ← Change permissions. |
 
-![](images\xoonips-install10.png)
+![](../../assets/xoonips-install10.png)
 
 Click on [Basic Configuration].
 
-![](images\xoonips-install11.png)
+![](../../assets/xoonips-install11.png)
 
 **Enter /var/www/xoonipsupload at [File Upload Directory]**
 
@@ -32,11 +32,11 @@ Click on [UPDATE].
 
 How to change the display area of an index tree:
 
-![](images\xoonips-install12.png)
+![](../../assets/xoonips-install12.png)
 
 Click on [Inline Frame]
 
-![](images\xoonips-install13.png)
+![](../../assets/xoonips-install13.png)
 
 Enter the desired value of width and height of the index tree and click on the [UPDATE] button.
 
@@ -44,23 +44,23 @@ The size of display area within the block can be changed by indicating the width
 
 | Width indicated in 100%. | Width indicated in 50%. |
 | --- | --- |
-| ![](images\xoonips-install14.png) | ![](images\xoonips-install15.png) |
+| ![](../../assets/xoonips-install14.png) | ![](../../assets/xoonips-install15.png) |
 
 The range of display area can be changed by indicating the height of the index tree in pixels.
 
 | Height indicated in 400 pixels. | Height indicated in 200 pixels. |
 | --- | --- |
-| ![](images\xoonips-install16.png) | ![](images\xoonips-install17.png) |
+| ![](../../assets/xoonips-install16.png) | ![](../../assets/xoonips-install17.png) |
 
 #### 6.2.3.�Setup print formats {#6-2-3-setup-print-formats}
 
 How to set the information to be shown as headers on printing:
 
-![](images\xoonips-install18.png)
+![](../../assets/xoonips-install18.png)
 
 Click on [Printer Friendly].
 
-![](images\xoonips-install19.png)
+![](../../assets/xoonips-install19.png)
 
 The entered information will be printed as a header.
 
@@ -70,11 +70,11 @@ XooNIps supports three types of feed formats: RSS1.0(RDF), RSS2.0, Atom1.0
 
 Announcements about newly registered items and the current status within a group can be made by publishing the URL indicated on the &quot;RSS Feeds&quot;.
 
-![](images\xoonips-install20.png)
+![](../../assets/xoonips-install20.png)
 
 Click on [RSS Feeds]
 
-![](images\xoonips-install21.png)
+![](../../assets/xoonips-install21.png)
 
 Choose a feed format and copy it to use for publication.
 
@@ -84,11 +84,11 @@ XooNIps adopts OAI-PMH as a structure to automatically collect metadata.
 
 There are two ways: 1\. setup for providing metadata to another server applicable to OAI-PMH. (Repository setup), 2\. setup for harvesting metadata from another server applicable to OAI-PMH (Harvester setup）.
 
-![](images\xoonips-install22.png)
+![](../../assets/xoonips-install22.png)
 
 Click on [OAI-PMH].
 
-![](images\xoonips-install23.png)
+![](../../assets/xoonips-install23.png)
 
 *   &quot;Repository Configurations&quot; is for providing metadata to another server.
 
@@ -109,11 +109,11 @@ If the line begins with semicolon(;), it is identified as a comment.
 
 This section explains proxy configurations, which are required in the case of using proxy when accessing from XooNIps to another server.
 
-![](images\xoonips-install24.png)
+![](../../assets/xoonips-install24.png)
 
 Click on [Proxy].
 
-![](images\xoonips-install25.png)
+![](../../assets/xoonips-install25.png)
 
 | Host | Enter a host name or IP address of the proxy server. |
 | --- | --- |
@@ -125,7 +125,7 @@ Click on [Proxy].
 
 Decide the kinds of event to be notified to the XooNIps users by using a XOOPS function.
 
-![](images\xoonips-install26.png)
+![](../../assets/xoonips-install26.png)
 
 Click on [Notifications].
 
@@ -161,11 +161,11 @@ Entitle a user to be able to use XooNIps functions if he/she has been registered
 
 Delete the user information remained on XooNIps if the user was deleted by the XOOPS user module.
 
-![](images\xoonips-install27.png)
+![](../../assets/xoonips-install27.png)
 
 Click on [XOOPS Extension].
 
-![](images\xoonips-install28.png)
+![](../../assets/xoonips-install28.png)
 
 Delete or add users by clicking on the icon appeared at &quot;Action&quot;.
 
@@ -173,15 +173,15 @@ Delete or add users by clicking on the icon appeared at &quot;Action&quot;.
 
 How to check the configurations of XooNIps:
 
-![](images\xoonips-install29.png)
+![](../../assets/xoonips-install29.png)
 
 Click on [Configuration Test].
 
-![](images\xoonips-install30.png)
+![](../../assets/xoonips-install30.png)
 
 Click on [Test].
 
-![](images\xoonips-install31.png)
+![](../../assets/xoonips-install31.png)
 
 The results of XooNIps system configuration test will be displayed.
 

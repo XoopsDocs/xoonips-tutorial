@@ -60,8 +60,8 @@ Institutional Repository Systems:
 
     (Language: Japanese)
 
-| ![Prev](images\etc\prev.gif)� | � | � |
+| ![Prev](../../assets/etc\prev.gif)� | � | � |
 | --- | --- | --- |
-| � | ![Home](images\etc\home.gif)  | � |
+| � | ![Home](../../assets/etc\home.gif)  | � |
 
 Last updated: 2011/07/12

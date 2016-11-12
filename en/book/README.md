@@ -1,4 +1,4 @@
 # startguide {#startguide}
 
-| ![Prev](images\etc\prev.gif)� | � | �![Next](images\etc\next.gif) |
+| ![Prev](../../assets/etc\prev.gif)� | � | �![Next](../../assets/etc\next.gif) |
 | --- | :-: | --- |

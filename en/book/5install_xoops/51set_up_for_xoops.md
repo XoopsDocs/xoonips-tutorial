@@ -2,19 +2,19 @@
 
 Access to http://server name/
 
-![](images\xoops01.png)
+![](../../assets/xoops01.png)
 
 Choose a preferred language and click on [Next].
 
-![](images\xoops02.png)
+![](../../assets/xoops02.png)
 
 Click on [Next].
 
-![](images\xoops03.png)
+![](../../assets/xoops03.png)
 
 Click on [Next].
 
-![](images\xoops04.png)
+![](../../assets/xoops04.png)
 
 Enter the database user name, database password and database name which decided on MySQL setup.
 
@@ -25,31 +25,31 @@ Fill in the blanks with the following information and click on [Next].
 | Database Password | xoonips@pass |
 | Database Name | xoonipsdb |
 
-![](images\xoops05.png)
+![](../../assets/xoops05.png)
 
 Click on [Next].
 
-![](images\xoops06.png)
+![](../../assets/xoops06.png)
 
 Click on [Next].
 
-![](images\xoops07.png)
+![](../../assets/xoops07.png)
 
 Click on [Next].
 
-![](images\xoops08.png)
+![](../../assets/xoops08.png)
 
 Click on [Next].
 
-![](images\xoops09.png)
+![](../../assets/xoops09.png)
 
 Click on [Next].
 
-![](images\xoops10.png)
+![](../../assets/xoops10.png)
 
 Click on [Next].
 
-![](images\xoops11.png)
+![](../../assets/xoops11.png)
 
 Enter the following information and click on [Next].
 
@@ -63,23 +63,23 @@ It is different from the users of CentOS and MySQL.
 | Admin Password | Password |
 | Confirm Password | Password |
 
-![](images\xoops12.png)
+![](../../assets/xoops12.png)
 
 Click on [Next]
 
-![](images\xoops13.png)
+![](../../assets/xoops13.png)
 
 Click on [Next].
 
-![](images\xoops14.png)
+![](../../assets/xoops14.png)
 
 Enter the XOOPS admin name and click on [User Login].
 
-![](images\xoops15.png)
+![](../../assets/xoops15.png)
 
 Click on the &quot;Install&quot; button.
 
-![](images\xoops16.png)
+![](../../assets/xoops16.png)
 
 The installation has completed.
 

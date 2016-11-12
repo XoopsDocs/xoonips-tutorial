@@ -15,13 +15,13 @@ Click on the [Import] button at the XooNIps User menu.
 
 Check the checkbox of the index keyword to which an intended file will be imported. Choose the file to be imported and click on the [Next] button.
 
-![Import](images\xoonips-operate87.png)
+![Import](../../assets/xoonips-operate87.png)
 
 **Figure�5.91.�Import**
 
 If &quot;logging&quot; is checked and any errors occur, error descriptions will be displayed. Return to the previous screen and modify them.
 
-![Import error log](images\xoonips-operate93.png)
+![Import error log](../../assets/xoonips-operate93.png)
 
 **Figure�5.92.�Import error log**
 
@@ -31,6 +31,6 @@ Refrain from unwanted overwriting:
 
 It is subject to confirm whether or not to overwrite the file if it is found to include duplicated keywords or items.
 
-![Refrain from unwanted overwriting](images\xoonips-operate88.png)
+![Refrain from unwanted overwriting](../../assets/xoonips-operate88.png)
 
 **Figure�5.93.�Refrain from unwanted overwriting**

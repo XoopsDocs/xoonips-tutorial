@@ -4,7 +4,7 @@ How to download event logs on XooNIps in a CSV formatted file or transform the d
 
 Click on the link [Event Log] at the &quot;XooNIps Moderator&#039;s menu&quot;.
 
-![Even log analysis](images\xoonips-operate70.png)
+![Even log analysis](../../assets/xoonips-operate70.png)
 
 **Figure�5.78.�Even log analysis**
 
@@ -14,7 +14,7 @@ Click on the link [Event Log] at the &quot;XooNIps Moderator&#039;s menu&quot;.
 
     Indicate a period for the intended event logs. The data will be downloaded in CSV formatted file.
 
-    ![Download event logs by indicating a period](images\xoonips-operate71.png)
+    ![Download event logs by indicating a period](../../assets/xoonips-operate71.png)
 
     **Figure�5.79.�Download event logs by indicating a period**
 
@@ -22,11 +22,11 @@ Click on the link [Event Log] at the &quot;XooNIps Moderator&#039;s menu&quot;.
 
     Indicate a specific period. Choose &quot;Download&quot; or &quot;Graph&quot; for each category: &quot;Access to top page&quot;, &quot;Access to item&quot;, &quot;Download of item&quot; and &quot;New users and items&quot;.
 
-    ![Download and graphic chart](images\xoonips-operate72.png)
+    ![Download and graphic chart](../../assets/xoonips-operate72.png)
 
     **Figure�5.80.�Download and graphic chart**
 
-    ![Event log graphic chart](images\xoonips-operate73.png)
+    ![Event log graphic chart](../../assets/xoonips-operate73.png)
 
     **Figure�5.81.�Event log graphic chart**
 

@@ -4,13 +4,13 @@ Click on the link [Edit Group Tree] on the XooNIps Group Admin menu.
 
 The link is not always located as shown due to the variety of site designs.
 
-![Add/delete group a member.](images\xoonips-operate53.png)
+![Add/delete group a member.](../../assets/xoonips-operate53.png)
 
 **Figure�5.58.�Add/delete group a member.**
 
 How to add/delete a group member: click on the group name. If you are an administrator managing more than one group, choose the intended group name and click on it.
 
-![Add/delete group members 2](images\xoonips-operate54.png)
+![Add/delete group members 2](../../assets/xoonips-operate54.png)
 
 **Figure�5.59.�Add/delete group members 2**
 
@@ -18,7 +18,7 @@ How to add/delete a group member: click on the group name. If you are an adminis
 
 How to add a member: choose a user listed at &quot;Non-members&quot; and click on the [Add] button.
 
-![Add a group member](images\xoonips-operate55.png)
+![Add a group member](../../assets/xoonips-operate55.png)
 
 **Figure�5.60.�Add a group member**
 
@@ -26,6 +26,6 @@ How to add a member: choose a user listed at &quot;Non-members&quot; and click o
 
 How to delete a member: choose a user listed at &quot;Members&quot; and click on [delete] button.
 
-![Delete a group member](images\xoonips-operate56.png)
+![Delete a group member](../../assets/xoonips-operate56.png)
 
 **Figure�5.61.�Delete a group member**

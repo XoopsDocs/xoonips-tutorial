@@ -7,8 +7,8 @@
 | Chapter 5: How to operate a XooNIps database website | If you are going to access to/work on an existing XooNIps database site as a: |
 | Appendix: | Links of neuroinformatics related organizations, |
 
-| ![Prev](images\etc\prev.gif)� | � | �![Next](images\etc\next.gif) |
+| ![Prev](../../assets/etc\prev.gif)� | � | �![Next](../../assets/etc\next.gif) |
 | --- | --- | --- |
-| � | ![Home](images\etc\home.gif)  | � |
+| � | ![Home](../../assets/etc\home.gif)  | � |
 
 Last updated: 2011/07/12

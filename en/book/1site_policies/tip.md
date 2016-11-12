@@ -47,6 +47,6 @@ Click on the [UPDATE] buttons for each item.
     | Maximum number of indexes | Set the maximum number of registration indexes in a private area. |
     | Maximum storage size (MB) | Set the maximum storage size in a private area. |
 
-!["User Information"](images\xoonips-policy2.png)
+!["User Information"](../../assets/xoonips-policy2.png)
 
 **Figure�4.2.�&quot;User Information&quot;**

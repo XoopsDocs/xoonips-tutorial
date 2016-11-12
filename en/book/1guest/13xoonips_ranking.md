@@ -4,6 +4,6 @@
 
 &quot;XooNIps Ranking&quot; will not be shown if it is not permitted for guest users to view.
 
-!["XooNIps Ranking"](images\xoonips-operate7.png)
+!["XooNIps Ranking"](../../assets/xoonips-operate7.png)
 
 **Figure�5.7.�&quot;XooNIps Ranking&quot;**

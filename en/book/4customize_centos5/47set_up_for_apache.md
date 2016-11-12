@@ -26,4 +26,4 @@ For example: http://(The host name decided when having installed the OS.)/
 
 The setup will be successfully completed if the screen appears as follows:
 
-![](images\check01.png)
+![](../../assets/check01.png)

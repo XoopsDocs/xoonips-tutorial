@@ -22,6 +22,6 @@ To update the registered information, click on the submit button for each time.
 | &quot;Download file type&quot; | Zip with meta-information (Recommended) | Download the zipped files with metadata. |
 | Original file | Download files in the original format. |
 
-!["Item Publication"](images\xoonips-policy4.png)
+!["Item Publication"](../../assets/xoonips-policy4.png)
 
 **Figure�4.4.�&quot;Item Publication&quot;**

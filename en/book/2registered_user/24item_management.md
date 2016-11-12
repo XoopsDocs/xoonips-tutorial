@@ -6,13 +6,13 @@ How to register new items:
 
 Click on the link [Add New Item] at &quot;XooNIps User Menu&quot;.
 
-![New item registration](images\xoonips-operate25.png)
+![New item registration](../../assets/xoonips-operate25.png)
 
 **Figure�5.25.�New item registration**
 
 Choose an item type from the dropdown list.
 
-![Choose a new register item type.](images\xoonips-operate26.png)
+![Choose a new register item type.](../../assets/xoonips-operate26.png)
 
 **Figure�5.26.�Choose a new register item type.**
 
@@ -24,7 +24,7 @@ The items with &quot;*&quot; are required.
 
 For the &quot;ID&quot; field, always enter the same value. If the ID is duplicated, it will be regarded as an error.
 
-![Register items (TOOL)](images\xoonips-operate27.png)
+![Register items (TOOL)](../../assets/xoonips-operate27.png)
 
 **Figure�5.27.�Register items (TOOL)**
 
@@ -42,7 +42,7 @@ For the &quot;ID&quot; field, always enter the same value. If the ID is duplicat
 
     Click on the link [Edit], and a window will open. Indicate a file and click on the [upload] button; or, directly edit in the textbox and click on the [OK] button.
 
-    ![Edit Readme](images\xoonips-operate28.png)
+    ![Edit Readme](../../assets/xoonips-operate28.png)
 
     **Figure�5.28.�Edit Readme**
 
@@ -54,7 +54,7 @@ For the &quot;ID&quot; field, always enter the same value. If the ID is duplicat
 
     Click on the link [Edit] to open an edit window. Indicate a file and click on the [upload] button. Or edit an original text in the textbox and click on the [upload] button.
 
-    ![Edit Rights](images\xoonips-operate29.png)
+    ![Edit Rights](../../assets/xoonips-operate29.png)
 
     **Figure�5.29.�Edit Rights**
 
@@ -76,7 +76,7 @@ For the &quot;ID&quot; field, always enter the same value. If the ID is duplicat
 
         Choose the item to be registered in a related item by using detail search.
 
-    ![Detail of an item](images\xoonips-operate30.png)
+    ![Detail of an item](../../assets/xoonips-operate30.png)
 
     **Figure�5.30.�Detail of an item**
 
@@ -86,7 +86,7 @@ For the &quot;ID&quot; field, always enter the same value. If the ID is duplicat
 
         Check the checkbox of the item to be registered and click on the [Select] button to confirm.
 
-        ![Item registration by [Item list]](images\xoonips-operate31.png)
+        ![Item registration by [Item list]](../../assets/xoonips-operate31.png)
 
         **Figure�5.31.�Item registration by [Item list]**
 
@@ -96,7 +96,7 @@ For the &quot;ID&quot; field, always enter the same value. If the ID is duplicat
 
         Check the checkbox of the item to be registered in a related item and click on the [Select] button to confirm the registration.
 
-        ![Item registration by [Index Keyword]](images\xoonips-operate132.png)
+        ![Item registration by [Index Keyword]](../../assets/xoonips-operate132.png)
 
         **Figure�5.32.�Item registration by [Index Keyword]**
 
@@ -108,7 +108,7 @@ For the &quot;ID&quot; field, always enter the same value. If the ID is duplicat
 
     Click on the [Next] button to confirm the registration.
 
-    ![Item registration confirmation screen](images\xoonips-operate133.png)
+    ![Item registration confirmation screen](../../assets/xoonips-operate133.png)
 
     **Figure�5.33.�Item registration confirmation screen**
 
@@ -116,19 +116,19 @@ For the &quot;ID&quot; field, always enter the same value. If the ID is duplicat
 
 Go to the &quot;Detail&quot; screen of the intended item. Use &quot;Index Tree&quot; or &quot;XooNIps Search&quot; to search for it.
 
-![Detail of an item](images\xoonips-operate32.png)
+![Detail of an item](../../assets/xoonips-operate32.png)
 
 **Figure�5.34.�Detail of an item**
 
 Click on [Modify] button, and a &quot;Modify&quot; screen will appear. Make modifications as necessary and click on [Next] button.
 
-![Modify details of an item](images\xoonips-operate33.png)
+![Modify details of an item](../../assets/xoonips-operate33.png)
 
 **Figure�5.35.�Modify details of an item**
 
 On the &quot;Detail&quot; screen, modification history will be shown.
 
-![Item modification history](images\xoonips-operate34.png)
+![Item modification history](../../assets/xoonips-operate34.png)
 
 **Figure�5.36.�Item modification history**
 
@@ -140,7 +140,7 @@ Go to the &quot;Detail&quot; screen of the item to be deleted. Use &quot;Index T
 
 Click on the [Delete] button to open a dialog box and choose [OK].
 
-![Delete items](images\xoonips-operate35.png)
+![Delete items](../../assets/xoonips-operate35.png)
 
 **Figure�5.37.�Delete items**
 
@@ -162,7 +162,7 @@ To identify the items to be registered in a Binder, use either of the following 
 
     Choose the item to be registered in a Binder by using detail search.
 
-![Binder registration screen](images\xoonips-operate36.png)
+![Binder registration screen](../../assets/xoonips-operate36.png)
 
 **Figure�5.38.�Binder registration screen**
 
@@ -172,7 +172,7 @@ To identify the items to be registered in a Binder, use either of the following 
 
     Check the checkbox of the item to be registered and click on the [Select] button to confirm.
 
-    ![Binder registration by [Item list]](images\xoonips-operate37.png)
+    ![Binder registration by [Item list]](../../assets/xoonips-operate37.png)
 
     **Figure�5.39.�Binder registration by [Item list]**
 
@@ -182,7 +182,7 @@ To identify the items to be registered in a Binder, use either of the following 
 
     Check the checkbox of the item to be registered in a Binder and click on the [Select] button to confirm the registration.
 
-    ![Binder registration by [Index Keyword]](images\xoonips-operate38.png)
+    ![Binder registration by [Index Keyword]](../../assets/xoonips-operate38.png)
 
     **Figure�5.40.�Binder registration by [Index Keyword]**
 
@@ -194,7 +194,7 @@ To identify the items to be registered in a Binder, use either of the following 
 
 Click on the [Next] button to confirm the registration.
 
-![Binder registration confirmation screen](images\xoonips-operate39.png)
+![Binder registration confirmation screen](../../assets/xoonips-operate39.png)
 
 **Figure�5.41.�Binder registration confirmation screen**
 
@@ -202,7 +202,7 @@ Click on the [Next] button to confirm the registration.
 
 On the &quot;Register&quot; screen for Paper items (XooNIps User Menu&gt;&gt;Add New Item; pulldown menu &quot;Paper&quot; at &quot;Select item type&quot;), there is &quot;PubMedID&quot; field. If a PubMedID is given, enter the ID and click on the [Complete] button, then the other following related information will be automatically filled out.
 
-!["Register" screen for Paper items](images\xoonips-operate41.png)
+!["Register" screen for Paper items](../../assets/xoonips-operate41.png)
 
 **Figure�5.42.�&quot;Register&quot; screen for Paper items**
 
@@ -210,6 +210,6 @@ On the &quot;Register&quot; screen for Paper items (XooNIps User Menu&gt;&gt;Add
 
 On the &quot;Register&quot; screen for Book item, there is ISBN code field. If the code is identified, enter it (10 or 13 digits) and click on the &quot;Complete&quot; button, then the other related information will be automatically filled out. In this case, the URL field will be filled with the detailed information provided by Amazon.
 
-![Registration screen for Book items](images\xoonips-operate90.png)
+![Registration screen for Book items](../../assets/xoonips-operate90.png)
 
 **Figure�5.43.�Registration screen for Book items**

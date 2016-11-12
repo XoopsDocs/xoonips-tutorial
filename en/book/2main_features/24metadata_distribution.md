@@ -10,6 +10,6 @@
 
         *   Apply to OAI-DC,JUNII,JUNII2
 
-![Metadata distribution](images\overview06.png)
+![Metadata distribution](../../assets/overview06.png)
 
 **Figure�1.6.�Metadata distribution**

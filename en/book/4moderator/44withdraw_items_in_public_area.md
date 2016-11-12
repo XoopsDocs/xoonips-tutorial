@@ -6,6 +6,6 @@ Go to the &quot;Detail&quot; screen of the intended item. Use &quot;Index Tree&q
 
 Click on the [Withdraw] button at the &quot;Index&quot; field, and a dialog box will appear. Click on [OK].
 
-![Withdraw items in public area](images\xoonips-operate59.png)
+![Withdraw items in public area](../../assets/xoonips-operate59.png)
 
 **Figure�5.75.�Withdraw items in public area**

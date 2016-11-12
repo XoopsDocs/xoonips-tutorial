@@ -12,11 +12,11 @@ The procedure is the same as XooNIps module.
 
 The types of item type module vary with the structure of the website.
 
-![](images\xoonips-install03.png)
+![](../../assets/xoonips-install03.png)
 
 Click on [Module Installation]
 
-![](images\xoonips-install32.png)
+![](../../assets/xoonips-install32.png)
 
 Click on the install icon at &quot;Control&quot;. (same as XooNIps installation)
 

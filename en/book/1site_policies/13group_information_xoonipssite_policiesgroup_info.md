@@ -10,6 +10,6 @@ Policy settings for the group information (Define the maximum number of items to
 | Maximum number of indexes | Set the maximum number of indexes to be registered in a group area. |
 | Maximum Storage size | Set the maximum storage size in a group area. |
 
-!["Group Information"](images\xoonips-policy3.png)
+!["Group Information"](../../assets/xoonips-policy3.png)
 
 **Figure�4.3.�&quot;Group Information&quot;**

@@ -24,6 +24,6 @@ Policy settings for the access rankings.
 
     If the checkbox is checked, the sum-file does not affect to access ranking.
 
-!["Rankings"](images\xoonips-policy15.png)
+!["Rankings"](../../assets/xoonips-policy15.png)
 
 **Figure�4.15.�&quot;Rankings&quot;**
