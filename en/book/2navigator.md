@@ -1,4 +1,4 @@
-## 2.�Navigator {#2-navigator}
+## 2. Navigator {#2-navigator}
 
 | Please read this chapter... | ...if you... |
 | --- | --- |
@@ -7,8 +7,5 @@
 | Chapter 5: How to operate a XooNIps database website | If you are going to access to/work on an existing XooNIps database site as a: |
 | Appendix: | Links of neuroinformatics related organizations, |
 
-| ![Prev](../../assets/etc\prev.gif)� | � | �![Next](../../assets/etc\next.gif) |
-| --- | --- | --- |
-| � | ![Home](../../assets/etc\home.gif)  | � |
 
-Last updated: 2011/07/12
+Last updated: 2016/11/11
