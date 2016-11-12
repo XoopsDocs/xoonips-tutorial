@@ -2,7 +2,7 @@
 
 平成23年7月12日
 
-![](../../assets/xoonips_slogo.png)
+![](../../assets/logoModule.png)
 
 Copyright   2011 Neuroinformatics Japn Center, RIKEN BSI.
 
@@ -111,8 +111,3 @@ Copyright   2011 Neuroinformatics Japn Center, RIKEN BSI.
 *   A.
 *   *   1\. 関連組織の紹介
     *   2\. XooNIps を利用したデータベースサイトの一部紹介
-
-|   |   |  ![Next](../../assets/etc\next.gif) |
-| --- | --- | --- |
-
-Last updated: 2011/07/12

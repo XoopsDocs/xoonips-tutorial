@@ -110,8 +110,3 @@ Copyright   2011 Neuroinformatics Japan Center, RIKEN BSI.
 *   Appendix A.
 *   *   1\. Organizations
     *   2\. XooNIps based Online Databases
-
-|   |   |  ![Next](../../assets/etc\next.gif) |
-| --- | --- | --- |
-
-Last updated: 2011/07/12

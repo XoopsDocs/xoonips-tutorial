@@ -1,4 +1,4 @@
-## Chapter 6. 著作権表示 {#chapter-6}
+## Chapter 6. Copyright notice {#chapter-6-copyright-notice}
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
