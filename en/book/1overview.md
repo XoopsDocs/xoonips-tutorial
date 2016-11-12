@@ -1,4 +1,4 @@
-## Chapter 1. Overview {#chapter-1-overview}
+## Chapter 1. Overview 
 
 
 * [1. What is XooNIps ?](../1overview/1what_is_xoonips.md)
