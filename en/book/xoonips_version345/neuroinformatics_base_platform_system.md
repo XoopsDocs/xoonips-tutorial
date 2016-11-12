@@ -4,12 +4,12 @@ Jul 12, 2011
 
 ![](../../assets/xoonips_slogo.png)
 
-Copyright   2011 Neuroinformatics Japn Center, RIKEN BSI.
+Copyright   2011 Neuroinformatics Japan Center, RIKEN BSI.
 
 **Table of Contents**
 
 *   1\. Overview
-*   *   1\. What is XooNIps ？
+*   *   1\. What is XooNIps ?
     *   2\. Main features
     *   *   2.1\. Flexible database construction
         *   2.2\. Data classification
@@ -107,7 +107,7 @@ Copyright   2011 Neuroinformatics Japn Center, RIKEN BSI.
         *   5.5\. Harvest metadata
         *   5.6\. Change the moderator
 *   6\. Copyright notice
-*   A.
+*   Appendix A.
 *   *   1\. Organizations
     *   2\. XooNIps based Online Databases
 

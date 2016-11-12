@@ -18,5 +18,5 @@
 * 4. Site policy and maintenance
 * 5. How to operate a XooNIps database website
 * 6. Copyright notice
-* [A.](a.md)
+* [Appendix A](a.md)
 
