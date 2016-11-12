@@ -56,7 +56,7 @@ It was a Finalist for the Best Project of SourceForge 2008 Community Awards and 
 
 XOOPS has over 6,600,000 downloads from the SourceForge Website. 
 
-###**The current development is on GitHub: **
+###**The current XOOPS development is on GitHub: **
 
 
 To see what's coming, please check out our **XOOPS GitHub repositories**:
@@ -88,3 +88,7 @@ Please also check out our other Github repositories:
 - [XOOPS Theme Archive (Themes for XOOPS < 2.0.14)](https://github.com/XoopsThemesArchive)
 
 - [XOOPS Modules Archive](https://github.com/XoopsModulesArchive)
+
+###**XoopsCube **
+
+Our friends from Japan have developed a fork of XOOPS called **XoopsCube**. You can visit them on http://xoopscube.jp/
