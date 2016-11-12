@@ -20,10 +20,10 @@ On a &quot;Detail&quot; screen, [Download] button will appear only if the item i
 
 !["Detail"](../../assets/xoonips-operate3.png)
 
-**Figure�5.3.�&quot;Detail&quot;**
+**Figure 5.3. &quot;Detail&quot;**
 
 Downloading will be permitted only if the user agrees with the license condition.
 
 !["License agreement"](../../assets/xoonips-operate4.png)
 
-**Figure�5.4.�&quot;License agreement&quot;**
+**Figure 5.4. &quot;License agreement&quot;**

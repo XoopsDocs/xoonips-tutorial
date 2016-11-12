@@ -1,4 +1,4 @@
-### 4.3.�Installing the required packages {#4-3-installing-the-required-packages}
+### 4.3. Installing the required packages {#4-3-installing-the-required-packages}
 
 XooNIps requires to be installed the following packages.
 
@@ -8,7 +8,7 @@ XooNIps requires to be installed the following packages.
 | php-gd | php-mbstring | php-devel |
 | php-xml | php-pear | php-pecl-Fileinfo |
 | poppler-utils | lynx | mysql-server |
-| wget | � | � |
+| wget |   |   |
 
 Execute the following commands to install the packages.
 

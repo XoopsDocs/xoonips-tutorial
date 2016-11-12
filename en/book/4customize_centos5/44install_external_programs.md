@@ -1,4 +1,4 @@
-### 4.4.�Install external programs {#4-4-install-external-programs}
+### 4.4. Install external programs {#4-4-install-external-programs}
 
 Install the external programs required to make XooNIps operable.
 

@@ -1,12 +1,12 @@
-### 2.1.�Flexible database construction {#2-1-flexible-database-construction}
+### 2.1. Flexible database construction {#2-1-flexible-database-construction}
 
-#### 2.1.1.�Set up the operation environment {#2-1-1-set-up-the-operation-environment}
+#### 2.1.1. Set up the operation environment {#2-1-1-set-up-the-operation-environment}
 
 The site&#039;s operation environment, (ex. manner of user registration and item publication, etc.) can be easily set up by following the directions given on the Administration screen. You will simply choose the most appropriate one from the pulldown lists.
 
 ![Administration screen](../../assets/overview01.png)
 
-**Figure�1.1.�Administration screen**
+**Figure 1.1. Administration screen**
 
 Examples:
 
@@ -22,7 +22,7 @@ Examples:
 
     *   [Certify automatically]
 
-#### 2.1.2.�Publication levels / areas for different purposes {#2-1-2-publication-levels-areas-for-different-purposes}
+#### 2.1.2. Publication levels / areas for different purposes {#2-1-2-publication-levels-areas-for-different-purposes}
 
 *   Public
 
@@ -40,7 +40,7 @@ Examples:
 
     *   Individual area: registered users (given a user ID and password) can use this area just like a personal folder.
 
-#### 2.1.3.�CMS XOOPS(The base syste of XooNIps) {#2-1-3-cms-xoops-the-base-syste-of-xoonips}
+#### 2.1.3. CMS XOOPS(The base syste of XooNIps) {#2-1-3-cms-xoops-the-base-syste-of-xoonips}
 
 The following are the benefits from using XOOPS.
 
@@ -58,4 +58,4 @@ The following are the benefits from using XOOPS.
 
 ![CMS system](../../assets/overview02.png)
 
-**Figure�1.2.�CMS system**
+**Figure 1.2. CMS system**

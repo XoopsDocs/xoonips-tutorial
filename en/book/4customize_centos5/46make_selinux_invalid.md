@@ -1,4 +1,4 @@
-### 4.6.�Make SELinux invalid {#4-6-make-selinux-invalid}
+### 4.6. Make SELinux invalid {#4-6-make-selinux-invalid}
 
 SELinux has to be invalid to operate XOOPS.
 

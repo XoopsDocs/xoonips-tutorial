@@ -8,19 +8,19 @@ Click on the keyword to be exported and click on [Export] button.
 
 ![Export Indexes](../../assets/xoonips-operate80.png)
 
-**Figure�5.85.�Export Indexes**
+**Figure 5.85. Export Indexes**
 
 Check the [Export indexes]. If it should be exported recursively, choose &quot;Yes&quot; at the field &quot;Export indexes recursive&quot;.
 
 ![Export indexes 2](../../assets/xoonips-operate81.png)
 
-**Figure�5.86.�Export indexes 2**
+**Figure 5.86. Export indexes 2**
 
 The information to be exported will be displayed. Check the information, and if it is ok, click on the [Download] button.
 
 ![Export indexes 3](../../assets/xoonips-operate82.png)
 
-**Figure�5.87.�Export indexes 3**
+**Figure 5.87. Export indexes 3**
 
 *   Export items
 
@@ -28,6 +28,6 @@ The information to be exported will be displayed. Check the information, and if 
 
     ![Export items](../../assets/xoonips-operate83.png)
 
-    **Figure�5.88.�Export items**
+    **Figure 5.88. Export items**
 
     Define whether or not to export attached files.

@@ -1,4 +1,4 @@
-### 5.1.�Change the site policy {#5-1-change-the-site-policy}
+### 5.1. Change the site policy {#5-1-change-the-site-policy}
 
 Go to &quot;Change Panel Home&quot; (upper right on XOOPS Administration screen).
 

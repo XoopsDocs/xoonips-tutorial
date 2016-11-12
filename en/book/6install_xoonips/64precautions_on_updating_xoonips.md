@@ -1,4 +1,4 @@
-### 6.4.�Precautions on updating XooNIps {#6-4-precautions-on-updating-xoonips}
+### 6.4. Precautions on updating XooNIps {#6-4-precautions-on-updating-xoonips}
 
 Make sure to overwrite the directories before updating XooNIps modules and item type modules.
 

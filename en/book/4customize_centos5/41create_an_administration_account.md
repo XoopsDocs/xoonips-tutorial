@@ -1,4 +1,4 @@
-### 4.1.�Create an administration account. {#4-1-create-an-administration-account}
+### 4.1. Create an administration account. {#4-1-create-an-administration-account}
 
 Log into the server as root by the following procedure.
 
@@ -17,7 +17,7 @@ Create an administration account by the following commands.
 | **Retype new UNIX password:** | ← Reenter the admin password. |
 | **passwd: all authentication tokens updated successfully.** |
 
-#### 4.1.1.�Setup for authorizing the admin user to execute su. {#4-1-1-setup-for-authorizing-the-admin-user-to-execute-su}
+#### 4.1.1. Setup for authorizing the admin user to execute su. {#4-1-1-setup-for-authorizing-the-admin-user-to-execute-su}
 
 Under the root authority, which is unrestricted to execute any commands, it may cause critical operation errors such as deleting important files, etc. The following shows how to set it as it takes user admin for usual operations and the root authority by using su command for inevitable cases.
 

@@ -1,16 +1,16 @@
-### 2.2.�&quot;User Management&quot; (XooNIps&gt;&gt;Maintenance&gt;&gt;User Management) {#2-2-user-management-xoonips-maintenance-user-management}
+### 2.2. &quot;User Management&quot; (XooNIps&gt;&gt;Maintenance&gt;&gt;User Management) {#2-2-user-management-xoonips-maintenance-user-management}
 
 How to manage user information (editing/deleting user information, registering new users, etc.).
 
 !["User Management"](../../assets/xoonips-mente2.png)
 
-**Figure�4.17.�&quot;User Management&quot;**
+**Figure 4.17. &quot;User Management&quot;**
 
 Click on a pen-icon to edit user information.
 
 Click on a X-icon to delete user information.
 
-#### 2.2.1.�&quot;Register New user&quot; (click on [Register New User], upper right of the &quot;User Management&quot; screen). {#2-2-1-register-new-user-click-on-register-new-user-upper-right-of-the-user-management-screen}
+#### 2.2.1. &quot;Register New user&quot; (click on [Register New User], upper right of the &quot;User Management&quot; screen). {#2-2-1-register-new-user-click-on-register-new-user-upper-right-of-the-user-management-screen}
 
 Edit the new user&#039;s information. The required fields are indicated by &quot;*&quot;. Fill out the fields and click on [UPDATE] below.
 
@@ -38,7 +38,7 @@ The required fields vary with the setups made on (XooNIps - Site Policies -) Use
 
     Choose a XOOPS group which the user belongs to.
 
-    **Table�4.8.�&quot;User&#039;s Groups&quot;**
+    **Table 4.8. &quot;User&#039;s Groups&quot;**
 
     | Pulldown menu | Description |
     | :-- | :-- |
@@ -132,7 +132,7 @@ The required fields vary with the setups made on (XooNIps - Site Policies -) Use
 
     This is for XOOPS standard comment function. Note that this is not for adding comments to the items on XooNIps3.4.
 
-    **Table�4.9.�Comment Display Mode**
+    **Table 4.9. Comment Display Mode**
 
     | Comment Display Mode (Pulldown) | Description |
     | :-- | :-- |
@@ -144,7 +144,7 @@ The required fields vary with the setups made on (XooNIps - Site Policies -) Use
 
     Choose either of &quot;Oldest First&quot; or &quot;Newest First&quot; from the pulldown menu.
 
-    **Table�4.10.�Comments Sort Order**
+    **Table 4.10. Comments Sort Order**
 
     | Pulldown menu | Description |
     | :-- | :-- |
@@ -161,7 +161,7 @@ The required fields vary with the setups made on (XooNIps - Site Policies -) Use
 
     Define a manner of receiving notification messages of updated events.
 
-    **Table�4.11.�Notification Method**
+    **Table 4.11. Notification Method**
 
     | Pulldown menu | Comment |
     | :-- | :-- |
@@ -173,7 +173,7 @@ The required fields vary with the setups made on (XooNIps - Site Policies -) Use
 
     Define the timing for being notified.
 
-    **Table�4.12.�Default Notification**
+    **Table 4.12. Default Notification**
 
     | Pulldown menu | Comment |
     | :-- | :-- |
@@ -187,6 +187,6 @@ The required fields vary with the setups made on (XooNIps - Site Policies -) Use
 
 !["Register New User"](../../assets/xoonips-mente3.png)
 
-**Figure�4.18.�&quot;Register New User&quot;**
+**Figure 4.18. &quot;Register New User&quot;**
 
 The entered information can be viewed at the &quot;User Information&quot; (on a XooNIps website, User Menu &gt;&gt; User List).

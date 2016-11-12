@@ -1,4 +1,4 @@
-### 1.2.�Decide functions of the website {#1-2-decide-functions-of-the-website}
+### 1.2. Decide functions of the website {#1-2-decide-functions-of-the-website}
 
 Decide what kind of functions are necessary to be implemented based on the planning.
 

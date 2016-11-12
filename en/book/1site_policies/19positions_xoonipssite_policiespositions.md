@@ -1,4 +1,4 @@
-### 1.9.�&quot;Positions&quot; (XooNIps&gt;&gt;Site Policies&gt;&gt;Positions) {#1-9-positions-xoonips-site-policies-positions}
+### 1.9. &quot;Positions&quot; (XooNIps&gt;&gt;Site Policies&gt;&gt;Positions) {#1-9-positions-xoonips-site-policies-positions}
 
 Configuration for the member&#039;s positions (display order and new entries, etc).
 
@@ -18,4 +18,4 @@ List possible job titles as user information.
 
 !["Positions"](../../assets/xoonips-policy14.png)
 
-**Figure�4.14.�&quot;Positions&quot;**
+**Figure 4.14. &quot;Positions&quot;**

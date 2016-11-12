@@ -4,7 +4,7 @@ To update the registered information, click on the submit button for each time.
 
 &quot;Item Publication&quot; (XooNIps&gt;&gt;Site Policies&gt;&gt;Item Information&gt;&gt;Item Publication)
 
-**Table�4.5.�&quot;Item Publication Policies&quot;**
+**Table 4.5. &quot;Item Publication Policies&quot;**
 
 | Category | Pulldown menu | Description |
 | :-- | :-- | :-- |
@@ -15,7 +15,7 @@ To update the registered information, click on the submit button for each time.
 
 &quot;Related Other Policies&quot; (XooNIps&gt;&gt;Site Policies&gt;&gt;Item Information&gt;&gt;Item Publication)
 
-**Table�4.6.�&quot;Related Other Policies&quot;**
+**Table 4.6. &quot;Related Other Policies&quot;**
 
 | Category | Pulldown menu | Description |
 | :-- | :-- | :-- |
@@ -24,4 +24,4 @@ To update the registered information, click on the submit button for each time.
 
 !["Item Publication"](../../assets/xoonips-policy4.png)
 
-**Figure�4.4.�&quot;Item Publication&quot;**
+**Figure 4.4. &quot;Item Publication&quot;**

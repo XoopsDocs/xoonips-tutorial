@@ -1,4 +1,4 @@
-### 5.5.�Harvest metadata {#5-5-harvest-metadata}
+### 5.5. Harvest metadata {#5-5-harvest-metadata}
 
 Harvesting metadata requires manual operations.
 

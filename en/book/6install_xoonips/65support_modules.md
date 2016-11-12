@@ -1,4 +1,4 @@
-### 6.5.�Support modules {#6-5-support-modules}
+### 6.5. Support modules {#6-5-support-modules}
 
 Supporting modules are, for example, alternative modules for the system modules whose standard status can not satisfy by itself, and protector modules against malicious attacks.
 
@@ -8,7 +8,7 @@ The following briefly shows how to install an altsys module and a D3forum module
 
 For detailed information, check the website http://xoops.peak.ne.jp/
 
-#### 6.5.1.�Install an altsys module {#6-5-1-install-an-altsys-module}
+#### 6.5.1. Install an altsys module {#6-5-1-install-an-altsys-module}
 
 How to install an altsys module, an alternative module for standard system modules:
 
@@ -30,7 +30,7 @@ Download the most updated module from the website.
 
 Perform installation from the &quot;Module Installation&quot; at &quot;Legacy System&quot; on the Administration menu (same as XooNIps and item type module).
 
-#### 6.5.2.�Install D3forum {#6-5-2-install-d3forum}
+#### 6.5.2. Install D3forum {#6-5-2-install-d3forum}
 
 How to install d3 modules, which is required for using comment functions .:
 
@@ -46,8 +46,8 @@ Download the most updated module from the website.
 
 Perform installation from &quot;Module Installation&quot; at &quot;Legacy System&quot; on the Administration menu (same as XooNIps and item type module).
 
-| ![Prev](../../assets/etc\prev.gif)� | � | �![Next](../../assets/etc\next.gif) |
+| ![Prev](../../assets/etc\prev.gif)  |   |  ![Next](../../assets/etc\next.gif) |
 | --- | --- | --- |
-| � | ![Home](../../assets/etc\home.gif)  | � |
+|   | ![Home](../../assets/etc\home.gif)  |   |
 
 Last updated: 2011/07/12

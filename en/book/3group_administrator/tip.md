@@ -4,10 +4,10 @@ The item can also be reviewed and certified on its &quot;Detail&quot; screen/ Us
 
 ![Review and certify the items to be registered in a group area](../../assets/xoonips-operate57.png)
 
-**Figure�5.62.�Review and certify the items to be registered in a group area**
+**Figure 5.62. Review and certify the items to be registered in a group area**
 
 Check the &quot;Index&quot; field on the &quot;Certify item&quot; screen. Click on either of [Accept] or [Reject] button to decide whether or not to publish the item in the group area.
 
 ![Review and certify the items to be registered in a group area 2](../../assets/xoonips-operate58.png)
 
-**Figure�5.63.�Review and certify the items to be registered in a group area 2**
+**Figure 5.63. Review and certify the items to be registered in a group area 2**

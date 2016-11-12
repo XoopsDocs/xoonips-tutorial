@@ -1,6 +1,6 @@
-### 2.5.�Variety of accessory functions {#2-5-variety-of-accessory-functions}
+### 2.5. Variety of accessory functions {#2-5-variety-of-accessory-functions}
 
-#### 2.5.1.�Improve the site operation efficiency {#2-5-1-improve-the-site-operation-efficiency}
+#### 2.5.1. Improve the site operation efficiency {#2-5-1-improve-the-site-operation-efficiency}
 
 *   Import and export
 
@@ -16,7 +16,7 @@
 
     *   Check the current status of users and registrations
 
-#### 2.5.2.�Enhance incentive {#2-5-2-enhance-incentive}
+#### 2.5.2. Enhance incentive {#2-5-2-enhance-incentive}
 
 *   Introducing user&#039;s profile
 
@@ -38,8 +38,8 @@
 
     *   The most frequently used search keyword
 
-| ![Prev](../../assets/etc\prev.gif)� | � | �![Next](../../assets/etc\next.gif) |
+| ![Prev](../../assets/etc\prev.gif)  |   |  ![Next](../../assets/etc\next.gif) |
 | --- | --- | --- |
-| � | ![Home](../../assets/etc\home.gif)  | � |
+|   | ![Home](../../assets/etc\home.gif)  |   |
 
 Last updated: 2011/07/12

@@ -1,4 +1,4 @@
-### 2.4.�&quot;User List&quot; (XooNIps&gt;&gt;Maintenance&gt;&gt;User List) {#2-4-user-list-xoonips-maintenance-user-list}
+### 2.4. &quot;User List&quot; (XooNIps&gt;&gt;Maintenance&gt;&gt;User List) {#2-4-user-list-xoonips-maintenance-user-list}
 
 Order each of the user by entering numbers at the &quot;Weight&quot; field and click on the [UPDATE] button.
 
@@ -8,10 +8,10 @@ If the user is set as 0 or less, it will not be displayed.
 
 !["User List"](../../assets/xoonips-mente10.png)
 
-**Figure�4.25.�&quot;User List&quot;**
+**Figure 4.25. &quot;User List&quot;**
 
 The result can be found at the &quot;User List&quot; of the intended XooNIps website.
 
 ![User List - 2](../../assets/xoonips-mente11.png)
 
-**Figure�4.26.�User List - 2**
+**Figure 4.26. User List - 2**

@@ -16,10 +16,10 @@ It is necessary to conduct the following manual operations whenever metadata is 
 
 !["OAI-PMH"](../../assets/xoonips-mente14.png)
 
-**Figure�4.29.�&quot;OAI-PMH&quot;**
+**Figure 4.29. &quot;OAI-PMH&quot;**
 
-| ![Prev](../../assets/etc\prev.gif)� | � | �![Next](../../assets/etc\next.gif) |
+| ![Prev](../../assets/etc\prev.gif)  |   |  ![Next](../../assets/etc\next.gif) |
 | --- | --- | --- |
-| � | ![Home](../../assets/etc\home.gif)  | � |
+|   | ![Home](../../assets/etc\home.gif)  |   |
 
 Last updated: 2011/07/12

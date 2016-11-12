@@ -1,4 +1,4 @@
-### 4.4.�Withdraw items in public area {#4-4-withdraw-items-in-public-area}
+### 4.4. Withdraw items in public area {#4-4-withdraw-items-in-public-area}
 
 How to withdraw the items in public area:
 
@@ -8,4 +8,4 @@ Click on the [Withdraw] button at the &quot;Index&quot; field, and a dialog box 
 
 ![Withdraw items in public area](../../assets/xoonips-operate59.png)
 
-**Figure�5.75.�Withdraw items in public area**
+**Figure 5.75. Withdraw items in public area**

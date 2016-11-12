@@ -1,4 +1,4 @@
-### 1.1.�Describe specific purposes of the website. {#1-1-describe-specific-purposes-of-the-website}
+### 1.1. Describe specific purposes of the website. {#1-1-describe-specific-purposes-of-the-website}
 
 Specifically describe the website you are going to build.
 

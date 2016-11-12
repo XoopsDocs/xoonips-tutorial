@@ -1,4 +1,4 @@
-### 5.1.�Set up for XOOPS {#5-1-set-up-for-xoops}
+### 5.1. Set up for XOOPS {#5-1-set-up-for-xoops}
 
 Access to http://server name/
 

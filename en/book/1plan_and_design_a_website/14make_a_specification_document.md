@@ -1,4 +1,4 @@
-### 1.4.�Make a specification document {#1-4-make-a-specification-document}
+### 1.4. Make a specification document {#1-4-make-a-specification-document}
 
 Decide the things described below according to the actual site operation.
 

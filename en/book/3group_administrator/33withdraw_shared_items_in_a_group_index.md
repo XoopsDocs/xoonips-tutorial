@@ -1,4 +1,4 @@
-### 3.3.�Withdraw shared items in a group index {#3-3-withdraw-shared-items-in-a-group-index}
+### 3.3. Withdraw shared items in a group index {#3-3-withdraw-shared-items-in-a-group-index}
 
 How to withdraw a registered item:
 
@@ -8,4 +8,4 @@ Click on the [Withdraw] button at the &quot;Index&quot; field, and a confirmatio
 
 ![Withdraw shared items in a group index](../../assets/xoonips-operate59.png)
 
-**Figure�5.64.�Withdraw shared items in a group index**
+**Figure 5.64. Withdraw shared items in a group index**

@@ -1,4 +1,4 @@
-### 6.1.�Set up for XooNIps {#6-1-set-up-for-xoonips}
+### 6.1. Set up for XooNIps {#6-1-set-up-for-xoonips}
 
 Access to http://server name/.
 

@@ -12,7 +12,7 @@ Click on the [UPDATE] buttons for each item.
 
         Define a manner of activating user information:
 
-        **Table�4.1.�Define a manner of user activation (&quot;User Registration Policies&quot;).**
+        **Table 4.1. Define a manner of user activation (&quot;User Registration Policies&quot;).**
 
         | &quot;Action Type&quot; (Pulldown menu) | Result |
         | :-- | :-- |
@@ -24,7 +24,7 @@ Click on the [UPDATE] buttons for each item.
 
         Decide either of manual (by moderator) or automatic certification.
 
-        **Table�4.2.�Decide either of manual (by moderator) or automatic certification.**
+        **Table 4.2. Decide either of manual (by moderator) or automatic certification.**
 
         | &quot;Certification type&quot; (Pulldown menu) | Description |
         | :-- | :-- |
@@ -39,7 +39,7 @@ Click on the [UPDATE] buttons for each item.
 
     Define the maximum number of items to be registered in a private area and the limit of HDD area to be used.
 
-    **Table�4.3.�&quot;Initial properties of newly registered users&quot;**
+    **Table 4.3. &quot;Initial properties of newly registered users&quot;**
 
     | Category | Description |
     | :-- | :-- |
@@ -49,4 +49,4 @@ Click on the [UPDATE] buttons for each item.
 
 !["User Information"](../../assets/xoonips-policy2.png)
 
-**Figure�4.2.�&quot;User Information&quot;**
+**Figure 4.2. &quot;User Information&quot;**

@@ -1,4 +1,4 @@
-### 6.2.�Initial setting and confirmation on XooNIps {#6-2-initial-setting-and-confirmation-on-xoonips}
+### 6.2. Initial setting and confirmation on XooNIps {#6-2-initial-setting-and-confirmation-on-xoonips}
 
 How to set up XooNIps.
 
@@ -10,7 +10,7 @@ Click on [XooNIps] on the Administration menu.
 
 Click on [System Configuration].
 
-#### 6.2.1.�Change the file upload directory. {#6-2-1-change-the-file-upload-directory}
+#### 6.2.1. Change the file upload directory. {#6-2-1-change-the-file-upload-directory}
 
 Assign a directory where the web server is authorized to write.
 
@@ -28,7 +28,7 @@ Click on [Basic Configuration].
 
 Click on [UPDATE].
 
-#### 6.2.2.�Setup inline frame {#6-2-2-setup-inline-frame}
+#### 6.2.2. Setup inline frame {#6-2-2-setup-inline-frame}
 
 How to change the display area of an index tree:
 
@@ -52,7 +52,7 @@ The range of display area can be changed by indicating the height of the index t
 | --- | --- |
 | ![](../../assets/xoonips-install16.png) | ![](../../assets/xoonips-install17.png) |
 
-#### 6.2.3.�Setup print formats {#6-2-3-setup-print-formats}
+#### 6.2.3. Setup print formats {#6-2-3-setup-print-formats}
 
 How to set the information to be shown as headers on printing:
 
@@ -64,7 +64,7 @@ Click on [Printer Friendly].
 
 The entered information will be printed as a header.
 
-#### 6.2.4.�Set up for RSS distribution {#6-2-4-set-up-for-rss-distribution}
+#### 6.2.4. Set up for RSS distribution {#6-2-4-set-up-for-rss-distribution}
 
 XooNIps supports three types of feed formats: RSS1.0(RDF), RSS2.0, Atom1.0
 
@@ -78,7 +78,7 @@ Click on [RSS Feeds]
 
 Choose a feed format and copy it to use for publication.
 
-#### 6.2.5.�Set up OAI-PMH {#6-2-5-set-up-oai-pmh}
+#### 6.2.5. Set up OAI-PMH {#6-2-5-set-up-oai-pmh}
 
 XooNIps adopts OAI-PMH as a structure to automatically collect metadata.
 
@@ -105,7 +105,7 @@ Enter the URLs of the servers for harvesting metadata one by one (press the ente
 
 If the line begins with semicolon(;), it is identified as a comment.
 
-#### 6.2.6.�Proxy Configuration {#6-2-6-proxy-configuration}
+#### 6.2.6. Proxy Configuration {#6-2-6-proxy-configuration}
 
 This section explains proxy configurations, which are required in the case of using proxy when accessing from XooNIps to another server.
 
@@ -121,7 +121,7 @@ Click on [Proxy].
 | User Name | Enter the user name if required to authenticate the proxy server. |
 | Password | Enter the password for authentication. |
 
-#### 6.2.7.�Setup for event notification {#6-2-7-setup-for-event-notification}
+#### 6.2.7. Setup for event notification {#6-2-7-setup-for-event-notification}
 
 Decide the kinds of event to be notified to the XooNIps users by using a XOOPS function.
 
@@ -155,7 +155,7 @@ Choose one from the following.
 | XooNIps User: Group item certified | Notify when an item has been approved of being registered in a group area. |
 | XooNIps User: Group item rejected | Notify when an item has been rejected to be registered in a group area. |
 
-#### 6.2.8.�XOOPS Extension {#6-2-8-xoops-extension}
+#### 6.2.8. XOOPS Extension {#6-2-8-xoops-extension}
 
 Entitle a user to be able to use XooNIps functions if he/she has been registered through the XOOPS user module.
 
@@ -169,7 +169,7 @@ Click on [XOOPS Extension].
 
 Delete or add users by clicking on the icon appeared at &quot;Action&quot;.
 
-#### 6.2.9.�Configuration Test {#6-2-9-configuration-test}
+#### 6.2.9. Configuration Test {#6-2-9-configuration-test}
 
 How to check the configurations of XooNIps:
 

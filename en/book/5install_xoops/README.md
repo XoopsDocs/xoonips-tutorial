@@ -1,4 +1,4 @@
-## 5.�Install XOOPS {#5-install-xoops}
+## 5. Install XOOPS {#5-install-xoops}
 
 Install XOOPS, the platform of XooNIps.
 

@@ -1,4 +1,4 @@
-### 4.9.�Set up for PHP {#4-9-set-up-for-php}
+### 4.9. Set up for PHP {#4-9-set-up-for-php}
 
 Modify the PHP config files to set the environment for XooNIps.
 

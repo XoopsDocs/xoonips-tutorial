@@ -1,4 +1,4 @@
-### 4.5.�Set up iptables {#4-5-set-up-iptables}
+### 4.5. Set up iptables {#4-5-set-up-iptables}
 
 Set up for packet filtering.
 

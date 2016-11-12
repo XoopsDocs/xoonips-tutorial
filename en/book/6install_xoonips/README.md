@@ -1,4 +1,4 @@
-## 6.�Install XooNIps {#6-install-xoonips}
+## 6. Install XooNIps {#6-install-xoonips}
 
 Download the most updated XooNIps.
 

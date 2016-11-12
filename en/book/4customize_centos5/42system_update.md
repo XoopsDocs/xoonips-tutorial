@@ -1,4 +1,4 @@
-### 4.2.�System Update {#4-2-system-update}
+### 4.2. System Update {#4-2-system-update}
 
 Log in as admin by the following commands.
 

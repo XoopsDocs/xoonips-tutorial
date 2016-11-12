@@ -4,7 +4,7 @@ The location of the link on the screen varies with the site designs.
 
 ![Admission](../../assets/xoonips-operate8.png)
 
-**Figure�5.9.�Admission**
+**Figure 5.9. Admission**
 
 Fill in the entry fields at &quot;User Registration&quot;.
 
@@ -14,4 +14,4 @@ After submitting the registration, it may require a moderator&#039;s approval ac
 
 ![Admission](../../assets/xoonips-operate9.png)
 
-**Figure�5.10.�Admission**
+**Figure 5.10. Admission**

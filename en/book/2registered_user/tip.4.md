@@ -4,4 +4,4 @@
 
 ![Logout](../../assets/xoonips-operate12.png)
 
-**Figure�5.12.�Logout**
+**Figure 5.12. Logout**

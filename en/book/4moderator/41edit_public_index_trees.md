@@ -1,4 +1,4 @@
-### 4.1.�Edit Public Index Trees {#4-1-edit-public-index-trees}
+### 4.1. Edit Public Index Trees {#4-1-edit-public-index-trees}
 
 Edit index trees in the public area.
 

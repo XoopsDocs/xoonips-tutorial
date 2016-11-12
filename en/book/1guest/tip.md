@@ -4,8 +4,8 @@ It may automatically be approved, depending on the condition set on the site pol
 
 ![Registration flowchart](../../assets/xoonips-operate10.png)
 
-**Figure�5.8.�Registration flowchart**
+**Figure 5.8. Registration flowchart**
 
-#### 1.4.2.�How to register {#1-4-2-how-to-register}
+#### 1.4.2. How to register {#1-4-2-how-to-register}
 
 Click on the link [Register now!]
