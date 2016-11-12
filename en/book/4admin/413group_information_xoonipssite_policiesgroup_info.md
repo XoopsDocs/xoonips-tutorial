@@ -4,11 +4,11 @@ Policy settings for the group information (Define the maximum number of items to
 
 **Table 4.4. &quot;Initial properties of newly created groups&quot;**
 
-| Category | Description |
-| :-- | :-- |
-| Maximum number of items | Set the maximum number of items to be registered in a group area. |
-| Maximum number of indexes | Set the maximum number of indexes to be registered in a group area. |
-| Maximum Storage size | Set the maximum storage size in a group area. |
+ Category | Description 
+ :-- | :-- 
+ Maximum number of items | Set the maximum number of items to be registered in a group area. 
+ Maximum number of indexes | Set the maximum number of indexes to be registered in a group area. 
+ Maximum Storage size | Set the maximum storage size in a group area. 
 
 !["Group Information"](../../assets/xoonips-policy3.png)
 
