@@ -12,7 +12,7 @@ Tutorial Version 3.45
             
 ## View it on: [![Gitbook](http://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoonips-tutorial/) 
 
-© 2016 XOOPS Project ([www.xoops.org](http://xoops.org)), ([XooNIps](http://xoonips.osdn.jp/)), ([Riken](http://www.riken.jp/))   
+© 2016 XOOPS Project ([www.xoops.org](http://xoops.org)), [XooNIps](http://xoonips.osdn.jp/), [Riken](http://www.riken.jp/)
 
 ## Module Purpose 
 
