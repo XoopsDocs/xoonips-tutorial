@@ -1,4 +1,4 @@
-### 1.1. &quot;Site Policies&quot; (XooNIps &gt;&gt; Site Policies) {#1-1-site-policies-xoonips-site-policies}
+### 1.1. &quot;Site Policies&quot; (XooNIps>>Site Policies) {#1-1-site-policies-xoonips-site-policies}
 
 !["Site Policies"](../../assets/xoonips-policy1.png)
 

@@ -1,4 +1,4 @@
-### 1.10. &quot;Rankings&quot; (XooNIps&gt;&gt;Site Policies&gt;&gt;Rankings) {#1-10-rankings-xoonips-site-policies-rankings}
+### 1.10. &quot;Rankings&quot; (XooNIps>>Site Policies>>Rankings) 
 
 Policy settings for the access rankings.
 

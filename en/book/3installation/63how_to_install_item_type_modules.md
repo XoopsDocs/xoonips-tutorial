@@ -2,9 +2,9 @@
 
 Install item type modules.
 
-| Copy the item type module to the module directory. |
-| --- |
-| **[root@xoonips-server ~]# cp -R xoonips-3.44/itemtypes/* /var/www/html/modules/** |
+ Copy the item type module to the module directory. |
+ --- |
+ **[root@xoonips-server ~]# cp -R xoonips-3.44/itemtypes/* /var/www/html/modules/** |
 
 #### 6.3.1. Setup for item type modules {#6-3-1-setup-for-item-type-modules}
 
