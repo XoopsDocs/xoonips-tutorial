@@ -4,7 +4,7 @@
 [1. What is XooNIps ?](1overview/1what_is_xoonips.md)
 
 [2. Main features]()    
-- [2.1. Flexible database construction](1overview/21flexible_database_construction.md)
+- [2.1. Flexible database construction](/1overview/21flexible_database_construction.md)
 - [2.2. Data classification](1overview/22data_classification.md)
 - [2.3. Quality-maintenance workflow](1overview/23quality-maintenance_workflow.md)
 - [2.4. Metadata distribution](1overview/24metadata_distribution.md)
