@@ -2,7 +2,7 @@
 
 
 * [What is XooNIps ?](1what_is_xoonips.md)
-* Main features
+* Main features README
  * [2.1. Flexible database construction](21flexible_database_construction.md)
  * [2.2. Data classification](22data_classification.md)
  * [2.3. Quality-maintenance workflow](23quality- maintenance_workflow.md)
