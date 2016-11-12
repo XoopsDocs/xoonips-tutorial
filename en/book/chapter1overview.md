@@ -1,1 +1,1 @@
-## Chapter�1.�Overview {#chapter-1-overview}
+## Chapter 1. Overview {#chapter-1-overview}

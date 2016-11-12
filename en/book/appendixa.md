@@ -1,1 +1,1 @@
-## Appendix�A.� {#appendix-a}
+## Appendix A.  {#appendix-a}

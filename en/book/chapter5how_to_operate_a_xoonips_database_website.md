@@ -1,4 +1,4 @@
-## Chapter�5.�How to operate a XooNIps database website {#chapter-5-how-to-operate-a-xoonips-database-website}
+## Chapter 5. How to operate a XooNIps database website {#chapter-5-how-to-operate-a-xoonips-database-website}
 
 This chapter shows the basic operations of a XooNIps database site.
 
