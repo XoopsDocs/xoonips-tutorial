@@ -18,6 +18,7 @@ Assign a directory where the web server is authorized to write.
  --- | --- 
  **[root@xoonips-server ~]# chmod a+w /var/www/xoonipsupload** | ← Change permissions. 
 
+
 ![](../../assets/xoonips-install10.png)
 
 Click on [Basic Configuration].
