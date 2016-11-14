@@ -21,7 +21,7 @@ Tutorial Version 3.45
 XooNIps is an easy-to-use software that can facilitates to build a database website for organizing enormous volume of information in various types of electronic formats, such as research papers, experrimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
 
 ![image001.png](assets/image001.png)
-*Figure 1: Main view of the XooNIps Module (Admin side)*
+*Figure 1: Main view of the XooNIps Architecture*
 
 ## Download/Fork the Module ![](http://xoops.org/images/forkit.png) 
 
