@@ -1,0 +1,3167 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title>Chapter 3. Installation of XooNIps</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.72.0" />
+    <link rel="start" href="index.html" title="XooNIps Version3.45" />
+    <link rel="up" href="index.html" title="XooNIps Version3.45" />
+    <link rel="prev" href="startguide.html" title="Chapter 2. Start guide" />
+    <link rel="next" href="construct.html" title="Chapter 4. Site policy and maintenance" />
+  </head>
+  <body>
+    <div id="page">
+      <div class="navheader">
+        <table width="100%" summary="Navigation header">
+          <tr>
+            <td width="20%" align="left"><a accesskey="p" href="startguide.html"><img src="images\etc\prev.gif" alt="Prev" /></a> </td>
+            <th width="60%" align="center"> </th>
+            <td width="20%" align="right"> <a accesskey="n" href="construct.html"><img src="images\etc\next.gif" alt="Next" /></a></td>
+          </tr>
+        </table>
+        <hr />
+      </div>
+      <div class="chapter" lang="en" id="install" xml:lang="en">
+        <div xmlns="" class="titlepage">
+          <div>
+            <div>
+              <h2 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install"></a>Chapter 3. Installation of XooNIps</h2>
+            </div>
+          </div>
+        </div>
+        <p>This chapter shows how to set the environment to use XooNIps.</p>
+        <div class="section" lang="en" xml:lang="en">
+          <div xmlns="" class="titlepage">
+            <div>
+              <div>
+                <h2 xmlns="http://www.w3.org/1999/xhtml" class="title" style="clear: both"><a id="install.design"></a>1. Plan and design a website</h2>
+              </div>
+            </div>
+          </div>
+          <p>Before building a website, it is fundamental to make specific plans on its potential users and purposes, etc.</p>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.design.policy"></a>1.1. Describe specific purposes of the website.</h3>
+                </div>
+              </div>
+            </div>
+            <p>Specifically describe the website you are going to build.</p>
+            <p>Without specific purposes, the website can not draw attentions and nobody will visit it.</p>
+            <p>The chart below shows an example of planning.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Cause (Why)</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">The increasing needs of exchanging neuroscience related information and sharing them among lab staff members.</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Effect: Intended purpose (What)</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">To share information regarding neuroscience and publish lab information.</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Profiles of the potential users (Who)</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">Individual researchers as well as internal lab staff who are interested in neuroscience study and research.</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Targeted areas (Where)</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">All Japan, worldwide, etc.</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Release date/duration, etc. (When)</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">ddd/mmm/yyy, unlimited duration, etc.</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; " align="left">Resources (How)</td>
+                    <td style="" align="left">Utilize CMS and open source software, etc.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.design.function"></a>1.2. Decide functions of the website</h3>
+                </div>
+              </div>
+            </div>
+            <p>Decide what kind of functions are necessary to be implemented based on the planning.</p>
+            <p>XOOPS is operated various functions by the "modules".</p>
+            <p>Refer to the XOOPS official site, etc. and decide the necessary modules for the website. The following shows the examples of the module.</p>
+            <div class="itemizedlist">
+              <ul type="bullet">
+                <li style="list-style-type: disc">
+                  <p>BBS, forum, etc.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Posting news articles</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Calendar</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Inquiry form</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Uploading other sites' contents by RSS.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.design.machine"></a>1.3. Select software and hardware</h3>
+                </div>
+              </div>
+            </div>
+            <p>Select specific software and hardware suitable for the website. Note: This manual explains under the condition that the website is to be built based on XOOPS and XooNIps.</p>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.design.specification"></a>1.4. Make a specification document</h3>
+                </div>
+              </div>
+            </div>
+            <p>Decide the things described below according to the actual site operation. </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Site URL and site name:</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="disc">
+                <li>
+                  <p>Decide a URL in advance since it is necessary for installing XOOPS.</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Decide modules:</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="disc">
+                <li>
+                  <p>Decide the modules and their versions to be used on XooNIps.</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>How to activate user accounts:</td>
+              </tr>
+              <tr>
+                <td>Choose a manner of activating user accounts (registering a new user) from the following.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>By E-mailing to the user</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>By automatic activation</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>By the site administrator</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Define required information for the user registration</td>
+              </tr>
+              <tr>
+                <td>These are examples of required information. Choose items from the list below.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>Real name</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Company Name</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Affiliation</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Address</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Zip code</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Telephone number</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Fax number</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Define the initial value of disk capacity allocated for a registered user.</td>
+              </tr>
+              <tr>
+                <td>Define the maximum number of data, registered indexes, initial value of disk capacity for a registered user.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>Maximum number of registered data (initial value 500)</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Maximum number of registered indexes (initial value 200)</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Disk capacity (initial value 500 MB)</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Define the initial value of disk capacity allocated for a group</td>
+              </tr>
+              <tr>
+                <td>Define maximum number of data, indexes, disk capacity allocated for a group.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>Maximum number of registered data (initial value 1000)</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Maximum number of indexes (initial value 500)</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Disk capacity (initial value 1000 MB)</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Define the procedure of certifying data to be published</td>
+              </tr>
+              <tr>
+                <td>Choose a manner of certifying data to be published</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>By moderator</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>By automatic certification</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Access limitation to the publication area</td>
+              </tr>
+              <tr>
+                <td>Choose an access limitation to the publication area from the list below.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>Permit only the registered users</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Permit all accesses including guest users</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Define a file format for downloading attached files.</td>
+              </tr>
+              <tr>
+                <td>Choose a file format for downloading attached files.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>Compress data including metadata files as a zip file.</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>Compress the registered data (without metadata) as a zip file</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Decide the area of items to be viewed.</td>
+              </tr>
+              <tr>
+                <td>XooNIps refers the data to be published as the user's performance items.</td>
+              </tr>
+              <tr>
+                <td>Choose the area where the items will be viewed</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>[Yes] Permit to choose from all data in the publishing areas.</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>[No] Permit to choose only from the data registered by the user.</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Setup for exporting:</td>
+              </tr>
+              <tr>
+                <td>Decide the permission of exporting. Choose [Yes] or [No] as below.</td>
+              </tr>
+              <tr>
+                <td>Moderators are exclusively permitted to export data regardless of this setting.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>[Yes] Permit users to export their own data.</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>[No] Do not permit users to export.</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Setup for exporting attached files:</td>
+              </tr>
+              <tr>
+                <td>Decide the permission of exporting attached files.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>[Yes] Permit users to export attached files of their data.</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>[No] Do not permit users to export attached files of their data.</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Setup for importing:</td>
+              </tr>
+              <tr>
+                <td>Choose [Yes] or [No] as below.</td>
+              </tr>
+              <tr>
+                <td>Moderators are exclusively permitted to import data regardless of this setting.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>[Yes] Permit the user to import the data to his/her individual area.</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>[No]Do not permit the user to import data.</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>Setup the moderator's authority:</td>
+              </tr>
+              <tr>
+                <td>Choose [Yes] or [No] for the data editing permission to all users.</td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <div class="itemizedlist">
+              <ul type="opencircle">
+                <li style="list-style-type: circle">
+                  <p>[Yes] Permit the moderator to edit the data of all users.</p>
+                </li>
+                <li style="list-style-type: circle">
+                  <p>[No] Do not permit the moderator to edit the data of all users.</p>
+                </li>
+              </ul>
+            </div>
+            <p>
+	  </p>
+          </div>
+        </div>
+        <div class="section" lang="en" xml:lang="en">
+          <div xmlns="" class="titlepage">
+            <div>
+              <div>
+                <h2 xmlns="http://www.w3.org/1999/xhtml" class="title" style="clear: both"><a id="install.machine"></a>2. Server structure components</h2>
+              </div>
+            </div>
+          </div>
+          <p>The followings are necessary software for activating XooNIps.</p>
+          <div class="informaltable">
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
+              <colgroup>
+                <col align="left" />
+                <col align="left" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">OS</td>
+                  <td style="border-bottom: 0.5pt solid black; " align="left">Not specified</td>
+                </tr>
+                <tr>
+                  <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Web server</td>
+                  <td style="border-bottom: 0.5pt solid black; " align="left">Apache 2.0 or later versions</td>
+                </tr>
+                <tr>
+                  <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Database</td>
+                  <td style="border-bottom: 0.5pt solid black; " align="left">MySQL 4.1 or later (Must be applicable to InnoDB)</td>
+                </tr>
+                <tr>
+                  <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">PHP</td>
+                  <td style="border-bottom: 0.5pt solid black; " align="left">PHP 5.1 or later</td>
+                </tr>
+                <tr>
+                  <td style="border-right: 0.5pt solid black; " align="left">XOOPS</td>
+                  <td style="" align="left">XOOPS 2.0.16a-JP</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="section" lang="en" xml:lang="en">
+          <div xmlns="" class="titlepage">
+            <div>
+              <div>
+                <h2 xmlns="http://www.w3.org/1999/xhtml" class="title" style="clear: both"><a id="install.os"></a>3. OS installation</h2>
+              </div>
+            </div>
+          </div>
+          <p>Install CentOS5 on your PC.</p>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.get"></a>3.1. Obtain CentOS5</h3>
+                </div>
+              </div>
+            </div>
+            <p>Make an install CD or DVD by downloading ISO image files from the <a href="http://centos.org/" target="_top">official site</a></p>
+            <p>The following shows the procedure of making an install DVD.</p>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.jp"></a>3.2. Procedure of installation</h3>
+                </div>
+              </div>
+            </div>
+            <p>Insert a DVD into the computer to start installing</p>
+            <div class="mediaobject">
+              <img src="images\os01.png" />
+            </div>
+            <p>When "boot:" appears on the screen below, press <span><strong class="keycap">Enter</strong></span>to go on to the next.</p>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.jp.01"></a>3.2.1. Media test</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Decide whether or not to test the media.</p>
+              <div class="mediaobject">
+                <img src="images\os02.png" />
+              </div>
+              <p>Press <span><strong class="keycap">Tab</strong></span> key to move to [Skip]. Press <span><strong class="keycap">[Enter]</strong></span> to go on to the next.</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.jp.02"></a>3.2.2. Graphical installation</h4>
+                  </div>
+                </div>
+              </div>
+              <p>X Window System comes to run and the keyboard and mouse become active.</p>
+              <div class="mediaobject">
+                <img src="images\os03.png" />
+              </div>
+              <p>Click [Next] when the screen above appears.</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.jp.03"></a>3.2.3. Choose a language</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Choose a preferred language for instruction:</p>
+              <p>Choose "English (English)" if you prefer it.</p>
+              <div class="mediaobject">
+                <img src="images\os04.png" />
+              </div>
+              <p>Click on [Next] to go on to the next.</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.jp.04"></a>3.2.4. Set up for the keyboard</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Choose a type of keyboard:</p>
+              <p>Select the type of keyboard connected to the computer.</p>
+              <div class="mediaobject">
+                <img src="images\os05.png" />
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.jp.05"></a>3.2.5. Initialization of the hard disk</h4>
+                  </div>
+                </div>
+              </div>
+              <p>An alert message appears to ask whether or not to initialize the hard-disk.</p>
+              <div class="mediaobject">
+                <img src="images\os06.png" />
+              </div>
+              <p>Choose [Yes] to initialize the hard-disk.</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.jp.06"></a>3.2.6. Decide a partition</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Choose a partition to be installed Linux:</p>
+              <p>Choose [Remove all partitions on selected drives and create default layout].</p>
+              <div class="mediaobject">
+                <img src="images\os07.png" />
+              </div>
+              <p>Click on the [Next], and a warning message will appear.</p>
+              <div class="mediaobject">
+                <img src="images\os08.png" />
+              </div>
+              <p>Click on [Yes] to delete the partitions.</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.jp.07"></a>3.2.7. Set up for the network</h4>
+                  </div>
+                </div>
+              </div>
+              <p>If there is DHCP server such as broadband router on the network, click on [Next].</p>
+              <div class="mediaobject">
+                <img src="images\os09.png" />
+              </div>
+              <p>If it is necessary to allocate an unchanging IP address; or there is no DHCP server on the network, click on [Edit].</p>
+              <p>Be sure to have the checkbox "Enable IPv4 support" checked.</p>
+              <p>Choose "Manual configuration".</p>
+              <p>Fill in the "IP address" and "Prefix (Netmask)", respectively.</p>
+              <p>Untick the checkbox of "Enable IPv6 support".</p>
+              <p>Click on [OK].</p>
+              <div class="mediaobject">
+                <img src="images\os17.png" />
+              </div>
+              <p>When it returns to the network device screen, input the hostname.</p>
+              <p>As shown in the dialog box, input [hostname].[domain name]</p>
+              <p>For example, <code class="uri">hostname.domainname.org</code></p>
+              <p>Fill in the Gateway IP address at the "Gateway" field.</p>
+              <p>Fill in the IP address of DNS at the "Primary DNS" field.</p>
+              <p>Click on [Next].</p>
+              <div class="mediaobject">
+                <img src="images\os18.png" />
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.08"></a>3.2.8. Set up for time zone</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Set up the time zone. Click on a preferred location on the map or pulldown menu.</p>
+              <p>Untick [System clock uses UTC].</p>
+              <div class="mediaobject">
+                <img src="images\os10.png" />
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.09"></a>3.2.9. Set up for root password</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Set up a root password (six characters or more)</p>
+              <p>Be sure to remember the password. Make sure to distinguish between capital letters and small letters.</p>
+              <p>Asked to enter the password twice for confirmation.</p>
+              <div class="mediaobject">
+                <img src="images\os11.png" />
+              </div>
+              <p>Click on [Next].</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.10"></a>3.2.10. Choose an install package</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Untick all the checkboxes.</p>
+              <p>Click on [Customize now] on the screen below and then [Next].</p>
+              <div class="mediaobject">
+                <img src="images\os12.png" />
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.11"></a>3.2.11. Choose an install package 2</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Choose "Desktop Environments" and untick the other checkboxes.</p>
+              <div class="mediaobject">
+                <img src="images\os13.png" />
+              </div>
+              <p>Choose "Applications", and untick the other checkboxes.</p>
+              <div class="mediaobject">
+                <img src="images\os20.png" />
+              </div>
+              <p>Choose "Development", and untick the other checkboxes.</p>
+              <div class="mediaobject">
+                <img src="images\os21.png" />
+              </div>
+              <p>Choose "Servers", and untick the other checkboxes.</p>
+              <div class="mediaobject">
+                <img src="images\os22.png" />
+              </div>
+              <p>Choose "Base System", and untick the other checkboxes.</p>
+              <div class="mediaobject">
+                <img src="images\os23.png" />
+              </div>
+              <p>Choose "Virtualization", and untick the other checkboxes.</p>
+              <div class="mediaobject">
+                <img src="images\os24.png" />
+              </div>
+              <p>Choose "Clustering", and untick the other checkboxes.</p>
+              <div class="mediaobject">
+                <img src="images\os25.png" />
+              </div>
+              <p>Choose "Cluster Storage", and untick the other checkboxes.</p>
+              <div class="mediaobject">
+                <img src="images\os26.png" />
+              </div>
+              <p>Choose "Languages", and check a preferred language. </p>
+              <p>Untick the others</p>
+              <div class="mediaobject">
+                <img src="images\os27.png" />
+              </div>
+              <p>Click on the [Next]</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.12"></a>3.2.12. Package Install</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Click on [Next] on the following screen, and it will start installation.</p>
+              <div class="mediaobject">
+                <img src="images\os14.png" />
+              </div>
+              <p>The time required for the installation depends on the computer's performance.</p>
+              <div class="mediaobject">
+                <img src="images\os15.png" />
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.os.13"></a>3.2.13. Complete Installation</h4>
+                  </div>
+                </div>
+              </div>
+              <p>When the screen shows as the following, take out the DVD and click on [Restart]</p>
+              <div class="mediaobject">
+                <img src="images\os16.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" lang="en" xml:lang="en">
+          <div xmlns="" class="titlepage">
+            <div>
+              <div>
+                <h2 xmlns="http://www.w3.org/1999/xhtml" class="title" style="clear: both"><a id="install.console"></a>4. Customize CentOS5</h2>
+              </div>
+            </div>
+          </div>
+          <p>This section shows the setup for installing XooNIps.</p>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.adduser"></a>4.1. Create an administration account.</h3>
+                </div>
+              </div>
+            </div>
+            <p>Log into the server as root by the following procedure.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">xoonips-server login: root</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Enter "root" as a login user.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">Password: </strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Enter root password&#65288;not shown&#65289;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]#</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; (Logged in as root)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Create an administration account by the following commands.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# useradd admin</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Create an admin account.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# passwd admin</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Set an admin password.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">Changing password for user admin.</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">New UNIX password:</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Enter the admin password.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">Retype new UNIX password:</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Reenter the admin password.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">passwd: all authentication tokens updated successfully.</strong>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.adduser.wheel"></a>4.1.1. Setup for authorizing the admin user to execute su.</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Under the root authority, which is unrestricted to execute any commands, it may cause critical operation errors such as deleting important files, etc. The following shows how to set it as it takes user admin for usual operations and the root authority by using su command for inevitable cases.</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# usermod -G wheel admin</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Add user admin to wheel group</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# vi /etc/pam.d/su</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Edit file by vi editor</td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">
+                        <span>
+                          <strong class="command">#auth    required    pam_whell.so use_uid</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">&#8595;</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">auth    required    pam_whell.so use_uid</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Delete comments</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>Please refer to web or study guides for the usage of vi editor.</p>
+              <p>Log out now. Log in as a user admin for the following procedures.</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# exit</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Log out</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.update"></a>4.2. System Update</h3>
+                </div>
+              </div>
+            </div>
+            <p>Log in as admin by the following commands.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">xoonips-server login: admin</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Enter "admin" as a log in user.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">Password:</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Enter admin password (not shown)</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[admin@xoonips-server ~]$</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; (As admin)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Execute a system update as root user by using the following commands.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[admin@xoonips-server ~]$ su -</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Execute su command to become root.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">Password:</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Enter root password.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]#</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; (As root)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Go on the following procedures under the root authority.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xooinps-server ~]# yum -y update</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Execute a system update command.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>The required time depends on the network condition or computer performance.</p>
+            <p>Now the system has been updated.</p>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.install"></a>4.3. Installing the required packages</h3>
+                </div>
+              </div>
+            </div>
+            <p>XooNIps requires to be installed the following packages.
+		  </p>
+            <table class="simplelist" border="0" summary="Simple list">
+              <tr>
+                <td>gcc</td>
+                <td>gcc-c++</td>
+                <td>glib-devel</td>
+              </tr>
+              <tr>
+                <td>glib2-devel</td>
+                <td>libgsf-devel</td>
+                <td>php-mysql</td>
+              </tr>
+              <tr>
+                <td>php-gd</td>
+                <td>php-mbstring</td>
+                <td>php-devel</td>
+              </tr>
+              <tr>
+                <td>php-xml</td>
+                <td>php-pear</td>
+                <td>php-pecl-Fileinfo</td>
+              </tr>
+              <tr>
+                <td>poppler-utils</td>
+                <td>lynx</td>
+                <td>mysql-server</td>
+              </tr>
+              <tr>
+                <td>wget</td>
+                <td> </td>
+                <td> </td>
+              </tr>
+            </table>
+            <p>
+		</p>
+            <p>Execute the following commands to install the packages.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# yum -y install gcc gcc-c++ glib-devel glib2-devel libgsf-devel</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# yum -y install php-mysql php-gd php-mbstring php-devel php-xml php-pear</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# yum -y install php-pecl-Fileinfo poppler-utils lynx</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# yum -y install mysql-server wget make</strong>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.extraprogram"></a>4.4. Install external programs</h3>
+                </div>
+              </div>
+            </div>
+            <p>Install the external programs required to make XooNIps operable.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">Obtain the external support programs.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# wget http://prdownloads.sf.net/chicago/xlhtml-0.5.tgz</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# tar -xzvf xlhtml-0.5.tgz</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Expand the obtained files.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# cd xlhtml-0.5</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# cp /usr/share/automake-1.9/depcomp ./</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Copy the commands required for installing.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# ./configure</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Execute the configuration.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# make</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Execute the make.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# make install</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Execute the installation.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# cd</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Escape from the expand directory.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">Obtain the external support programs.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# wget http://downloads.sourceforge.net/wvware/wv-1.2.4.tar.gz</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# tar -xzvf wv-1.2.4.tar.gz</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Expand the obtained files.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# cd wv-1.2.4</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# ./configure</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Execute the configuration.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# make</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Execute the make.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# make install</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Perform installation.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# cd</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Escape from the expanded directory.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">Create symbolic links to make the external programs operable to XooNIps.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# ln -s /usr/local/bin/xlhtml /usr/bin/xlhtml</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# ln -s /usr/local/bin/ppthtml /usr/bin/ppthtml</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# ln -s /usr/local/bin/wvText /usr/bin/wvText</strong>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">Close the installation of the external programs.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# rm -rf xlhtml-0.5</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# rm -rf wv-1.2.4</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# rm -f xlhtml-0.5.tgz</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# rm -f wv-1.2.4.tar.gz</strong>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.iptables"></a>4.5. Set up iptables</h3>
+                </div>
+              </div>
+            </div>
+            <p>Set up for packet filtering.</p>
+            <p>At the initial condition, the access to the web server is controlled. The following shows how to set up for access permission.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# vi /etc/sysconfig/iptables</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">Copy the line below. </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">-A RH-Firewall-l-INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595; Change the "22" in the line to "80".</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">-A RH-Firewall-l-INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# /etc/init.d/iptables restart</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Restart the packet filtering software.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.selinux"></a>4.6. Make SELinux invalid</h3>
+                </div>
+              </div>
+            </div>
+            <p>SELinux has to be invalid to operate XOOPS.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# getenforce</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; SElinux status check.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">Enforcing</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; SELinux is valid.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# setenforce 0</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; SELinux is invalid.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# getenforce</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; SELinux status check.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">Permissive</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; SELinux is invalid.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# vi /etc/sysconfig/selinux</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; SELinux config file editing.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">SELINUX=enforcing</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">SELINUX=disabled</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; On system startup, make SELinux invalid</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.httpd"></a>4.7. Set up for Apache</h3>
+                </div>
+              </div>
+            </div>
+            <p>Set up for a web server, Apache.</p>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.httpd.editconf"></a>4.7.1. Config file editing.</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# vi /etc/httpd/conf/httpd.conf</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Edit config files.</td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">
+                        <span>
+                          <strong class="command">AddDefaultCharset UTF-8</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">&#8595;</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">#AddDefaultCharset UTF-8</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Make it as comment.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.httpd.chkconfig"></a>4.7.2. Automatic startup for web server</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Set up for making the web server automatically started when the computer is restarted.</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# /etc/init.d/httpd start</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Startup web server.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# chkconfig httpd on</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Set up for automatic startup for web server.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.console.httpd.browser"></a>4.7.3. Check the performance of the web server.</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Startup the browser of another computer and enter the address.</p>
+              <p>For example: http://(The host name decided when having installed the OS.)/</p>
+              <p>The setup will be successfully completed if the screen appears as follows:</p>
+              <div class="mediaobject">
+                <img src="images\check01.png" />
+              </div>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.mysql"></a>4.8. Setup for MySQL</h3>
+                </div>
+              </div>
+            </div>
+            <p>Set up for a database system to be used on XooNIps:</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# vi /etc/my.cnf</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Config file editing.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">Add the following two lines in the section of [mysqld].</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">default-character-set=ujis</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">skip-character-set-client-handshake</strong>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.mysql.chkconfig"></a>4.8.1. MySQL startup and automatic startup.</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# /etc/init.d/mysqld start</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; MySQL server startup.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# chkconfig mysqld on</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; MySQL automatic startup</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.mysql.password"></a>4.8.2. Set a MySQL password and delete unnecessary data.</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# mysql -uroot</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Log into the MySQL server as root user.</td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">Define the password for root user. (Example: mysqlroot@pass)</td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">
+                        <span>
+                          <strong class="command">mysql &gt; set password for root@localhost=password('mysqlroot@pass');</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">mysql &gt; delete from mysql.user where user='';</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Delete anonymous users.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">mysql &gt; drop database test;</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Delete test database.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.mysql.createdb"></a>4.8.3. Create a database for XooNIps.</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" colspan="2" align="left">Create a database for XooNIps and name it xoonipsdb.</td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">
+                        <span>
+                          <strong class="command">mysql &gt; create database xoonipsdb character set ujis;</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">Create it with the user name: xoonipsuser, the password: xoonips@pass to access xoonipsdb.</td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">
+                        <span>
+                          <strong class="command">mysql &gt; grant all privileges on xoonipsdb.* to xoonipsuser@localhost identified by'xoonips@pass';</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">mysql &gt; exit</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Log out of MySQL server.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.php"></a>4.9. Set up for PHP</h3>
+                </div>
+              </div>
+            </div>
+            <p>Modify the PHP config files to set the environment for XooNIps.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[xoonips-server ~]# vi /etc/php.ini</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; PHP config file editing.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">allow_url_fopen = On</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">allow_url_fopen = Off</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Change it from "On" to "Off".</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>The following set values are the required memory sizes for uploading files to a XooNIps server. Adjust them according to the server's structure if necessary.</p>
+            <p>If it is expected to use files sized 128 MB or bigger on XooNIps, it requires bigger value than the indicated in this manual.</p>
+            <p>The range of set value have to be memory_limit &gt;= post_max_size &gt;= upload_max_filesize </p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">memory_limit = 16M</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">memory_limit = 128M</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Set the value bigger.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">post_max_size = 8M</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">post_max_size = 128M</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Set the value bigger.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">upload_max_filesize = 2M</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">upload_max_filesize = 128M</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Set the value bigger.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">;session.use_only_cookies = 1</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">session.use_only_cookies = 1</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Take out comments.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Set up Multi-byte string functions</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">;mbstring.internal_encording = EUC-JP</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">mbstring.interlnal_encording = EUC-JP</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Take out comments.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">;mbstring.detect_order = auto</strong>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">&#8595;</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">mbstring.detect_order = ASCII,EUC-JP,UTF8</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Take out comments and add ASCII,EUC-JP,UTF8.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Restart Apache to make the setup valid.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[xoonips-server ~]# /etc/init.d/httpd restart</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Restart the Apache to make the setup valid.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="section" lang="en" xml:lang="en">
+          <div xmlns="" class="titlepage">
+            <div>
+              <div>
+                <h2 xmlns="http://www.w3.org/1999/xhtml" class="title" style="clear: both"><a id="install.xoops"></a>5. Install XOOPS</h2>
+              </div>
+            </div>
+          </div>
+          <p>Install XOOPS, the platform of XooNIps.</p>
+          <div class="informaltable">
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+              <colgroup>
+                <col align="left" />
+                <col align="left" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td style="" colspan="2" align="left">Download the most updated version of XOOPS from the official website.(Currently the most updated version is 2.1.7. as of March 2009.)</td>
+                </tr>
+                <tr>
+                  <td style="" colspan="2" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# wget http://downloads.sourceforge.net/xoopscube/Package_Legacy_2_1_7.zip</strong>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# unzip Package_Legacy_2_1_7.zip</strong>
+                    </span>
+                  </td>
+                  <td style="" align="left">&#8592; Expand the downloaded files. </td>
+                </tr>
+                <tr>
+                  <td style="" colspan="2" align="left">Copy the expanded files to the web server document root.</td>
+                </tr>
+                <tr>
+                  <td style="" colspan="2" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# cp -R Package_Legacy/html/ /var/www/</strong>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# rm -rf Package_Legacy</strong>
+                    </span>
+                  </td>
+                  <td style="" align="left">&#8592; Delete the expanded directories.</td>
+                </tr>
+                <tr>
+                  <td style="" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# rm -f Package_Legacy_2_1_7.zip</strong>
+                    </span>
+                  </td>
+                  <td style="" align="left">&#8592; Delete the downloaded files.</td>
+                </tr>
+                <tr>
+                  <td style="" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# chmod 777 /var/www/html/uploads</strong>
+                    </span>
+                  </td>
+                  <td style="" align="left">&#8592; Change permissions.</td>
+                </tr>
+                <tr>
+                  <td style="" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# chmod 777 /var/www/html/cache</strong>
+                    </span>
+                  </td>
+                  <td style="" align="left">&#8592; Change permissions.</td>
+                </tr>
+                <tr>
+                  <td style="" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# chmod 777 /var/www/html/templates_c</strong>
+                    </span>
+                  </td>
+                  <td style="" align="left">&#8592; Change permissions.</td>
+                </tr>
+                <tr>
+                  <td style="" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# chmod 666 /var/www/html/mainfile.php</strong>
+                    </span>
+                  </td>
+                  <td style="" align="left">&#8592; Change permissions.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <h3 class="title">Warning</h3>
+            <p>Find the most updated URL from the official website.</p>
+            <p>
+              <a href="http://downloads.sourceforge.net/xoopscube/Package_Legacy_2_1_7.zip" target="_top">Download page (Legacy2.1.7)</a>
+            </p>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoops.GUI"></a>5.1. Set up for XOOPS</h3>
+                </div>
+              </div>
+            </div>
+            <p>Access to http://server name/</p>
+            <div class="mediaobject">
+              <img src="images\xoops01.png" />
+            </div>
+            <p>Choose a preferred language and click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops02.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops03.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops04.png" />
+            </div>
+            <p>Enter the database user name, database password and database name which decided on MySQL setup.</p>
+            <p>Fill in the blanks with the following information and click on [Next].</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Database Username</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">xoonipsuser</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Database Password</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">xoonips@pass</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; " align="left">Database Name</td>
+                    <td style="" align="left">xoonipsdb</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="mediaobject">
+              <img src="images\xoops05.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops06.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops07.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops08.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops09.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops10.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops11.png" />
+            </div>
+            <p>Enter the following information and click on [Next].</p>
+            <p>Note that this is for the administrator of XOOPS.</p>
+            <p>It is different from the users of CentOS and MySQL.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Admin Name</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">XOOPS site administrator's user name (Example: Administrator)</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Admin Email</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">XOOPS site administrator's mail address (Example: admin@xoonips.jp)</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Admin Password</td>
+                    <td style="border-bottom: 0.5pt solid black; " align="left">Password</td>
+                  </tr>
+                  <tr>
+                    <td style="border-right: 0.5pt solid black; " align="left">Confirm Password</td>
+                    <td style="" align="left">Password</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="mediaobject">
+              <img src="images\xoops12.png" />
+            </div>
+            <p>Click on [Next]</p>
+            <div class="mediaobject">
+              <img src="images\xoops13.png" />
+            </div>
+            <p>Click on [Next].</p>
+            <div class="mediaobject">
+              <img src="images\xoops14.png" />
+            </div>
+            <p>Enter the XOOPS admin name and click on [User Login].</p>
+            <div class="mediaobject">
+              <img src="images\xoops15.png" />
+            </div>
+            <p>Click on the "Install" button.</p>
+            <div class="mediaobject">
+              <img src="images\xoops16.png" />
+            </div>
+            <p>The installation has completed.</p>
+            <p>Close the web browser now.</p>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoops.postinstall"></a>5.2. Close the XOOPS installation.</h3>
+                </div>
+              </div>
+            </div>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# rm -rf /var/www/html/install/</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Delete install directories.</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# chmod 644 /var/www/html/mainfile.php</strong>
+                      </span>
+                    </td>
+                    <td style="" align="left">&#8592; Change permissions.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="section" lang="en" xml:lang="en">
+          <div xmlns="" class="titlepage">
+            <div>
+              <div>
+                <h2 xmlns="http://www.w3.org/1999/xhtml" class="title" style="clear: both"><a id="install.xoonips"></a>6. Install XooNIps</h2>
+              </div>
+            </div>
+          </div>
+          <p>Download the most updated XooNIps.</p>
+          <div class="informaltable">
+            <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+              <colgroup>
+                <col align="left" />
+                <col align="left" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td style="" colspan="2" align="left">Download the most updated XooNIps.</td>
+                </tr>
+                <tr>
+                  <td style="" colspan="2" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# wget http://osdn.dl.sourceforge.jp/xoonips/?????/xoonips-3.44.tar.gz</strong>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="" colspan="2" align="left">Expand the downloaded files.</td>
+                </tr>
+                <tr>
+                  <td style="" colspan="2" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# tar -xzvf xoonips-3.44.tar.gz</strong>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="" colspan="2" align="left">Copy the XooNIps modules to the module directories.</td>
+                </tr>
+                <tr>
+                  <td style="" colspan="2" align="left">
+                    <span>
+                      <strong class="command">[root@xoonips-server ~]# cp -R xoonips-3.44/xoonips/ /var/www/html/modules/</strong>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <h3 class="title">Warning</h3>
+            <p>The download URL is subject to be changed due to its mirror site.</p>
+            <p>Please download it after confirming download URL is correct.</p>
+            <p>
+              <a href="http://prdownloads.sourceforge.jp/xoonips/?????/xoonips-3.44.tar.gz" target="_top">Download page</a>
+            </p>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.gui"></a>6.1. Set up for XooNIps</h3>
+                </div>
+              </div>
+            </div>
+            <p>Access to http://server name/.</p>
+            <div class="mediaobject">
+              <img src="images\xoonips-install01.png" />
+            </div>
+            <p>Enter the following information and click on the [Login] button.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" align="left">Username</td>
+                    <td style="" align="left">Administrator's user name (Example: Administrator)</td>
+                  </tr>
+                  <tr>
+                    <td style="" align="left">Password</td>
+                    <td style="" align="left">Administrator's password</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="mediaobject">
+              <img src="images\xoonips-install02.png" />
+            </div>
+            <p>Click on [Administration Menu].</p>
+            <div class="mediaobject">
+              <img src="images\xoonips-install03.png" />
+            </div>
+            <p>Click on [Module Installation].</p>
+            <div class="mediaobject">
+              <img src="images\xoonips-install04.png" />
+            </div>
+            <p>Click on the install icon at "Control".</p>
+            <div class="mediaobject">
+              <img src="images\xoonips-install05.png" />
+            </div>
+            <p>Click on the "Install" button.</p>
+            <div class="mediaobject">
+              <img src="images\xoonips-install06.png" />
+            </div>
+            <p>Click on [Module Management].</p>
+            <div class="mediaobject">
+              <img src="images\xoonips-install07.png" />
+            </div>
+            <p>If the XooNIps is successfully installed, the screen shows as above. </p>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting"></a>6.2. Initial setting and confirmation on XooNIps</h3>
+                </div>
+              </div>
+            </div>
+            <p>How to set up XooNIps.</p>
+            <div class="mediaobject">
+              <img src="images\xoonips-install08.png" />
+            </div>
+            <p>Click on [XooNIps] on the Administration menu.</p>
+            <div class="mediaobject">
+              <img src="images\xoonips-install09.png" />
+            </div>
+            <p>Click on [System Configuration].</p>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.uploaddir"></a>6.2.1. Change the file upload directory.</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Assign a directory where the web server is authorized to write.</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# mkdir /var/www/xoonipsupload</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Create a directory.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# chmod a+w /var/www/xoonipsupload</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Change permissions.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mediaobject">
+                <img src="images\xoonips-install10.png" />
+              </div>
+              <p>Click on [Basic Configuration].</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install11.png" />
+              </div>
+              <p>
+                <span>
+                  <strong class="command">Enter /var/www/xoonipsupload at [File Upload Directory]</strong>
+                </span>
+              </p>
+              <p>Click on [UPDATE].</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.inlineframe"></a>6.2.2. Setup inline frame</h4>
+                  </div>
+                </div>
+              </div>
+              <p>How to change the display area of an index tree:</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install12.png" />
+              </div>
+              <p>Click on [Inline Frame]</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install13.png" />
+              </div>
+              <p>Enter the desired value of width and height of the index tree and click on the [UPDATE] button.</p>
+              <p>The size of display area within the block can be changed by indicating the width of the index tree in percentage (%).</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col />
+                    <col />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Width indicated in 100%.</td>
+                      <td style="border-bottom: 0.5pt solid black; " align="left">Width indicated in 50%.</td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; " align="left">
+				  <div class="mediaobject"><img src="images\xoonips-install14.png" /></div>
+				</td>
+                      <td style="" align="left">
+				  <div class="mediaobject"><img src="images\xoonips-install15.png" /></div>
+				</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>The range of display area can be changed by indicating the height of the index tree in pixels.</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col />
+                    <col />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">Height indicated in 400 pixels.</td>
+                      <td style="border-bottom: 0.5pt solid black; " align="left">Height indicated in 200 pixels.</td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; " align="left">
+				  <div class="mediaobject"><img src="images\xoonips-install16.png" /></div>
+				</td>
+                      <td style="" align="left">
+				  <div class="mediaobject"><img src="images\xoonips-install17.png" /></div>
+				</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.printfrendry"></a>6.2.3. Setup print formats</h4>
+                  </div>
+                </div>
+              </div>
+              <p>How to set the information to be shown as headers on printing:</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install18.png" />
+              </div>
+              <p>Click on [Printer Friendly].</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install19.png" />
+              </div>
+              <p>The entered information will be printed as a header.</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.rssfeed"></a>6.2.4. Set up for RSS distribution</h4>
+                  </div>
+                </div>
+              </div>
+              <p>XooNIps supports three types of feed formats: RSS1.0(RDF), RSS2.0, Atom1.0</p>
+              <p>Announcements about newly registered items and the current status within a group can be made by publishing the URL indicated on the "RSS Feeds".</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install20.png" />
+              </div>
+              <p>Click on [RSS Feeds]</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install21.png" />
+              </div>
+              <p>Choose a feed format and copy it to use for publication.</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.oai-pmh"></a>6.2.5. Set up OAI-PMH</h4>
+                  </div>
+                </div>
+              </div>
+              <p>XooNIps adopts OAI-PMH as a structure to automatically collect metadata.</p>
+              <p>There are two ways: 1. setup for providing metadata to another server applicable to OAI-PMH. (Repository setup), 2. setup for harvesting metadata from another server applicable to OAI-PMH (Harvester setup&#65289;.</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install22.png" />
+              </div>
+              <p>Click on [OAI-PMH].</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install23.png" />
+              </div>
+              <div class="itemizedlist">
+                <ul type="bullet">
+                  <li style="list-style-type: disc">
+                    <p>"Repository Configurations" is for providing metadata to another server.</p>
+                  </li>
+                  <li style="list-style-type: none">
+                    <div class="informaltable">
+                      <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
+                        <colgroup>
+                          <col />
+                          <col />
+                        </colgroup>
+                        <tbody>
+                          <tr>
+                            <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">
+                              <p>Repository Name</p>
+                            </td>
+                            <td style="border-bottom: 0.5pt solid black; " align="left">
+                              <p>Example&#65306;INCF Japan Node XooNIps site</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">
+                              <p>Database ID</p>
+                            </td>
+                            <td style="border-bottom: 0.5pt solid black; " align="left">
+                              <p>Set identification data by using site name, etc. to distinguish sites. Example: www.neuroinf.jp</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">
+                              <p>Number of days for tracking item deletion</p>
+                            </td>
+                            <td style="border-bottom: 0.5pt solid black; " align="left">
+                              <p>Indicate the days for tracking the item deletion.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">
+                              <p>(institution) variable</p>
+                            </td>
+                            <td style="border-bottom: 0.5pt solid black; " align="left">
+                              <p>Set the variable of institution for reply.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="border-right: 0.5pt solid black; " align="left">
+                              <p>(publisher) variable</p>
+                            </td>
+                            <td style="" align="left">
+                              <p>Set the variable of publisher for reply.</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </li>
+                  <li style="list-style-type: disc">
+                    <p>The harvester setup is for collecting metadata from another server.</p>
+                  </li>
+                </ul>
+              </div>
+              <p>Enter the URLs of the servers for harvesting metadata one by one (press the enter key before entering another URL).</p>
+              <p>If the line begins with semicolon(;), it is identified as a comment. </p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.proxy"></a>6.2.6. Proxy Configuration</h4>
+                  </div>
+                </div>
+              </div>
+              <p>This section explains proxy configurations, which are required in the case of using proxy when accessing from XooNIps to another server.</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install24.png" />
+              </div>
+              <p>Click on [Proxy].</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install25.png" />
+              </div>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
+                  <colgroup>
+                    <col />
+                    <col />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">
+                        <p>Host</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; " align="left">
+                        <p>Enter a host name or IP address of the proxy server.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">
+                        <p>Port</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; " align="left">
+                        <p>Enter the port number of the proxy server.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="left">
+                        <p>User Name</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; " align="left">
+                        <p>Enter the user name if required to authenticate the proxy server.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; " align="left">
+                        <p>Password</p>
+                      </td>
+                      <td style="" align="left">
+                        <p>Enter the password for authentication.</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.event"></a>6.2.7. Setup for event notification</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Decide the kinds of event to be notified to the XooNIps users by using a XOOPS function.</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install26.png" />
+              </div>
+              <p>Click on [Notifications].</p>
+              <p>Choose one from the following.</p>
+              <div class="itemizedlist">
+                <ul type="bullet">
+                  <li style="list-style-type: disc">
+                    <p>Disable Notification (both styles)</p>
+                  </li>
+                  <li style="list-style-type: disc">
+                    <p>Enable only Block-style</p>
+                  </li>
+                  <li style="list-style-type: disc">
+                    <p>Enable only Inline-style</p>
+                  </li>
+                  <li style="list-style-type: disc">
+                    <p>Enable Notification (both styles)</p>
+                  </li>
+                </ul>
+              </div>
+              <p>"Enable Specific Events" accepts multiple choices.</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; ">
+                  <colgroup>
+                    <col />
+                    <col />
+                    <col />
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="center">
+                        <p>To whom</p>
+                      </th>
+                      <th style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " align="center">
+                        <p>Indications at the pulldown menu</p>
+                      </th>
+                      <th style="border-bottom: 0.5pt solid black; " align="center">
+                        <p>Purposes</p>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; " rowspan="4">
+                        <p>Administrator</p>
+                      </td>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>Administrator: Item transferred</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when an item has been transferred.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>Administrator: Account certified</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when an account has been certified.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>Administrator: Item certified</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when a publishing item has been certified.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>Administrator: Request for group item certification</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when there is a request for approval of transferring an item to a group area.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; " rowspan="7">
+                        <p>User</p>
+                      </td>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>XooNIps User: Item transferred</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when an item has been transferred.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>XooNIps User: Item updated</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when an item has been updated.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>XooNIps User: Item certified</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when a publishing item has been certified.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>XooNIps User: Item rejected</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when a publishing item has been rejected.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>XooNIps User: File downloaded</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when a file has been downloaded.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; border-bottom: 0.5pt solid black; ">
+                        <p>XooNIps User: Group item certified</p>
+                      </td>
+                      <td style="border-bottom: 0.5pt solid black; ">
+                        <p>Notify when an item has been approved of being registered in a group area. </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="border-right: 0.5pt solid black; ">
+                        <p>XooNIps User: Group item rejected</p>
+                      </td>
+                      <td style="">
+                        <p>Notify when an item has been rejected to be registered in a group area.</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.xoopsextension"></a>6.2.8. XOOPS Extension</h4>
+                  </div>
+                </div>
+              </div>
+              <p>Entitle a user to be able to use XooNIps functions if he/she has been registered through the XOOPS user module.</p>
+              <p>Delete the user information remained on XooNIps if the user was deleted by the XOOPS user module.</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install27.png" />
+              </div>
+              <p>Click on [XOOPS Extension].</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install28.png" />
+              </div>
+              <p>Delete or add users by clicking on the icon appeared at "Action".</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.initalsetting.confirm"></a>6.2.9. Configuration Test</h4>
+                  </div>
+                </div>
+              </div>
+              <p>How to check the configurations of XooNIps:</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install29.png" />
+              </div>
+              <p>Click on [Configuration Test].</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install30.png" />
+              </div>
+              <p>Click on [Test].</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install31.png" />
+              </div>
+              <p>The results of XooNIps system configuration test will be displayed.</p>
+              <p>If the "Total Result" indicates "OK", the XooNIps system preparation is successfully completed.</p>
+              <p>If there are any items indicated in red, it has to be modified as the comment directs.</p>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.itemtype"></a>6.3. How to install item type modules:</h3>
+                </div>
+              </div>
+            </div>
+            <p>Install item type modules.</p>
+            <div class="informaltable">
+              <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                <colgroup>
+                  <col align="left" />
+                  <col align="left" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td style="" colspan="2" align="left">Copy the item type module to the module directory.</td>
+                  </tr>
+                  <tr>
+                    <td style="" colspan="2" align="left">
+                      <span>
+                        <strong class="command">[root@xoonips-server ~]# cp -R xoonips-3.44/itemtypes/* /var/www/html/modules/</strong>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.itemtype.gui"></a>6.3.1. Setup for item type modules</h4>
+                  </div>
+                </div>
+              </div>
+              <p>The procedure is the same as XooNIps module.</p>
+              <p>The types of item type module vary with the structure of the website.</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install03.png" />
+              </div>
+              <p>Click on [Module Installation]</p>
+              <div class="mediaobject">
+                <img src="images\xoonips-install32.png" />
+              </div>
+              <p>Click on the install icon at "Control". (same as XooNIps installation)</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.xoonips.postinstall"></a>6.3.2. Close the XooNIps installation</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# rm -f xoonips-3.44.tar.gz</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Delete downloaded files.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# rm -rf xoonips-3.44</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Delete expanded directories.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.update"></a>6.4. Precautions on updating XooNIps</h3>
+                </div>
+              </div>
+            </div>
+            <p>Make sure to overwrite the directories before updating XooNIps modules and item type modules.</p>
+            <p>Updating to the version XooNIps 3.30 or later is supported only if the original version is XooNIps 3.24 or later.</p>
+            <p>For updating the version from XooNIps 3.2x to XooNIps 3.4, make sure to install the Binder item type modules.</p>
+          </div>
+          <div class="section" lang="en" xml:lang="en">
+            <div xmlns="" class="titlepage">
+              <div>
+                <div>
+                  <h3 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.gijoe"></a>6.5. Support modules</h3>
+                </div>
+              </div>
+            </div>
+            <p>Supporting modules are, for example, alternative modules for the system modules whose standard status can not satisfy by itself, and protector modules against malicious attacks.</p>
+            <p>For using the function to comment, install an altsys module and a D3forum module.</p>
+            <p>The following briefly shows how to install an altsys module and a D3forum module, which are required for utilizing the comment functions on XooNIps.</p>
+            <p>For detailed information, check the website http://xoops.peak.ne.jp/</p>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.gijoe.altsys"></a>6.5.1. Install an altsys module</h4>
+                  </div>
+                </div>
+              </div>
+              <p>How to install an altsys module, an alternative module for standard system modules:</p>
+              <p>Modify mainfile.php</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[xoonips-server ~]# vi /var/www/html/mainfile.php</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; mainfile.php file edition.</td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">
+                        <span>
+                          <strong class="command">define('XOOPS_TRUST_PATH','');</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="" colspan="2" align="left">&#8595;</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">define('XOOPS_TRUST_PATH','/var/www/xoops_trust_path');</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Set up for XOOPS_TRUST_PATH</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>Download the most updated module from the website.</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# tar -xzvf altsys-0.6.tar.gz</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Expand the obtained files.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# cp -R xoops_trust_path /var/www/</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Copy the expanded files.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# cp -R html/modules/altsys /var/www/html/modules</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Copy the expanded files.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# cp html/preload /* vaw/www/html/preload/</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Copy the expanded files.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>Perform installation from the "Module Installation" at "Legacy System" on the Administration menu (same as XooNIps and item type module).</p>
+            </div>
+            <div class="section" lang="en" xml:lang="en">
+              <div xmlns="" class="titlepage">
+                <div>
+                  <div>
+                    <h4 xmlns="http://www.w3.org/1999/xhtml" class="title"><a id="install.gijoe.d3forum"></a>6.5.2. Install D3forum</h4>
+                  </div>
+                </div>
+              </div>
+              <p>How to install d3 modules, which is required for using comment functions .:</p>
+              <p>It is necessary to have completed installing an altsys module in advance.</p>
+              <p>Download the most updated module from the website.</p>
+              <div class="informaltable">
+                <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
+                  <colgroup>
+                    <col align="left" />
+                    <col align="left" />
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# tar -xzvf d3forum-0.8.tar.gz</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Expand the obtained files.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# cp -R xoops_trust_path/modules /var/www/xoops_trust_path</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Copy the expanded files.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# cp -R html/modules/d3forum /var/www/html/modules</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Copy the expanded files.</td>
+                    </tr>
+                    <tr>
+                      <td style="" align="left">
+                        <span>
+                          <strong class="command">[root@xoonips-server ~]# cp html/class/smarty/plugins/* var/www/html/class/smarty/plugins/</strong>
+                        </span>
+                      </td>
+                      <td style="" align="left">&#8592; Copy the expanded files.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>Perform installation from "Module Installation" at "Legacy System" on the Administration menu (same as XooNIps and item type module).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navfooter">
+        <hr />
+        <table width="100%" summary="Navigation footer">
+          <tr>
+            <td width="40%" align="left"><a accesskey="p" href="startguide.html"><img src="images\etc\prev.gif" alt="Prev" /></a> </td>
+            <td width="20%" align="center"> </td>
+            <td width="40%" align="right"> <a accesskey="n" href="construct.html"><img src="images\etc\next.gif" alt="Next" /></a></td>
+          </tr>
+          <tr>
+            <td width="40%" align="left" valign="top"> </td>
+            <td width="20%" align="center">
+              <a accesskey="h" href="index.html">
+                <img src="images\etc\home.gif" alt="Home" />
+              </a>
+            </td>
+            <td width="40%" align="right" valign="top"> </td>
+          </tr>
+        </table>
+      </div>
+      <div class="lastupdated">Last updated: 2011/07/12</div>
+    </div>
+  </body>
+</html>

@@ -1,29 +1,29 @@
 ### _XOOPS Documentation Series_
-![logoXoops.jpg](assets/logoXoops.jpg)
+![](assets/logoXoops.jpg)
 
 # Module XooNIps: Neuroinformatics Base Platform System
-#### for XOOPS 2.5.8
+#### for XOOPS 2.5.9
 
 Module Version 3.49
 
 Tutorial Version 3.45    
       
-![logoModule.png](assets/logoModule.png)
+![](assets/logoModule.png)
             
 ## User Manual
 
-## View it on: [![Gitbook](http://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoonips-tutorial/) 
+## View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoonips-tutorial/) 
 
-© 2016 XOOPS Project ([www.xoops.org](http://xoops.org)), ([XooNIps](http://xoonips.osdn.jp/)), ([Riken](http://www.riken.jp/))    
+© 2018 XOOPS Project ([www.xoops.org](https://xoops.org)), ([XooNIps](http://xoonips.osdn.jp/)), ([Riken](http://www.riken.jp/))    
 
 ## Module Purpose 
 
 XooNIps is an easy-to-use software that can facilitates to build a database website for organizing enormous volume of information in various types of electronic formats, such as research papers, experrimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
 
-![image001.png](assets/image001.png)
-*Figure 1: Main view of the XooNIps Module (Admin side)*
+![](assets/image001.png)
+*Figure 1: Main view of the XooNIps Architecture*
 
-## Download/Fork the Module ![](http://xoops.org/images/forkit.png) 
+## Download/Fork the Module ![](https://xoops.org/images/forkit.png) 
 
 **You can fork the module --> [here](https://github.com/XoopsModules25x/xcl-module-xoonips))** 
 
@@ -47,8 +47,8 @@ Editing the book can be done either by updating the markdown files with a text e
 * [Module Credits](book/9credits.md)
 * [About XOOPS CMS](book/10aboutxoops.md)
 
-##License:
+## License:
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Unless specified, this content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-All derivative works are to be attributed to XOOPS Project ([www.xoops.org](http://xoops.org))
+All derivative works are to be attributed to XOOPS Project ([www.xoops.org](https://xoops.org))

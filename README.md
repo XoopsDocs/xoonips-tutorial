@@ -4,29 +4,29 @@
 
 ## Module XooNIps: Neuroinformatics Base Platform System
 
-#### for XOOPS 2.5.8
+#### for XOOPS 2.5.9
 
 Module Version 3.49
 
-Tutorial Version 3.45
-
+Tutorial Version 3.45      
+	  
 ![logoModule.png](.gitbook/assets/logomodule.png)
-
+            
 ### User Manual
 
-### View it on: [![Gitbook](http://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoonips-tutorial/)
+### View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoonips-tutorial/)
 
-© 2016 XOOPS Project \([www.xoops.org](http://xoops.org)\), [XooNIps](http://xoonips.osdn.jp/), [Riken](http://www.riken.jp/)
+© 2018 XOOPS Project \([www.xoops.org](https://xoops.org)\), [XooNIps](http://xoonips.osdn.jp/), [Riken](http://www.riken.jp/)
 
 ### Module Purpose
 
 XooNIps is an easy-to-use software that can facilitates to build a database website for organizing enormous volume of information in various types of electronic formats, such as research papers, experrimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
 
- _Figure 1: Main view of the XooNIps Module \(Admin side\)_
+![](en/assets/image001.png)
 
-![image001.png](.gitbook/assets/image001.png)
+*Figure 1: Main view of the XooNIps Module (Admin side)*
 
-### Download/Fork the Module ![](http://xoops.org/images/forkit.png)
+### Download/Fork the Module ![](https://xoops.org/images/forkit.png)
 
 **You can fork the module --&gt;** [**here**](https://github.com/XoopsModules25x/xcl-module-xoonips)**\)**
 
@@ -54,5 +54,5 @@ Editing the book can be done either by updating the markdown files with a text e
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 Unless specified, this content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-All derivative works are to be attributed to XOOPS Project \([www.xoops.org](http://xoops.org)\)
+All derivative works are to be attributed to XOOPS Project \([www.xoops.org](https://xoops.org)\)
 
