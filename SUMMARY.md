@@ -106,6 +106,6 @@
 	* [2. XooNIps based Online Databases](en/book/7appendix/2xoonips_based_online_databases.md)
 * [Module Credits](en/book/9credits.md)
 * [About XOOPS CMS](en/book/10aboutxoops.md)
-* [??? (????)](ja/README.md)
+* [日本語 (にほんご)](ja/README.md)
 	* [Content](ja/SUMMARY.md)
 
