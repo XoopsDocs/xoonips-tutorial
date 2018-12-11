@@ -8,10 +8,10 @@
 
 Module Version 3.49
 
-Tutorial Version 3.45      
-	  
-![logoModule.png](.gitbook/assets/logomodule.png)
-            
+Tutorial Version 3.45
+
+![logoModule.png](.gitbook/assets/logomodule%20%281%29.png)
+
 ### User Manual
 
 ### View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoonips-tutorial/)
@@ -22,9 +22,9 @@ Tutorial Version 3.45
 
 XooNIps is an easy-to-use software that can facilitates to build a database website for organizing enormous volume of information in various types of electronic formats, such as research papers, experrimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
 
-![](en/assets/image001.png)
+![](.gitbook/assets/image001.png)
 
-*Figure 1: Main view of the XooNIps Module (Admin side)*
+_Figure 1: Main view of the XooNIps Module \(Admin side\)_
 
 ### Download/Fork the Module ![](https://xoops.org/images/forkit.png)
 
@@ -38,7 +38,7 @@ Editing the book can be done either by updating the markdown files with a text e
 
 ## Table of Content
 
-* [Introduction](introduction.md)
+* [Introduction]()
 * [Overview](https://github.com/xoops/xoonips-tutorial/tree/2e1c9e6992f3e81173bcdb0057db192c607a743e/book/1overview/README.md)
 * [Start guide](https://github.com/xoops/xoonips-tutorial/tree/2e1c9e6992f3e81173bcdb0057db192c607a743e/book/2startguide/README.md)
 * [Installation](https://github.com/xoops/xoonips-tutorial/tree/2e1c9e6992f3e81173bcdb0057db192c607a743e/book/3installation/README.md)
