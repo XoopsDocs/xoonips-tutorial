@@ -107,8 +107,6 @@
   * [Module Credits](en/module-credits.md)
   * [About XOOPS CMS](en/about-xoops-cms.md)
 * [日本語 \(にほんご\)](ja/README.md)
-  	* [Introduction](README.md)
-	* [日本語 (にほんご](ja/README.md)
 	* [1. 概要](ja/book/1overview/README.md)
 		* [1. XooNIpsとは？](ja/book/1overview/1what_is_xoonips.md)
 		* [2. XooNIpsの主な機能](ja/book/1overview/12README.md)
