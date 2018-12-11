@@ -12,13 +12,13 @@ Click on the link \[Edit Private Tree\] at "XooNIps User Menu".
 
    Enter a new keyword in the field "New Index Keyword", and click on the \[register\] button.
 
-   ![Edit private trees](../../../.gitbook/assets/xoonips-operate14.png)
+   ![Edit private trees](../../../.gitbook/assets/xoonips-operate14%20%281%29.png)
 
    **Figure 5.14. Edit private trees**
 
    A new index keyword will be registered underneath the private tree
 
-   ![Register a new keyword to the private index.](../../../.gitbook/assets/xoonips-operate15.png)
+   ![Register a new keyword to the private index.](../../../.gitbook/assets/xoonips-operate15%20%281%29.png)
 
    **Figure 5.15. Register a new keyword to the private index.**
 
@@ -28,13 +28,13 @@ Click on the link \[Edit Private Tree\] at "XooNIps User Menu".
 
    Check the keyword to be modified and enter a new keyword in the field "Rename to", then click on the \[rename\] button.
 
-   ![Change keywords](../../../.gitbook/assets/xoonips-operate16.png)
+   ![Change keywords](../../../.gitbook/assets/xoonips-operate16%20%281%29.png)
 
    **Figure 5.16. Change keywords**
 
    The keyword "tool" has been changed to "model".
 
-   ![Index Tree with a changed keyword.](../../../.gitbook/assets/xoonips-operate17.png)
+   ![Index Tree with a changed keyword.](../../../.gitbook/assets/xoonips-operate17%20%281%29.png)
 
    **Figure 5.17. Index Tree with a changed keyword.**
 
@@ -60,7 +60,7 @@ Click on the link \[Edit Private Tree\] at "XooNIps User Menu".
 
    **Figure 5.20. Change the order of keywords**
 
-   ![Index \(the order of keywords has been changed\)](../../../.gitbook/assets/xoonips-operate21.png)
+   ![Index \(the order of keywords has been changed\)](../../../.gitbook/assets/xoonips-operate21%20%281%29.png)
 
    **Figure 5.21. Index \(the order of keywords has been changed\)**
 
@@ -70,7 +70,7 @@ Click on the link \[Edit Private Tree\] at "XooNIps User Menu".
 
    Choose one from the dropdown list next to the \[move to\] button and click on it.
 
-   ![Shift keywords](../../../.gitbook/assets/xoonips-operate22.png)
+   ![Shift keywords](../../../.gitbook/assets/xoonips-operate22%20%281%29.png)
 
    **Figure 5.22. Shift keywords**
 

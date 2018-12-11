@@ -4,7 +4,7 @@ How to change the title and order of item types shown on the homepage:
 
 Ex. Change a title Paper to English.
 
-![&quot;Dispaly Setting&quot;](../../../.gitbook/assets/xoonips-policy5.png)
+![&quot;Dispaly Setting&quot;](../../../.gitbook/assets/xoonips-policy5%20%281%29.png)
 
 **Figure 4.5. "Dispaly Setting"**
 

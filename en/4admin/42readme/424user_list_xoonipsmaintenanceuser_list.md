@@ -6,13 +6,13 @@ If the user is set as 0 or less, it will not be displayed.
 
 "Position" is the only to be applied for reorganizing the User List.
 
-![&quot;User List&quot;](../../../.gitbook/assets/xoonips-mente10.png)
+![&quot;User List&quot;](../../../.gitbook/assets/xoonips-mente10%20%281%29.png)
 
 **Figure 4.25. "User List"**
 
 The result can be found at the "User List" of the intended XooNIps website.
 
-![User List - 2](../../../.gitbook/assets/xoonips-mente11.png)
+![User List - 2](../../../.gitbook/assets/xoonips-mente11%20%281%29.png)
 
 **Figure 4.26. User List - 2**
 

@@ -10,7 +10,7 @@ Click on the link \[Certify Public Items\] at the "XooNIps Moderator menu".
 
 Click on either of \[Accept\] or \[Reject\] button.
 
-![Review and certify items 2](../../../.gitbook/assets/xoonips-operate94.png)
+![Review and certify items 2](../../../.gitbook/assets/xoonips-operate94%20%281%29.png)
 
 **Figure 5.74. Review and certify items 2**
 

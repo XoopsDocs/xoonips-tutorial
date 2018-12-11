@@ -8,7 +8,7 @@ XooNIps is designed to support a variety of item types \(12 different data forma
 
 The items will be organized by the Index Tree. The Index Tree consists of the following publication areas: Public, Group and Private. Each of the areas consists of keywords so that the items can be logically and effectively sorted.
 
-![XooNIps](../../../.gitbook/assets/overview03.png)
+![XooNIps](../../../.gitbook/assets/overview03%20%281%29.png)
 
 **Figure 1.3. XooNIps**
 

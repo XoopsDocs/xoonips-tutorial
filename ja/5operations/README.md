@@ -1,3 +1,6 @@
-## 2. Registered user {#2-registered-user}
+# 5. XooNIpsの操作
 
-This section shows the operations that the registered users are entitled to perform on XooNIps.
+実際にXooNIpsを利用する際に必要な操作を解説します
+
+画面デザインはXOOPSのテーマを利用することで容易に変更することが出来ます。
+

@@ -26,7 +26,7 @@ Delete &lt;_{3 letters and the last 3 letters}_&gt; at the beginning.
 
 **Figure 4.10. Item Comment \(Setting 2\)**
 
-![Item Comment \(Setting - 3\)](../../../.gitbook/assets/xoonips-policy11.png)
+![Item Comment \(Setting - 3\)](../../../.gitbook/assets/xoonips-policy11%20%281%29.png)
 
 **Figure 4.11. Item Comment \(Setting - 3\)**
 

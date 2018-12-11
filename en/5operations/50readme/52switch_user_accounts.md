@@ -6,13 +6,13 @@ However, system administrators are exclusively entitled to change/modify all the
 
 Click on the link \[Switch User Account\] at "XooNIps User Menu".
 
-![Switch User Accounts](../../../.gitbook/assets/xoonips-operate75.png)
+![Switch User Accounts](../../../.gitbook/assets/xoonips-operate75%20%281%29.png)
 
 **Figure 5.82. Switch User Accounts**
 
 Choose a user from the dropdown list and enter the password.
 
-![Switch User Accounts 2](../../../.gitbook/assets/xoonips-operate76.png)
+![Switch User Accounts 2](../../../.gitbook/assets/xoonips-operate76%20%281%29.png)
 
 **Figure 5.83. Switch User Accounts 2**
 

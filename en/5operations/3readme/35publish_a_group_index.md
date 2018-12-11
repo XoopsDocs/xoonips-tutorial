@@ -6,7 +6,7 @@ The items registered in a group index can be collectively transferred to the pub
 
   Click on the \[Edit Group Tree\] at "XooNIps Group Admin menu".
 
-  ![Block publishing of group indexes](../../../.gitbook/assets/xoonips-operate101.png)
+  ![Block publishing of group indexes](../../../.gitbook/assets/xoonips-operate101%20%282%29.png)
 
   **Figure 5.67. Block publishing of group indexes**
 
@@ -22,7 +22,7 @@ The items registered in a group index can be collectively transferred to the pub
 
   Click on the link \[Certify Public Group Items\] at the "XooNIps Moderator menu".
 
-  ![Block publishing of group indexes 3](../../../.gitbook/assets/xoonips-operate103.png)
+  ![Block publishing of group indexes 3](../../../.gitbook/assets/xoonips-operate103%20%282%29.png)
 
   **Figure 5.69. Block publishing of group indexes 3**
 

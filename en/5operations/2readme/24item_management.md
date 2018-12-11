@@ -54,7 +54,7 @@ For the "ID" field, always enter the same value. If the ID is duplicated, it wil
 
   Click on the link \[Edit\] to open an edit window. Indicate a file and click on the \[upload\] button. Or edit an original text in the textbox and click on the \[upload\] button.
 
-  ![Edit Rights](../../../.gitbook/assets/xoonips-operate29.png)
+  ![Edit Rights](../../../.gitbook/assets/xoonips-operate29%20%282%29.png)
 
   **Figure 5.29. Edit Rights**
 
@@ -76,7 +76,7 @@ For the "ID" field, always enter the same value. If the ID is duplicated, it wil
 
     Choose the item to be registered in a related item by using detail search.
 
-  ![Detail of an item](../../../.gitbook/assets/xoonips-operate30.png)
+  ![Detail of an item](../../../.gitbook/assets/xoonips-operate30%20%281%29.png)
 
   **Figure 5.30. Detail of an item**
 
@@ -86,7 +86,7 @@ For the "ID" field, always enter the same value. If the ID is duplicated, it wil
 
      Check the checkbox of the item to be registered and click on the \[Select\] button to confirm.
 
-     ![Item registration by \[Item list\]](../../../.gitbook/assets/xoonips-operate31.png)
+     ![Item registration by \[Item list\]](../../../.gitbook/assets/xoonips-operate31%20%281%29.png)
 
      **Figure 5.31. Item registration by \[Item list\]**
 
@@ -96,7 +96,7 @@ For the "ID" field, always enter the same value. If the ID is duplicated, it wil
 
      Check the checkbox of the item to be registered in a related item and click on the \[Select\] button to confirm the registration.
 
-     ![Item registration by \[Index Keyword\]](../../../.gitbook/assets/xoonips-operate132.png)
+     ![Item registration by \[Index Keyword\]](../../../.gitbook/assets/xoonips-operate132%20%282%29.png)
 
      **Figure 5.32. Item registration by \[Index Keyword\]**
 
@@ -108,7 +108,7 @@ For the "ID" field, always enter the same value. If the ID is duplicated, it wil
 
   Click on the \[Next\] button to confirm the registration.
 
-  ![Item registration confirmation screen](../../../.gitbook/assets/xoonips-operate133.png)
+  ![Item registration confirmation screen](../../../.gitbook/assets/xoonips-operate133%20%281%29.png)
 
   **Figure 5.33. Item registration confirmation screen**
 
@@ -128,7 +128,7 @@ Click on \[Modify\] button, and a "Modify" screen will appear. Make modification
 
 On the "Detail" screen, modification history will be shown.
 
-![Item modification history](../../../.gitbook/assets/xoonips-operate34.png)
+![Item modification history](../../../.gitbook/assets/xoonips-operate34%20%282%29.png)
 
 **Figure 5.36. Item modification history**
 
@@ -182,7 +182,7 @@ To identify the items to be registered in a Binder, use either of the following 
 
    Check the checkbox of the item to be registered in a Binder and click on the \[Select\] button to confirm the registration.
 
-   ![Binder registration by \[Index Keyword\]](../../../.gitbook/assets/xoonips-operate38.png)
+   ![Binder registration by \[Index Keyword\]](../../../.gitbook/assets/xoonips-operate38%20%281%29.png)
 
    **Figure 5.40. Binder registration by \[Index Keyword\]**
 
@@ -202,7 +202,7 @@ Click on the \[Next\] button to confirm the registration.
 
 On the "Register" screen for Paper items \(XooNIps User Menu&gt;&gt;Add New Item; pulldown menu "Paper" at "Select item type"\), there is "PubMedID" field. If a PubMedID is given, enter the ID and click on the \[Complete\] button, then the other following related information will be automatically filled out.
 
-![&quot;Register&quot; screen for Paper items](../../../.gitbook/assets/xoonips-operate41.png)
+![&quot;Register&quot; screen for Paper items](../../../.gitbook/assets/xoonips-operate41%20%281%29.png)
 
 **Figure 5.42. "Register" screen for Paper items**
 

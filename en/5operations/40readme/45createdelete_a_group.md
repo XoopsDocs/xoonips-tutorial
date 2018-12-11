@@ -36,7 +36,7 @@ Click on the link \[Edit Groups\] at the "XooNIps Moderator menu".
 
    Enter the maximum value of data for the group area.
 
-![Create/delete a group](../../../.gitbook/assets/xoonips-operate67.png)
+![Create/delete a group](../../../.gitbook/assets/xoonips-operate67%20%281%29.png)
 
 **Figure 5.77. Create/delete a group**
 

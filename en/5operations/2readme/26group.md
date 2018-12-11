@@ -12,17 +12,17 @@ Contact the group administrator via email or private message to ask for group ad
 
 The group administrator or moderator will perform the operations for adding members to the group.
 
-![Inquire registered groups](../../../.gitbook/assets/xoonips-operate46.png)
+![Inquire registered groups](../../../.gitbook/assets/xoonips-operate46%20%281%29.png)
 
 **Figure 5.47. Inquire registered groups**
 
-![Inquire registered groups 2](../../../.gitbook/assets/xoonips-operate47.png)
+![Inquire registered groups 2](../../../.gitbook/assets/xoonips-operate47%20%281%29.png)
 
 **Figure 5.48. Inquire registered groups 2**
 
 When a user joins a group, a group tab will be added in the Index Tree.
 
-![Group tab](../../../.gitbook/assets/xoonips-operate48.png)
+![Group tab](../../../.gitbook/assets/xoonips-operate48%20%281%29.png)
 
 **Figure 5.49. Group tab**
 
@@ -34,7 +34,7 @@ Click on the index keyword to be registered at the intended group tab.
 
 A "Listing Item" screen will appear. Search the intended item.
 
-![Register to a group index.](../../../.gitbook/assets/xoonips-operate49.png)
+![Register to a group index.](../../../.gitbook/assets/xoonips-operate49%20%281%29.png)
 
 **Figure 5.50. Register to a group index.**
 
@@ -46,7 +46,7 @@ Check the checkbox of the item to be registered to the group index.
 
 The other group members can not view the registered item until the group administrator or moderator completes the review and approval.
 
-![Registration to a group index - 3](../../../.gitbook/assets/xoonips-operate51.png)
+![Registration to a group index - 3](../../../.gitbook/assets/xoonips-operate51%20%281%29.png)
 
 **Figure 5.52. Registration to a group index - 3**
 

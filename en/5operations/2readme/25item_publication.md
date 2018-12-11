@@ -2,7 +2,7 @@
 
 To register an item in the public area, it may require to be reviewed by the moderator for approval according to the site policy.
 
-![Publishing item flowchart](../../../.gitbook/assets/xoonips-operate42.png)
+![Publishing item flowchart](../../../.gitbook/assets/xoonips-operate42%20%281%29.png)
 
 **Figure 5.44. Publishing item flowchart**
 
@@ -18,7 +18,7 @@ Choose an index keyword of the Public area from the "Add to public index" dropdo
 
 Item publishing may be controlled by the site policy. Therefore, it may require a review to be approved by the moderator.
 
-![Publishing item confirmation screen](../../../.gitbook/assets/xoonips-operate44.png)
+![Publishing item confirmation screen](../../../.gitbook/assets/xoonips-operate44%20%281%29.png)
 
 **Figure 5.46. Publishing item confirmation screen**
 

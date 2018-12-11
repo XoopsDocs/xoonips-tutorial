@@ -12,7 +12,7 @@ A list will be displayed by clicking on an item type \(ex. "Binders", "model" as
 
 On a "Listing item" screen, the order of the listed items can be changed by the pulldown menu at "Order by". The conditions vary with the item types.
 
-![&quot;Listing item&quot; \(search result\)](../../../.gitbook/assets/xoonips-operate2.png)
+![&quot;Listing item&quot; \(search result\)](../../../.gitbook/assets/xoonips-operate2%20%281%29.png)
 
 **Figure 5.2. "Listing item" \(search result\)**
 

@@ -12,7 +12,7 @@ On a "Search Items" screen, check an item type \(ex. "Title", "Presentation Type
 
 Item types can be chosen more than one.
 
-![Advanced search 2](../../../.gitbook/assets/xoonips-operate6.png)
+![Advanced search 2](../../../.gitbook/assets/xoonips-operate6%20%281%29.png)
 
 **Figure 5.6. Advanced search 2**
 

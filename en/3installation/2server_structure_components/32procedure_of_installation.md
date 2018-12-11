@@ -10,7 +10,7 @@ When "boot:" appears on the screen below, press **Enter**to go on to the next.
 
 Decide whether or not to test the media.
 
-![](../../../.gitbook/assets/os02.png)
+![](../../../.gitbook/assets/os02%20%281%29.png)
 
 Press **Tab** key to move to \[Skip\]. Press **\[Enter\]** to go on to the next.
 
@@ -18,7 +18,7 @@ Press **Tab** key to move to \[Skip\]. Press **\[Enter\]** to go on to the next.
 
 X Window System comes to run and the keyboard and mouse become active.
 
-![](../../../.gitbook/assets/os03.png)
+![](../../../.gitbook/assets/os03%20%281%29.png)
 
 Click \[Next\] when the screen above appears.
 
@@ -38,7 +38,7 @@ Choose a type of keyboard:
 
 Select the type of keyboard connected to the computer.
 
-![](../../../.gitbook/assets/os05.png)
+![](../../../.gitbook/assets/os05%20%281%29.png)
 
 ## 3.2.5. Initialization of the hard disk <a id="3-2-5-initialization-of-the-hard-disk"></a>
 
@@ -94,7 +94,7 @@ Fill in the IP address of DNS at the "Primary DNS" field.
 
 Click on \[Next\].
 
-![](../../../.gitbook/assets/os18.png)
+![](../../../.gitbook/assets/os18%20%281%29.png)
 
 ## 3.2.8. Set up for time zone <a id="3-2-8-set-up-for-time-zone"></a>
 
@@ -102,7 +102,7 @@ Set up the time zone. Click on a preferred location on the map or pulldown menu.
 
 Untick \[System clock uses UTC\].
 
-![](../../../.gitbook/assets/os10.png)
+![](../../../.gitbook/assets/os10%20%281%29.png)
 
 ## 3.2.9. Set up for root password <a id="3-2-9-set-up-for-root-password"></a>
 
@@ -128,11 +128,11 @@ Click on \[Customize now\] on the screen below and then \[Next\].
 
 Choose "Desktop Environments" and untick the other checkboxes.
 
-![](../../../.gitbook/assets/os13.png)
+![](../../../.gitbook/assets/os13%20%281%29.png)
 
 Choose "Applications", and untick the other checkboxes.
 
-![](../../../.gitbook/assets/os20.png)
+![](../../../.gitbook/assets/os20%20%281%29.png)
 
 Choose "Development", and untick the other checkboxes.
 
@@ -144,11 +144,11 @@ Choose "Servers", and untick the other checkboxes.
 
 Choose "Base System", and untick the other checkboxes.
 
-![](../../../.gitbook/assets/os23.png)
+![](../../../.gitbook/assets/os23%20%281%29.png)
 
 Choose "Virtualization", and untick the other checkboxes.
 
-![](../../../.gitbook/assets/os24.png)
+![](../../../.gitbook/assets/os24%20%281%29.png)
 
 Choose "Clustering", and untick the other checkboxes.
 
@@ -156,7 +156,7 @@ Choose "Clustering", and untick the other checkboxes.
 
 Choose "Cluster Storage", and untick the other checkboxes.
 
-![](../../../.gitbook/assets/os26.png)
+![](../../../.gitbook/assets/os26%20%281%29.png)
 
 Choose "Languages", and check a preferred language.
 
@@ -170,15 +170,15 @@ Click on the \[Next\]
 
 Click on \[Next\] on the following screen, and it will start installation.
 
-![](../../../.gitbook/assets/os14.png)
+![](../../../.gitbook/assets/os14%20%281%29.png)
 
 The time required for the installation depends on the computer's performance.
 
-![](../../../.gitbook/assets/os15.png)
+![](../../../.gitbook/assets/os15%20%281%29.png)
 
 ## 3.2.13. Complete Installation <a id="3-2-13-complete-installation"></a>
 
 When the screen shows as the following, take out the DVD and click on \[Restart\]
 
-![](../../../.gitbook/assets/os16.png)
+![](../../../.gitbook/assets/os16%20%281%29.png)
 

@@ -7,7 +7,7 @@
   * Metadata format
     * Apply to OAI-DC,JUNII,JUNII2
 
-![Metadata distribution](../../../.gitbook/assets/overview06.png)
+![Metadata distribution](../../../.gitbook/assets/overview06%20%281%29.png)
 
 **Figure 1.6. Metadata distribution**
 

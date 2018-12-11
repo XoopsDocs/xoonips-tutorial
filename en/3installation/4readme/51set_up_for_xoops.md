@@ -2,7 +2,7 @@
 
 Access to [http://server](http://server) name/
 
-![](../../../.gitbook/assets/xoops01.png)
+![](../../../.gitbook/assets/xoops01%20%281%29.png)
 
 Choose a preferred language and click on \[Next\].
 
@@ -25,7 +25,7 @@ Fill in the blanks with the following information and click on \[Next\].
 | Database Password | xoonips@pass |
 | Database Name | xoonipsdb |
 
-![](../../../.gitbook/assets/xoops05.png)
+![](../../../.gitbook/assets/xoops05%20%281%29.png)
 
 Click on \[Next\].
 
@@ -33,23 +33,23 @@ Click on \[Next\].
 
 Click on \[Next\].
 
-![](../../../.gitbook/assets/xoops07.png)
+![](../../../.gitbook/assets/xoops07%20%281%29.png)
 
 Click on \[Next\].
 
-![](../../../.gitbook/assets/xoops08.png)
+![](../../../.gitbook/assets/xoops08%20%281%29.png)
 
 Click on \[Next\].
 
-![](../../../.gitbook/assets/xoops09.png)
+![](../../../.gitbook/assets/xoops09%20%281%29.png)
 
 Click on \[Next\].
 
-![](../../../.gitbook/assets/xoops10.png)
+![](../../../.gitbook/assets/xoops10%20%281%29.png)
 
 Click on \[Next\].
 
-![](../../../.gitbook/assets/xoops11.png)
+![](../../../.gitbook/assets/xoops11%20%281%29.png)
 
 Enter the following information and click on \[Next\].
 
@@ -63,19 +63,19 @@ It is different from the users of CentOS and MySQL.
 | Admin Password | Password |
 | Confirm Password | Password |
 
-![](../../../.gitbook/assets/xoops12.png)
+![](../../../.gitbook/assets/xoops12%20%281%29.png)
 
 Click on \[Next\]
 
-![](../../../.gitbook/assets/xoops13.png)
+![](../../../.gitbook/assets/xoops13%20%281%29.png)
 
 Click on \[Next\].
 
-![](../../../.gitbook/assets/xoops14.png)
+![](../../../.gitbook/assets/xoops14%20%281%29.png)
 
 Enter the XOOPS admin name and click on \[User Login\].
 
-![](../../../.gitbook/assets/xoops15.png)
+![](../../../.gitbook/assets/xoops15%20%281%29.png)
 
 Click on the "Install" button.
 

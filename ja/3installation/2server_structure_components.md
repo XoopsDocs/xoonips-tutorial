@@ -1,10 +1,11 @@
-## 2. Server structure components {#2-server-structure-components}
+# 2. サーバの構成要素
 
-The followings are necessary software for activating XooNIps.
+ XooNIpsを動作させるために必要なソフトウェアは以下の表になります。
 
-| OS | Not specified |
-| --- | --- |
-| Web server | Apache 2.0 or later versions |
-| Database | MySQL 5.1 or later (Must be applicable to InnoDB) |
-| PHP | PHP 5.5 or later |
-| XOOPS| XOOPS 2.5.8+ |
+| OS |  特に指定無し |
+| :--- | :--- |
+|  Webサーバ |  Apache 2.0以上 |
+|  データベース |  MySQL 5.5以上\(要InnoDB対応\) |
+| PHP |  PHP 5.6以上 |
+| XOOPS | XOOPS 2.5.9 or  XOOPS Cube Legacy 2.1.6以上 |
+

@@ -16,7 +16,7 @@ The types of item type module vary with the structure of the website.
 
 Click on \[Module Installation\]
 
-![](../../../.gitbook/assets/xoonips-install32.png)
+![](../../../.gitbook/assets/xoonips-install32%20%281%29.png)
 
 Click on the install icon at "Control". \(same as XooNIps installation\)
 

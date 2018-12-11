@@ -44,13 +44,13 @@ The size of display area within the block can be changed by indicating the width
 
 | Width indicated in 100%. | Width indicated in 50%. |
 | :--- | :--- |
-| ![](../../../.gitbook/assets/xoonips-install14.png) | ![](../../../.gitbook/assets/xoonips-install15.png) |
+| ![](../../../.gitbook/assets/xoonips-install14.png) | ![](../../../.gitbook/assets/xoonips-install15%20%281%29.png) |
 
 The range of display area can be changed by indicating the height of the index tree in pixels.
 
 | Height indicated in 400 pixels. | Height indicated in 200 pixels. |
 | :--- | :--- |
-| ![](../../../.gitbook/assets/xoonips-install16.png) | ![](../../../.gitbook/assets/xoonips-install17.png) |
+| ![](../../../.gitbook/assets/xoonips-install16%20%281%29.png) | ![](../../../.gitbook/assets/xoonips-install17%20%281%29.png) |
 
 ## 6.2.3. Setup print formats <a id="6-2-3-setup-print-formats"></a>
 
@@ -74,7 +74,7 @@ Announcements about newly registered items and the current status within a group
 
 Click on \[RSS Feeds\]
 
-![](../../../.gitbook/assets/xoonips-install21.png)
+![](../../../.gitbook/assets/xoonips-install21%20%281%29.png)
 
 Choose a feed format and copy it to use for publication.
 
@@ -84,7 +84,7 @@ XooNIps adopts OAI-PMH as a structure to automatically collect metadata.
 
 There are two ways: 1. setup for providing metadata to another server applicable to OAI-PMH. \(Repository setup\), 2. setup for harvesting metadata from another server applicable to OAI-PMH \(Harvester setup）.
 
-![](../../../.gitbook/assets/xoonips-install22.png)
+![](../../../.gitbook/assets/xoonips-install22%20%281%29.png)
 
 Click on \[OAI-PMH\].
 
@@ -109,11 +109,11 @@ If the line begins with semicolon\(;\), it is identified as a comment.
 
 This section explains proxy configurations, which are required in the case of using proxy when accessing from XooNIps to another server.
 
-![](../../../.gitbook/assets/xoonips-install24.png)
+![](../../../.gitbook/assets/xoonips-install24%20%281%29.png)
 
 Click on \[Proxy\].
 
-![](../../../.gitbook/assets/xoonips-install25.png)
+![](../../../.gitbook/assets/xoonips-install25%20%281%29.png)
 
 | Host | Enter a host name or IP address of the proxy server. |
 | :--- | :--- |
@@ -125,7 +125,7 @@ Click on \[Proxy\].
 
 Decide the kinds of event to be notified to the XooNIps users by using a XOOPS function.
 
-![](../../../.gitbook/assets/xoonips-install26.png)
+![](../../../.gitbook/assets/xoonips-install26%20%281%29.png)
 
 Click on \[Notifications\].
 
@@ -158,11 +158,11 @@ Entitle a user to be able to use XooNIps functions if he/she has been registered
 
 Delete the user information remained on XooNIps if the user was deleted by the XOOPS user module.
 
-![](../../../.gitbook/assets/xoonips-install27.png)
+![](../../../.gitbook/assets/xoonips-install27%20%281%29.png)
 
 Click on \[XOOPS Extension\].
 
-![](../../../.gitbook/assets/xoonips-install28.png)
+![](../../../.gitbook/assets/xoonips-install28%20%281%29.png)
 
 Delete or add users by clicking on the icon appeared at "Action".
 
@@ -170,11 +170,11 @@ Delete or add users by clicking on the icon appeared at "Action".
 
 How to check the configurations of XooNIps:
 
-![](../../../.gitbook/assets/xoonips-install29.png)
+![](../../../.gitbook/assets/xoonips-install29%20%281%29.png)
 
 Click on \[Configuration Test\].
 
-![](../../../.gitbook/assets/xoonips-install30.png)
+![](../../../.gitbook/assets/xoonips-install30%20%281%29.png)
 
 Click on \[Test\].
 

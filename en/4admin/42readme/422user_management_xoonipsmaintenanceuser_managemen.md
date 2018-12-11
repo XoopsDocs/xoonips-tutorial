@@ -185,7 +185,7 @@ The required fields vary with the setups made on \(XooNIps - Site Policies -\) U
 
   Choose "Yes", if wish to receive email messages about news update on XooNIps.
 
-![&quot;Register New User&quot;](../../../.gitbook/assets/xoonips-mente3.png)
+![&quot;Register New User&quot;](../../../.gitbook/assets/xoonips-mente3%20%281%29.png)
 
 **Figure 4.18. "Register New User"**
 
