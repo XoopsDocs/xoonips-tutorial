@@ -1,10 +1,10 @@
-# Introduction
+# 日本語 \(にほんご\)
 
-![logoXoops.jpg](.gitbook/assets/logoxoops.jpg)
+![](.gitbook/assets/logoxoops.jpg)
 
 ## Module XooNIps: Neuroinformatics Base Platform System
 
-#### for XOOPS 2.5.9
+#### for XOOPS 2.10+
 
 Module Version 3.49
 
@@ -16,7 +16,7 @@ Tutorial Version 3.45
 
 ### View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoonips-tutorial/)
 
-© 2018 XOOPS Project \([www.xoops.org](https://xoops.org)\), [XooNIps](http://xoonips.osdn.jp/), [Riken](http://www.riken.jp/)
+© 2020 XOOPS Project \([www.xoops.org](https://xoops.org)\), [XooNIps](http://xoonips.osdn.jp/), [Riken](http://www.riken.jp/)
 
 ### Module Purpose
 
@@ -54,5 +54,5 @@ Editing the book can be done either by updating the markdown files with a text e
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 Unless specified, this content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-All derivative works are to be attributed to XOOPS Project \([www.xoops.org](https://xoops.org)\)
+All derivative works are to be attributed to [XOOPS Project](www.xoops.org), [XooNIps](http://xoonips.osdn.jp/),  & [Riken](http://www.riken.jp/)
 
