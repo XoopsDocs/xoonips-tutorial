@@ -1,4 +1,4 @@
-# 4. Moderator
+# 4. モデレーター
 
-This section shows the operations that the moderators are entitled to perform on XooNIps.
+ モデレーターとして出来ることの説明です。
 

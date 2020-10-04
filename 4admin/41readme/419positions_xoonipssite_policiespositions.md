@@ -1,22 +1,24 @@
-# 1.9. 'Positions' \(XooNIps&gt;&gt;Site Policies&gt;&gt;Positions\)
+# 1.9. 職名一覧
 
-Configuration for the member's positions \(display order and new entries, etc\).
+表示順と新規追加などの設定です
 
-List possible job titles as user information.
+ユーザー情報の職名として選択可能な項目を設定します。
 
-* "Modify Positions"
+* 編集
 
-  For changing job titles and their orders, enter the information in the textbox and click on the \[UPDATE\] button.
+  職名の変更と表示順の設定はテキストボックスに入力して更新ボタンを押して情報を更新します。
 
-  The result will be displayed on a user list by the indicated order.
+  表示順の数値順にユーザ一覧で表示されます。
 
-  By clicking on the icon at "Action", the indicated field will be deleted.
+  操作の項目のアイコンをクリックするとその項目は削除されます。
 
-* "Add New Position"
+  ※デフォルトの職名は削除出来ません。
 
-  Add a new job title. Enter a new job title in the field and click on \[Add\].
+* 新規登録
 
-![&quot;Positions&quot;](../../.gitbook/assets/xoonips-policy14%20%281%29.png)
+  新たに職名を追加することが出来ます。
 
-**Figure 4.14. "Positions"**
+![&quot;Positions&quot;](../../.gitbook/assets/xoonips-policy14.png)
+
+**Figure 4.14.**  **職名一覧設定**
 

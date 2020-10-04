@@ -1,87 +1,87 @@
-# 5.1. Set up for XOOPS
+# 5.1. XOOPS Cubeセットアップ
 
-Access to [http://server](http://server) name/
+ Webブラウザでhttp://サーバ名/へアクセスをします。
 
-![](../../.gitbook/assets/xoops01%20%281%29.png)
+![](../../.gitbook/assets/xoops01.png)
 
-Choose a preferred language and click on \[Next\].
+ japaneseを選択して\[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops02.png)
+![](../../.gitbook/assets/xoops02%20%281%29.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops03.png)
+![](../../.gitbook/assets/xoops03%20%281%29.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops04.png)
+![](../../.gitbook/assets/xoops04%20%281%29.png)
 
-Enter the database user name, database password and database name which decided on MySQL setup.
+MySQLの設定で作成したデータベースユーザ名・データベースパスワード・データベース名を入力します。
 
-Fill in the blanks with the following information and click on \[Next\].
+空欄へ以下の情報を入力して\[次へ\]をクリックします。
 
-| Database Username | xoonipsuser |
+| データベースユーザ名 | xoonipsuser |
 | :--- | :--- |
-| Database Password | xoonips@pass |
-| Database Name | xoonipsdb |
+| データベースパスワード | xoonips@pass |
+| データベース名 | xoonipsdb |
 
-![](../../.gitbook/assets/xoops05%20%281%29.png)
+![](../../.gitbook/assets/xoops05.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops06.png)
+![](../../.gitbook/assets/xoops06%20%281%29.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops07%20%281%29.png)
+![](../../.gitbook/assets/xoops07.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops08%20%281%29.png)
+![](../../.gitbook/assets/xoops08.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops09%20%281%29.png)
+![](../../.gitbook/assets/xoops09.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops10%20%281%29.png)
+![](../../.gitbook/assets/xoops10.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops11%20%281%29.png)
+![](../../.gitbook/assets/xoops11.png)
 
-Enter the following information and click on \[Next\].
+以下の情報を入力して\[次へ\]をクリックします。
 
-Note that this is for the administrator of XOOPS.
+ここで作成するのはXOOPS Cubeを管理するユーザです。
 
-It is different from the users of CentOS and MySQL.
+CentOSのユーザやMySQLのユーザとは別のものになります。
 
-| Admin Name | XOOPS site administrator's user name \(Example: Administrator\) |
+| 管理者ユーザ名 | XOOPS Cubeサイト管理者ユーザ名\(例はAdministrator\) |
 | :--- | :--- |
-| Admin Email | XOOPS site administrator's mail address \(Example: admin@xoonips.jp\) |
-| Admin Password | Password |
-| Confirm Password | Password |
+| 管理者メールアドレス | XOOPS Cubeサイト管理者メールアドレス\(例はadmin@xoonips.jp\) |
+| 管理者パスワード | パスワード |
+| 管理者パスワード\(再入力\) | パスワード |
 
-![](../../.gitbook/assets/xoops12%20%281%29.png)
+![](../../.gitbook/assets/xoops12.png)
 
-Click on \[Next\]
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops13%20%281%29.png)
+![](../../.gitbook/assets/xoops13.png)
 
-Click on \[Next\].
+ \[次へ\]をクリックします。
 
-![](../../.gitbook/assets/xoops14%20%281%29.png)
+![](../../.gitbook/assets/xoops14.png)
 
-Enter the XOOPS admin name and click on \[User Login\].
+ XOOPS Cubeの管理者ユーザ名とパスワードを入力して\[ログイン\]をクリックします。
 
-![](../../.gitbook/assets/xoops15%20%281%29.png)
+![](../../.gitbook/assets/xoops15.png)
 
-Click on the "Install" button.
+ インストールボタンをクリックします。
 
-![](../../.gitbook/assets/xoops16.png)
+![](../../.gitbook/assets/xoops16%20%281%29.png)
 
-The installation has completed.
+インストール完了です。
 
-Close the web browser now.
+Webブラウザを一度終了してください。
 

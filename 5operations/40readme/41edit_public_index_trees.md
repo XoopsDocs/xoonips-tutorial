@@ -1,6 +1,16 @@
-# 4.1. Edit Public Index Trees
+# 4.1. Public Index Treeの編集
 
-Edit index trees in the public area.
+公開領域のインデックスツリーの編集です
 
-Click on the link \[Edit Public Tree\] at the "XooNIps Moderator menu".
+XooNIps モデレータメニューの公開ツリー編集のリンクをクリックします。
+
+#### Tip
+
+サイトのデザインによっては、この位置にあるとは限りません。
+
+Privateと同様の手順で操作出来ます。
+
+![](../../.gitbook/assets/xoonips-operate62.png)
+
+ **Figure 5.70. Public Index Treeの編集**
 

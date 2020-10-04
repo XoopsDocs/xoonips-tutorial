@@ -1,11 +1,67 @@
-# 1. User's authority
+# 1. ユーザの権限
 
-| Guest | Browse and retrieve the data. |
-| :--- | :--- |
-| Registared User | to search and browse the items registered in public, private and group shared areas |
-| Group Administrator | Manage the membership of his/her domain group |
-| \*Moderator\(webmaster\) | Approve a new user account |
-| \*System Administrator | Decide and configure the site policies on the database site |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x30B2;&#x30B9;&#x30C8;</th>
+      <th style="text-align:left">
+        <p>&#x672A;&#x767B;&#x9332;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x3067;&#x3059;&#x3002;&#x30E6;&#x30FC;&#x30B6;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x304C;&#x7121;&#x3044;&#x72B6;&#x614B;&#x3067;&#x3059;&#x3002;</p>
+        <ul>
+          <li>Public&#x9818;&#x57DF;&#x306B;&#x767B;&#x9332;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x306E;&#x691C;&#x7D22;&#x3068;&#x95B2;&#x89A7;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+        </ul>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">&#x767B;&#x9332;&#x30E6;&#x30FC;&#x30B6;</td>
+      <td style="text-align:left">
+        <p>&#x767B;&#x9332;&#x6E08;&#x307F;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x3067;&#x3059;&#x3002;&#x30B5;&#x30A4;&#x30C8;&#x306B;&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;ID&#x3068;&#x30D1;&#x30B9;&#x30EF;&#x30FC;&#x30C9;&#x304C;&#x4E0E;&#x3048;&#x3089;&#x308C;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+        <ul>
+          <li>Public&#x306E;&#x4ED6;&#x306B;Private&#x9818;&#x57DF;&#x3068;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x53C2;&#x52A0;&#x3057;&#x3066;&#x3044;&#x308B;&#x5834;&#x5408;Group&#x9818;&#x57DF;&#x306B;&#x767B;&#x9332;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x306E;&#x691C;&#x7D22;&#x3084;&#x95B2;&#x89A7;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>Private&#x9818;&#x57DF;&#x306B;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x3092;&#x767B;&#x9332;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>Public&#x9818;&#x57DF;&#x3084;Group&#x9818;&#x57DF;&#x306B;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x3092;&#x767B;&#x9332;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x7BA1;&#x7406;&#x8005;</td>
+      <td style="text-align:left">
+        <p>&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306E;&#x7BA1;&#x7406;&#x3092;&#x884C;&#x3046;&#x3053;&#x3068;&#x306E;&#x51FA;&#x6765;&#x308B;&#x30E6;&#x30FC;&#x30B6;&#x6A29;&#x9650;&#x3067;&#x3059;&#x3002;</p>
+        <ul>
+          <li>&#x30E6;&#x30FC;&#x30B6;&#x3092;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x5BFE;&#x3057;&#x3066;&#x53C2;&#x52A0;&#x3084;&#x9000;&#x4F1A;&#x306E;&#x7BA1;&#x7406;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>Group&#x9818;&#x57DF;&#x306E;IndexTree&#x306E;&#x7DE8;&#x96C6;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>Group&#x9818;&#x57DF;&#x306B;&#x767B;&#x9332;&#x3059;&#x308B;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x3092;&#x67FB;&#x8AAD;&#x3057;&#x3066;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x3067;&#x306E;&#x516C;&#x958B;&#x3092;&#x627F;&#x8A8D;&#x3057;&#x305F;&#x308A;&#x5374;&#x4E0B;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">*&#x30E2;&#x30C7;&#x30EC;&#x30FC;&#x30BF;(webmaster)</td>
+      <td style="text-align:left">
+        <p>&#x767B;&#x9332;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x306E;&#x54C1;&#x8CEA;&#x7BA1;&#x7406;&#x3084;&#x767B;&#x9332;&#x30E6;&#x30FC;&#x30B6;&#x306E;&#x627F;&#x8A8D;&#x306A;&#x3069;&#x304C;&#x884C;&#x3048;&#x308B;&#x30E6;&#x30FC;&#x30B6;&#x6A29;&#x9650;&#x3067;&#x3059;&#x3002;</p>
+        <ul>
+          <li>&#x65B0;&#x898F;&#x30E6;&#x30FC;&#x30B6;&#x767B;&#x9332;&#x306E;&#x627F;&#x8A8D;&#x304C;&#x884C;&#x3048;&#x307E;&#x3059;&#x3002;</li>
+          <li>Public&#x9818;&#x57DF;&#x306E;IndexTree&#x306E;&#x7DE8;&#x96C6;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>&#x65B0;&#x3057;&#x3044;Group&#x3092;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>Public&#x9818;&#x57DF;&#x306B;&#x767B;&#x9332;&#x3059;&#x308B;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x3092;&#x67FB;&#x8AAD;&#x3057;&#x3066;&#x516C;&#x958B;&#x3092;&#x627F;&#x8A8D;&#x3057;&#x305F;&#x308A;&#x5374;&#x4E0B;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x30ED;&#x30B0;&#x3092;&#x95B2;&#x89A7;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">*&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x7BA1;&#x7406;&#x8005;</td>
+      <td style="text-align:left">
+        <p>&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x7BA1;&#x7406;&#x3092;&#x884C;&#x3048;&#x308B;&#x30E6;&#x30FC;&#x30B6;&#x6A29;&#x9650;&#x3067;&#x3059;&#x3002;</p>
+        <ul>
+          <li>&#x30C7;&#x30FC;&#x30BF;&#x30D9;&#x30FC;&#x30B9;&#x30B5;&#x30A4;&#x30C8;&#x3068;&#x3057;&#x3066;&#x306E;&#x30DD;&#x30EA;&#x30B7;&#x30FC;&#x6C7A;&#x5B9A;&#x3084;&#x8A2D;&#x5B9A;&#x304C;&#x884C;&#x3048;&#x307E;&#x3059;&#x3002;</li>
+          <li>&#x4ED6;&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x30D9;&#x30FC;&#x30B9;&#x30B5;&#x30A4;&#x30C8;&#x304B;&#x3089;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x53CE;&#x96C6;&#x3057;&#x3066;&#x304F;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>&#x30B5;&#x30A4;&#x30C8;&#x4E0A;&#x306E;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x3092;&#x30A4;&#x30F3;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x4FDD;&#x7BA1;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+          <li>&#x30A4;&#x30F3;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x305F;&#x30C7;&#x30FC;&#x30BF;&#x306F;&#x4ED6;&#x306E;&#x30B5;&#x30A4;&#x30C8;&#x306B;&#x30A8;&#x30AF;&#x30B9;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x79FB;&#x52D5;&#x3055;&#x305B;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-\*XooNIps is a module of XOOPS. If you will perform as a Moderator/System administrator, please be prepared with the basic knowledge of XOOPS \(This manual does not cover the basic information on XOOPS; please refer to guide books\).
+ \*XooNIps はXOOPSの一モジュールとして開発されています。モデレータやシステム管理者としての役割はXOOPSに関する基本的な知識が備わっていた方が理解しやすいと思います。このマニュアルではXOOPSの基本的な部分は解説していませんのでXOOPS Cube公式ページ\(`http://xoopscube.jp/`\)や関連書籍を参考にしてください。
 

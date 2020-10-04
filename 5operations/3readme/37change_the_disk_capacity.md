@@ -1,4 +1,4 @@
-# 3.7. Change the disk capacity
+# 3.7. ディスク容量の変更について
 
-Moderators are permitted to cancel groups. Contact the site's moderator if necessary.
+ モデレーターによってグループ毎に設定可能なので、モデレーターと連絡を取ってください。
 

@@ -1,4 +1,4 @@
-# 1. Guest
+# 1. ゲスト
 
-This section shows the operations that the guest users are entitled to perform on XooNIps.
+ ゲスト時の操作説明
 

@@ -1,16 +1,16 @@
-# 1.1. Describe specific purposes of the website.
+# 1.1. 構築するサイトの目的を具体的に表現する
 
-Specifically describe the website you are going to build.
+先ずはじめにどんなサイトを構築したいのか、具体的に表現してみます。
 
-Without specific purposes, the website can not draw attentions and nobody will visit it.
+漠然とサイトを作っても誰も訪れないサイトになってしまうからです。
 
-The chart below shows an example of planning.
+例として以下の表に内容を記述してみます。
 
-| Cause \(Why\) | The increasing needs of exchanging neuroscience related information and sharing them among lab staff members. |
+|  このサイトで何をするのか？\(What\) |  脳科学の情報を交換する、研究室に関する情報を発信する等 |
 | :--- | :--- |
-| Effect: Intended purpose \(What\) | To share information regarding neuroscience and publish lab information. |
-| Profiles of the potential users \(Who\) | Individual researchers as well as internal lab staff who are interested in neuroscience study and research. |
-| Targeted areas \(Where\) | All Japan, worldwide, etc. |
-| Release date/duration, etc. \(When\) | ddd/mmm/yyy, unlimited duration, etc. |
-| Resources \(How\) | Utilize CMS and open source software, etc. |
+|  なぜサイトを構築公開するのか？\(Why\) |  脳科学の情報を互いに交換するニーズが高まっているから、研究室の情報をスタッフで共有したいから等 |
+|  ユーザは具体的にどんな人か？\(Who\) |  脳科学研究者や研究に興味のある外部の人、研究室のスタッフ等 |
+|  対象地域はどこか？\(Where\)\) |  国内全体・日本語圏。英語圏等 |
+|  公開時期と終了時期は？\(When\) |  ○年○月○日、終了時期は無期限とする等 |
+|  サイトの構築方法は？\(How\) |  CMSを利用しフリーソフトで構築する等 |
 

@@ -1,36 +1,36 @@
-# 4.6. Access log analysis
+# 4.6. アクセスログ解析
 
-How to download event logs on XooNIps in a CSV formatted file or transform the data into a graphic chart:
+XooNIpsが取得しているイベントログをCSV形式ファイルでダウンロードしたり、グラフ化することが出来ます。
 
-Click on the link \[Event Log\] at the "XooNIps Moderator's menu".
+XooNIps モデレータメニューのイベントログのリンクをクリックします。
 
-![Even log analysis](../../.gitbook/assets/xoonips-operate70%20%281%29.png)
+![Even log analysis](../../.gitbook/assets/xoonips-operate70.png)
 
-**Figure 5.78. Even log analysis**
+**Figure 5.78.**  **イベントログ解析**
 
-* Download event logs
+* イベントログダウンロード
 
-  How to download event logs:
+  イベントログのダウンロード
 
-  Indicate a period for the intended event logs. The data will be downloaded in CSV formatted file.
+  期間を指定してXooNIpsのイベントログをCSV形式ファイルでダウンロード出来ます。
 
-  ![Download event logs by indicating a period](../../.gitbook/assets/xoonips-operate71%20%282%29.png)
+![](../../.gitbook/assets/xoonips-operate71%20%281%29.png)
 
-  **Figure 5.79. Download event logs by indicating a period**
+**Figure 5.79.**  **イベントログの期間指定ダウンロード**
 
-* By the event
+* イベント別
 
-  Indicate a specific period. Choose "Download" or "Graph" for each category: "Access to top page", "Access to item", "Download of item" and "New users and items".
+  トップページのアクセス、アイテムへのアクセス、アイテムのダウンロード、新規ユーザーの登録とアイテム登録について期間を指定してCSV形式ファイルでダウンロードするかグラフ化して表示することが出来ます。
 
-  ![Download and graphic chart](../../.gitbook/assets/xoonips-operate72%20%281%29.png)
+![](../../.gitbook/assets/xoonips-operate72%20%282%29.png)
 
-  **Figure 5.80. Download and graphic chart**
+**Figure 5.80.** **イベントログ及びユーザ・アイテム一覧の個別ダウンロードとグラフ表示**
 
-  ![Event log graphic chart](../../.gitbook/assets/xoonips-operate73%20%281%29.png)
+![](../../.gitbook/assets/xoonips-operate73%20%282%29.png)
 
-  **Figure 5.81. Event log graphic chart**
+**Figure 5.81.**  **イベントログのグラフ表示**
 
-* "Registered Information"
+* 登録状況確認
 
-  List the status of registered users and items.
+  ユーザー及びアイテム一覧を見ることが出来ます。
 

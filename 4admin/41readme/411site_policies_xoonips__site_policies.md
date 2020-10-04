@@ -1,8 +1,8 @@
-# 1.1. 'Site Policies' \(XooNIps&gt;&gt;Site Policies\)
+# 1.1. サイトポリシー設定
 
-![&quot;Site Policies&quot;](../../.gitbook/assets/xoonips-policy1%20%281%29.png)
+![&quot;Site Policies&quot;](../../.gitbook/assets/xoonips-policy1.png)
 
-**Figure 4.1. "Site Policies"**
+**Figure 4.1.** **サイトポリシー設定**
 
-Click on \[Site Policies\].
+ 管理メニューで\[サイトポリシー設定\]をクリックします
 

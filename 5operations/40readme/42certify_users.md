@@ -1,28 +1,30 @@
-# 4.2. Certify users
+# 4.2. ユーザーの承認
 
-To entitle non-registered users \(new users/guests\) to use the XooNIps functions, the moderator may have to perform the following procedure. Refer back to the Table 4.2. \(Chapter 4\) "User Registration Policies". If your site's site policy has been set as "Certify automatically", the moderator can skip the following procedure.
+サイトポリシーの新規ユーザ登録方法の設定でアカウント承認の方法の項目がモデレータが確認してアカウントを承認するの場合には登録ユーザーがXooNIpsの機能を利用できるようにするためにアカウントの承認をする必要があります。
 
-Click on the link \[Certify Users\] at "XooNIps Moderator menu".
+XooNIps モデレータメニューのユーザ承認のリンクをクリックします。
 
-![Certify users](../../.gitbook/assets/xoonips-operate91%20%281%29.png)
+![Certify users](../../.gitbook/assets/xoonips-operate91.png)
 
-**Figure 5.71. Certify users**
+**Figure 5.71.**  **ユーザーの承認**
 
-The following functions will be active by clicking on the following links: Email, detail, certify.
 
-* Email
 
-  A mailer comes out with the email address of the user.
+リンクをクリックすることで以下の機能が実行されます。
 
-* Detail
+* メールアドレス
 
-  Show the "Detail" screen of the user's items.
+  メーラーが起動してそのメールアドレスにメールを送ることが出来ます。
 
-* Certify
+* 詳細
 
-  Decide whether or not to certify non-registered users. \(Users can not use the XooNIps functions without being certified.\)
+  ユーザーが登録した情報の詳細画面を表示します。
 
-![Certify users 2](../../.gitbook/assets/xoonips-operate92%20%281%29.png)
+* 承認
 
-**Figure 5.72. Certify users 2**
+  ユーザーの承認又は拒否が出来ます。承認をしないとユーザーはXooNIpsの機能を利用できません。
+
+![Certify users 2](../../.gitbook/assets/xoonips-operate92.png)
+
+**Figure 5.72.**  **ユーザーの承認2**
 

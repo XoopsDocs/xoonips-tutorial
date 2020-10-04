@@ -1,4 +1,2 @@
 # About XOOPS CMS
 
-
-

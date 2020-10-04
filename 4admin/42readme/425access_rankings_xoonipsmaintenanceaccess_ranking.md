@@ -1,12 +1,12 @@
-# 2.5. 'Access Rankings' \(XooNIps&gt;&gt;Maintenance&gt;&gt;Access Rankings\)
+# 2.5. ランキング
 
-The sum of access ranking will automatically be generated from the event-log.
+アクセスランキングの集計値はイベントログから自動生成されます。
 
-This function allows to perform "Download", "Upload", "Clear SUM \(reset the value\)".
+アクセスランキング情報ファイルのアップロード、ダウンロードや数値のリセットが出来ます。
 
-By uploading the ranking files, the sum of access rankings can be taken over even if the site will be moved.
+サイトを引っ越しする際などにアップロードの項目からランキングファイルをアップロードすることで、数値を継続した集計が可能になります。
 
-![&quot;Access Rankings&quot;](../../.gitbook/assets/xoonips-mente12%20%281%29.png)
+![&quot;Access Rankings&quot;](../../.gitbook/assets/xoonips-mente12.png)
 
-**Figure 4.27. "Access Rankings"**
+**Figure 4.27.**  **ランキング**
 

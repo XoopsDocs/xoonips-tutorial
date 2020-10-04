@@ -1,16 +1,16 @@
-# 1. What is XooNIps ?
+# 1. XooNIpsとは？
 
-**XooNIps** is an easy-to-use software that can facilitates to build a database website for organizing enormous volume of information in various types of electronic formats, such as research papers, experrimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
+XooNIpsは研究論文や実験データ、数理モデル、プログラムというような多様な情報にメタ情報を付加してインターネット上で世界中の人々と情報を共有するデータベースサイトを簡単に作ることができるソフトウェアです。
 
-In other words, **XooNIps** is a neuroinformatics tool for neuroscientists who make full use of immense and complex materials, such as experimental data and programs of mathematical model.
+すなわち、実験データや数理モデルプログラムなどを利用する神経科学者の為のニューロインフォマティクスツールです。
 
-Neuroinformatics is an emerging research field where neuroscience and informatics are combined to breakthrough the enigma of the brain. In November 2005, International Neuroinformatics Coordinating Facility \(INCF\) was established for facilitating international collaborations in this interdisciplinary field. Under these circumstances, the Laboratory for Neuroinformatics, RIKEN BSI, embarked on developing XooNIps which is now in public as an open source \(free\) software. Lately, it also has been used as an institutional repository system by universities and other institutions.
+ニューロインフォマティクスは脳の謎を解明する為の突破口として神経科学と情報学を融合させた新しい研究分野です。2005年11月にこうした学際的分野の国際協力を促進するためにニューロインフォマティクス国際統合機構\(INCF）が設立されました。このような状況の中、理研BSIのNIチームはXooNIpsの開発に着手し、現在フリーのオープンソースソフトウェアとして公開（`http://xoonips.sourceforge.jp/`）しています。また最近では情報共有の為のリポジトリツールとして図書館や研究機関での利用も広がっています。
 
-## Main features:
+主な特徴
 
-* By using XooNIps, even non-experts of computer systems can create a database.
-* XooNIps does not bother you with thinking of logic or structure of the website; thus allows you to concentrate on web designing.
-* XooNIps is mounted functions for quality control.
+* XooNIps ではコンピュータシステムに精通していなくてもデータベースサイトを構築できます。
+* XooNIps はWEBサイトのコンテンツを管理する機能を持つので、ユーザはWEBサイトのデザインに集中することができます。
+* XooNIps はWEBサイトに登録されたコンテンツの品質管理の機能を持ちます。
 
-As of April 2007, the Neuroinformatics Japan Center \(NIJC\), RIKEN BSI, has taken over the responsibility for XooNIps operations including the maintenance of extended functions \(add-ons\).
+なお、2007年4月から理研BSIのNIJCがXooNIpsの機能追加など開発・運営管理を引き継いでいます。
 

@@ -1,4 +1,4 @@
-# 3. Group administrator
+# 3. グループ管理者
 
-This section shows the operations that the group administrators are entitled to perform an XooNIps.
+ グループ管理者が出来ることの説明です。
 

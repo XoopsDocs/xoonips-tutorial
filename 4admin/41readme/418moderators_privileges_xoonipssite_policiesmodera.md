@@ -1,10 +1,10 @@
-# 1.8. 'Moderators Privileges' \(XooNIps&gt;&gt;Site Policies&gt;&gt;Moderators Privileges\)
+# 1.8. モデレーター権限
 
-Policy settings for the moderators privileges.
+モデレーターによるアイテムの編集を許可する設定です
 
-If choose yes, the moderators can modify any user's items.
+はいを選択すると、モデレーターは全登録ユーザーのアイテムを編修できるようになります。
 
-![&quot;Moderators Privileges&quot;](../../.gitbook/assets/xoonips-policy13.png)
+![&quot;Moderators Privileges&quot;](../../.gitbook/assets/xoonips-policy13%20%281%29.png)
 
-**Figure 4.13. "Moderators Privileges"**
+**Figure 4.13.**  **モデレータ権限設定**
 

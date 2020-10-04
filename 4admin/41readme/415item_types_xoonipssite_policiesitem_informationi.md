@@ -1,22 +1,24 @@
-# 1.5. 'Item Types' \(XooNIps&gt;Site Policies&gt;Item Information&gt;Item Types\)
+# 1.5. アイテムタイプ
 
-How to change the title and order of item types shown on the homepage:
+ホームページ上でアイテムタイプの表示名と表示順を変更できます。
 
-Ex. Change a title Paper to English.
+PaperをEnglishに変更する場合
 
-![&quot;Dispaly Setting&quot;](../../.gitbook/assets/xoonips-policy5%20%281%29.png)
+![&quot;Dispaly Setting&quot;](../../.gitbook/assets/xoonips-policy5.png)
 
-**Figure 4.5. "Dispaly Setting"**
+**Figure 4.5.**  **表示名の変更**
 
-Change Paper to English on the "Display Setting" \(XooNIps&gt;&gt;Site Policies&gt;&gt;Item Information&gt;&gt;Item Types\).
+サイトポリシー設定画面でPeperをEnglishに変更します。
 
-![Display Setting 2](../../.gitbook/assets/xoonips-policy6.png)
+画面下の「更新」ボタンを押します。
 
-**Figure 4.6. Display Setting 2**
+![Display Setting 2](../../.gitbook/assets/xoonips-policy6%20%281%29.png)
 
-A title displayed on the homepage will be changed from Paper to English.
+**Figure 4.6.**  **表示名の変更2**
 
-![Display Setting - 3](../../.gitbook/assets/xoonips-policy7.png)
+ ホームページ上での表示がPaperからEnglishに変更されます。
 
-**Figure 4.7. Display Setting - 3**
+![Display Setting - 3](../../.gitbook/assets/xoonips-policy7%20%281%29.png)
+
+**Figure 4.7.**  **表示名の変更3**
 

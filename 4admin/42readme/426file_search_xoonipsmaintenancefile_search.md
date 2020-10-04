@@ -1,16 +1,16 @@
-# 2.6. 'File Search' \(XooNIps&gt;&gt;Maintenance&gt;&gt;File Search\)
+# 2.6. ファイル検索
 
-Management for the file search indexes:
+ファイル検索用のインデックスの確認ができます
 
-* "File Search Plugins"
+* 検索プラグイン
 
-  Display the list of available file search plugins.
+  インストールされて利用可能なファイル検索プラグインの一覧を表示します。
 
-* "Rescan All Files"
+* 全ファイルの再スキャン
 
-  Click on \[Rescan\] when the version of a plugin is updated and it is necessary to rebuild the file search indexes.
+  プラグインのバージョンが上がった際には再スキャンボタンを押すと、ファイル検索用インデックスの再構築をします。
 
-![&quot;File Search&quot;](../../.gitbook/assets/xoonips-mente13.png)
+![&quot;File Search&quot;](../../.gitbook/assets/xoonips-mente13%20%281%29.png)
 
-**Figure 4.28. "File Search"**
+**Figure 4.28.**  **ファイル検索**
 

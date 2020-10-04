@@ -1,14 +1,14 @@
-# 1.2. Decide functions of the website
+# 1.2. 機能を特定する
 
-Decide what kind of functions are necessary to be implemented based on the planning.
+構築するサイトのイメージが鮮明になってきたら、次は具体的にどんな機能を盛り込むべきかを決定します。
 
-XOOPS is operated various functions by the "modules".
+XOOPSはモジュールという単位で数多くの機能を実現していますが、以下に例を挙げます。
 
-Refer to the XOOPS official site, etc. and decide the necessary modules for the website. The following shows the examples of the module.
+XOOPSの公式サイトなどを参照し、これから構築するサイトにどのモジュールが必要か等を決定します。
 
-* BBS, forum, etc.
-* Posting news articles
-* Calendar
-* Inquiry form
-* Uploading other sites' contents by RSS.
+* 掲示板・フォーラム・BBS
+* ニュース記事の投稿
+* カレンダー
+* 問いあわせフォーム
+* RSSによる他サイト・コンテンツの掲示
 

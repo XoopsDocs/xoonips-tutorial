@@ -1,37 +1,37 @@
-# 5.4. Import
+# 5.4. インポート
 
-How to load the items and index keywords imported from other XooNIps sites:
+他のXooNIpsサイトでエクスポートしたアイテムや、Index Keywordのファイルを読み込んで利用することが出来ます。
 
-Click on the \[Import\] button at the XooNIps User menu.
+XooNIps ユーザメニューのインポートをクリックします。
 
-**Table 5.1. Import functions**
+**Table 5.1. インポート機能**
 
-|  | Description |
+| 項目名 | 機能 |
 | :--- | :--- |
-| "File to import" | Select the file to be imported. |
-| "To certify items automatically" | If the item is to be imported to the public area, it will be automatically certified publishing. |
-| "Don't import \(Error check only\)" | Perform error check but do not import. |
-| "Logging" | Show the importing logs. \(default\) |
+| Importするファイル | インポートするファイルを選択します。 |
+| 公開インデックスに登録するアイテムを自動承認する | アイテムのインポート先がPublic領域だった場合にアイテムの公開承認を自動的に行います。 |
+| エラーチェックだけを行う | エラーチェックのみで実際のインポート処理は行いません。 |
+| ログを出力する | インポート処理のログを表示します。\(デフォルトでチェックが入っています。） |
 
-Check the checkbox of the index keyword to which an intended file will be imported. Choose the file to be imported and click on the \[Next\] button.
+インポート先のIndex Keywordにチェックを入れて、インポートファイルを選択したら「次へ」ボタンを押します。
 
-![Import](../../.gitbook/assets/xoonips-operate87%20%281%29.png)
+![Import](../../.gitbook/assets/xoonips-operate87.png)
 
-**Figure 5.91. Import**
+**Figure 5.91.**  **インポート**
 
-If "logging" is checked and any errors occur, error descriptions will be displayed. Return to the previous screen and modify them.
+ ログを出力するにチェックをした場合、インポートエラーがあった場合には内容が表示されるので「戻る」ボタンを押して前の画面に戻り修正します。
 
-![Import error log](../../.gitbook/assets/xoonips-operate93.png)
+![Import error log](../../.gitbook/assets/xoonips-operate93%20%281%29.png)
 
-**Figure 5.92. Import error log**
+**Figure 5.92.**  **インポートエラーログ**
 
-If there is no error, click on the import button.
+エラーが無い場合は確認画面が表示されますので、「インポート」ボタンを押してインポートを実行します。
 
-Refrain from unwanted overwriting:
+衝突の解決
 
-It is subject to confirm whether or not to overwrite the file if it is found to include duplicated keywords or items.
+インポートファイルに重複するKeywordやアイテムがある場合に上書きするかどうかの確認画面が表示されます。
 
-![Refrain from unwanted overwriting](../../.gitbook/assets/xoonips-operate88%20%281%29.png)
+![Refrain from unwanted overwriting](../../.gitbook/assets/xoonips-operate88.png)
 
-**Figure 5.93. Refrain from unwanted overwriting**
+**Figure 5.93.**  **衝突の解決**
 

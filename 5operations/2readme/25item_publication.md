@@ -1,24 +1,24 @@
-# 2.5. Item publication
+# 2.5. アイテムの公開
 
-To register an item in the public area, it may require to be reviewed by the moderator for approval according to the site policy.
+ アイテムをPublic領域に登録するためにはサイトポリシーの設定によってモデレーターの審査・承認が必要な場合があります。
 
-![Publishing item flowchart](../../.gitbook/assets/xoonips-operate42%20%281%29.png)
+![Publishing item flowchart](../../.gitbook/assets/xoonips-operate42.png)
 
-**Figure 5.44. Publishing item flowchart**
+**Figure 5.44.**  **アイテム公開フロー**
 
-## 2.5.1. Publish items <a id="2-5-1-publish-items"></a>
+## 2.5.1. **アイテムの公開** <a id="2-5-1-publish-items"></a>
 
-Go to the "Detail" screen of the item to be published in the Public area, by using "Index Tree" or "XooNIps Search".
+Public領域に登録して公開したいアイテムをIndex TreeやXooNIps検索で検索して、詳細画面を表示します。
 
-Choose an index keyword of the Public area from the "Add to public index" dropdown list at the bottom and click on the \[Submit\].
+公開領域に追加の欄あるドロップダウンリストから登録したいPublic領域のIndex keywordを選択して、「追加」ボタンを押します。
 
-![Publishing item registration screen](../../.gitbook/assets/xoonips-operate43.png)
+![Publishing item registration screen](../../.gitbook/assets/xoonips-operate43%20%281%29.png)
 
-**Figure 5.45. Publishing item registration screen**
+**Figure 5.45.**  **公開アイテム登録画面**
 
-Item publishing may be controlled by the site policy. Therefore, it may require a review to be approved by the moderator.
+ サイトポリシーの設定によってはモデレーターの審査・承認が必要ですので、Public領域に直ぐに登録されるとは限りません。
 
-![Publishing item confirmation screen](../../.gitbook/assets/xoonips-operate44%20%281%29.png)
+![Publishing item confirmation screen](../../.gitbook/assets/xoonips-operate44.png)
 
-**Figure 5.46. Publishing item confirmation screen**
+**Figure 5.46.**  **公開アイテム確認画面**
 

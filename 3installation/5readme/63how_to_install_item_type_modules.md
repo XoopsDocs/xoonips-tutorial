@@ -1,28 +1,32 @@
-# 6.3. How to install item type modules:
+# 6.3. アイテムタイプモジュールのインストール
 
-Install item type modules.
+続いてアイテムタイプモジュールのインストールをします。
 
-| Copy the item type module to the module directory. |
+| アイテムタイプモジュールをmoduleディレクトリにコピー |
 | :--- |
-| **\[root@xoonips-server ~\]\# cp -R xoonips-3.44/itemtypes/\* /var/www/html/modules/** |
+| `[root@xoonips-server ~]#` **cp -R xoonips-3.44/itemtypes/\* /var/www/html/modules/** |
 
-## 6.3.1. Setup for item type modules <a id="6-3-1-setup-for-item-type-modules"></a>
+## 6.3.1. **アイテムタイプモジュールのセットアップ** <a id="6-3-1-setup-for-item-type-modules"></a>
 
-The procedure is the same as XooNIps module.
+XooNIpsモジュールと同様の手順です。
 
-The types of item type module vary with the structure of the website.
+セットアップするアイテムタイプモジュールの種類はWebサイトの計画と設計により変化します。
 
-![](../../.gitbook/assets/xoonips-install03.png)
+![](../../.gitbook/assets/xoonips-install03%20%281%29.png)
 
-Click on \[Module Installation\]
+ \[モジュールのインストール\]をクリックします。
 
-![](../../.gitbook/assets/xoonips-install32%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install32.png)
 
-Click on the install icon at "Control". \(same as XooNIps installation\)
+ XooNIpsのインストールと同様にインストールアイコンをクリックしてインストールします。
 
-## 6.3.2. Close the XooNIps installation <a id="6-3-2-close-the-xoonips-installation"></a>
+## 6.3.2. **XooNIpsインストール後の後始末** <a id="6-3-2-close-the-xoonips-installation"></a>
 
-| **\[root@xoonips-server ~\]\# rm -f xoonips-3.44.tar.gz** | ← Delete downloaded files. |
+\*\*\*\*
+
+| `[root@xoonips-server ~]#` **rm -f xoonips-3.44.tar.gz** | ← ダウンロードファイル削除 |
 | :--- | :--- |
-| **\[root@xoonips-server ~\]\# rm -rf xoonips-3.44** | ← Delete expanded directories. |
+| `[root@xoonips-server ~]#` **rm -rf xoonips-3.44** | ← 展開ディレクトリ削除 |
+
+
 

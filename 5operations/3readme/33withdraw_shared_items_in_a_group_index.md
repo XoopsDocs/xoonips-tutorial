@@ -1,12 +1,12 @@
-# 3.3. Withdraw shared items in a group index
+# 3.3. 共有アイテムの取り下げ
 
-How to withdraw a registered item:
+グループIndexへ登録済みのアイテムを共有領域から取り下げることが出来ます。
 
-Go to the "Detail" screen of the intended item. Use the "Index Tree" or "XooNIps Search" to search for the item.
+グループIndex Treeや検索を利用して取り下げたいアイテムの詳細画面を表示します。
 
-Click on the \[Withdraw\] button at the "Index" field, and a confirmation dialog box will appear, then click on \[OK\].
+Indexの項目の「Withdraw」ボタンを押すと、確認のダイアログが表示されますので「OK」を押してアイテムの共有を取り下げます。
 
-![Withdraw shared items in a group index](../../.gitbook/assets/xoonips-operate59%20%281%29.png)
+![Withdraw shared items in a group index](../../.gitbook/assets/xoonips-operate59.png)
 
-**Figure 5.64. Withdraw shared items in a group index**
+**Figure 5.64.**  **グループ共有アイテムの取り下げ**
 

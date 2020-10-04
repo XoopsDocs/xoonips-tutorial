@@ -1,10 +1,10 @@
-# 1.3. XooNIps Ranking
+# 1.3. ランキング情報の閲覧
 
-"XooNIps Ranking" lists the titles of most accessed items. Click on a link to go to its detailed information.
+アクセスランキングの情報からリンクをクリックすれば、アイテムや研究者情報に直接アクセスすることが出来ます。
 
-"XooNIps Ranking" will not be shown if it is not permitted for guest users to view.
+ゲストへのランキング表示許可設定がされていない場合には表示されません。
 
-![&quot;XooNIps Ranking&quot;](../../.gitbook/assets/xoonips-operate7%20%281%29.png)
+![&quot;XooNIps Ranking&quot;](../../.gitbook/assets/xoonips-operate7.png)
 
-**Figure 5.7. "XooNIps Ranking"**
+**Figure 5.7.**  **ランキング情報**
 

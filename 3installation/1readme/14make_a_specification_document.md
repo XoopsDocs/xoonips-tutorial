@@ -1,111 +1,113 @@
-# 1.4. Make a specification document
+# 1.4. 設計書を作成する
 
-Decide the things described below according to the actual site operation.
 
-| Site URL and site name: |
+
+サイトの運用方法にあわせて、サイトポリシーなど具体的に以下項目を決定しておきます。
+
+| サイトURLとサイト名 |
 | :--- |
 
 
-* Decide a URL in advance since it is necessary for installing XOOPS.
+* URLはXOOPSインストール時に必要なので決定しておきます。
 
-| Decide modules: |
+| 使用モジュールの特定 |
 | :--- |
 
 
-* Decide the modules and their versions to be used on XooNIps.
+* XooNIps意外に使用する具体的なモジュールとそのバージョンを決めます。
 
-| How to activate user accounts: |
+| ユーザアカウント有効化の方法 |
 | :--- |
-| Choose a manner of activating user accounts \(registering a new user\) from the following. |
+| 新規にユーザを登録する際、アカウント有効化の方法を以下から選択します。 |
 
-* By E-mailing to the user
-* By automatic activation
-* By the site administrator
+* ユーザ宛メールでの有効化
+* 自動で有効化
+* サイト管理者\(Administrator\)による有効化
 
-| Define required information for the user registration |
+| 登録情報の必須項目の決定 |
 | :--- |
-| These are examples of required information. Choose items from the list below. |
+| ユーザ登録の際、入力を必須とする項目を以下から選択します。 |
 
-* Real name
-* Company Name
-* Affiliation
-* Address
-* Zip code
-* Telephone number
-* Fax number
+* 本名
+* 会社名
+* 所属
+* 住所
+* 郵便番号
+* 電話番号
+* FAX番号
 
-| Define the initial value of disk capacity allocated for a registered user. |
+| ユーザのディスク使用量初期値の決定 |
 | :--- |
-| Define the maximum number of data, registered indexes, initial value of disk capacity for a registered user. |
+| 登録ユーザ１人あたりの最大登録データ数、最大登録Index数、ディスク使用量の初期値を決定します。 |
 
-* Maximum number of registered data \(initial value 500\)
-* Maximum number of registered indexes \(initial value 200\)
-* Disk capacity \(initial value 500 MB\)
+* 最大登録データ数（初期値500\)
+* 最大登録Index数\(初期値200\)
+* ディスク使用量\(初期値500MB\)
 
-| Define the initial value of disk capacity allocated for a group |
+| グループのディスク使用量初期値の決定 |
 | :--- |
-| Define maximum number of data, indexes, disk capacity allocated for a group. |
+| 1グループあたりの最大登録データ数、最大Index数、ディスク使用量を決定します。 |
 
-* Maximum number of registered data \(initial value 1000\)
-* Maximum number of indexes \(initial value 500\)
-* Disk capacity \(initial value 1000 MB\)
+* 最大登録データ数\(初期値1000\)
+* 最大登録Index数\(初期値500\)
+* ディスク使用量\(初期値1000MB\)
 
-| Define the procedure of certifying data to be published |
+| データ承認方法の決定 |
 | :--- |
-| Choose a manner of certifying data to be published |
+| データを公開する際の承認方法を以下から選択します。 |
 
-* By moderator
-* By automatic certification
+* モデレータによる承認
+* 自動承認
 
-| Access limitation to the publication area |
+| 公開領域へのアクセス制限 |
 | :--- |
-| Choose an access limitation to the publication area from the list below. |
+| 公開領域へのアクセス制限を以下から選択します。 |
 
-* Permit only the registered users
-* Permit all accesses including guest users
+* 登録ユーザのみアクセスを許可
+* ゲストを含む全てのアクセスを許可
 
-| Define a file format for downloading attached files. |
+| 添付ファイルをダウンロードする時のファイル内容 |
 | :--- |
-| Choose a file format for downloading attached files. |
+| 添付ファイルをダウンロードさせる場合のファイル形式を以下より選択します。 |
 
-* Compress data including metadata files as a zip file.
-* Compress the registered data \(without metadata\) as a zip file
+* メタデータ情報ファイルを含めてZIP圧縮する
+* 登録されたデータのみZIPファイルとする
 
-| Decide the area of items to be viewed. |
+| 業績アイテムの選択範囲 |
 | :--- |
-| XooNIps refers the data to be published as the user's performance items. |
-| Choose the area where the items will be viewed |
+| XooNIpsは公開領域にデータを公開することをユーザの業績として扱います。 |
+| 業績として選択可能な範囲を以下から選択します。 |
 
-* \[Yes\] Permit to choose from all data in the publishing areas.
-* \[No\] Permit to choose only from the data registered by the user.
+* \[はい\]公開領域の全データから選択可能になります。
+* \[いいえ\]ユーザが登録したデータからのみ選択可能になります。
 
-| Setup for exporting: |
+| エクスポートの設定 |
 | :--- |
-| Decide the permission of exporting. Choose \[Yes\] or \[No\] as below. |
-| Moderators are exclusively permitted to export data regardless of this setting. |
+| エクスポートの許可設定を以下から選択します。 |
+| モデレータはこの設定に関わらずエクスポートが可能です。 |
 
-* \[Yes\] Permit users to export their own data.
-* \[No\] Do not permit users to export.
+* \[はい\]ユーザ自身が登録したデータのエクスポートを可能にします。
+* \[いいえ\]ユーザによるエクスポートは出来ません。
 
-| Setup for exporting attached files: |
+| 添付ファイルのエクスポート設定 |
 | :--- |
-| Decide the permission of exporting attached files. |
+| 添付ファイルのエクスポート許可設定を以下から選択します。 |
 
-* \[Yes\] Permit users to export attached files of their data.
-* \[No\] Do not permit users to export attached files of their data.
+* \[はい\]ユーザ自身が添付ファイルのエクスポート可能になります。
+* \[いいえ\]ユーザによる添付ファイルのエクスポートは出来ません。
 
-| Setup for importing: |
+| インポートの設定 |
 | :--- |
-| Choose \[Yes\] or \[No\] as below. |
-| Moderators are exclusively permitted to import data regardless of this setting. |
+| データインポートの設定を以下から選択します。 |
+| モデレータはこの設定に関わらずインポートが可能です。 |
 
-* \[Yes\] Permit the user to import the data to his/her individual area.
-* \[No\]Do not permit the user to import data.
+* \[はい\]ユーザ自身が個人領域に対してデータをインポート可能になります。
+* \[いいえ\]ユーザによるインポートは出来ません。
 
-| Setup the moderator's authority: |
+| モデレータ権限の設定 |
 | :--- |
-| Choose \[Yes\] or \[No\] for the data editing permission to all users. |
+| モデレータによる全ユーザのデータ編集許可設定を以下から選択します。 |
 
-* \[Yes\] Permit the moderator to edit the data of all users.
-* \[No\] Do not permit the moderator to edit the data of all users.
+* \[はい\]モデレータによる全ユーザのデータ編集が可能になります。
+* \[いいえ\]モデレータによる全ユーザのデータ編集は出来ません。
 

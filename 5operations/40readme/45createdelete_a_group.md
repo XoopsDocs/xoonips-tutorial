@@ -1,48 +1,49 @@
-# 4.5. Create/delete a group
+# 4.5. グループの作成と削除
 
-How to create/delete a group:
+グループの作成と削除が出来ます。
 
-Click on the link \[Edit Groups\] at the "XooNIps Moderator menu".
+XooNIps モデレータメニューのグループ編集のリンクをクリックします。
 
-![Create/delete a group](../../.gitbook/assets/xoonips-operate66.png)
+![Create/delete a group](../../.gitbook/assets/xoonips-operate66%20%281%29.png)
 
-**Figure 5.76. Create/delete a group**
+**Figure 5.76.**  **グループの作成・削除**
 
-## 4.5.1. Create/delete a new group <a id="4-5-1-create-delete-a-new-group"></a>
+## 4.5.1. **新規グループの作成・削除** <a id="4-5-1-create-delete-a-new-group"></a>
 
-1. Create a new group: enter the required information in each field and click on \[Submit\] button.
-2. Delete a group: click on the link \[Delete\], and a dialog box will appear. Click on \[OK\].
-3. "Group Name"
+1. 新規グループは、グループ作成の各項目に必要事項を入力して「送信」ボタンを押すことで作成できます。
+2. グループの削除は削除のリンクをクリックすると、確認のダイアログが表示されますので「OK」を選択して削除します。
 
-   Enter the group's name.
+* グループ名
 
-4. "Group Description"
+  グループの名前を入力します。
 
-   Edit the group's description.
+* グループ詳細
 
-5. "Group Administrators"
+  グループの説明文を入力します。
 
-   Choose a user as a group administrator \(Multiple choice is acceptable\).
+* グループ管理者
 
-6. "Maximum number of items"
+  グループ管理者を選択します。複数人選択することも可能です。
 
-   Enter the maximum number of the item to be registered in the group area.
+* 登録可能なアイテムの最大個数
 
-7. "Maximum number of indexes"
+  グループ領域へのアイテム登録数上限値を入力します。
 
-   Enter the maximum number of the keywords for the group index.
+* 登録可能なインデックスの最大個数
 
-8. "Maximum size of items \[MB\]"
+  グループIndexのKeyword数の上限値を入力します。
 
-   Enter the maximum value of data for the group area.
+* 登録可能なアイテムの最大ディスク容量\[MB\]
 
-![Create/delete a group](../../.gitbook/assets/xoonips-operate67%20%281%29.png)
+  グループ領域で使用するデータ領域の最大値をMB単位で入力します。
 
-**Figure 5.77. Create/delete a group**
+![Create/delete a group](../../.gitbook/assets/xoonips-operate67.png)
 
-## 4.5.2. Edit group information <a id="4-5-2-edit-group-information"></a>
+**Figure 5.77.**  **グループの作成・削除**
 
-Click on the pen-icon \(or \[edit\] link\) on the right side of the intended group.
+## 4.5.2. **グループ情報の編集** <a id="4-5-2-edit-group-information"></a>
 
-Click on the \[Submit\] button to update the information.
+情報を編集したいグループの右にある編集リンクをクリックします。
+
+項目を修正した後、「送信」ボタンを押して情報を反映させます。
 

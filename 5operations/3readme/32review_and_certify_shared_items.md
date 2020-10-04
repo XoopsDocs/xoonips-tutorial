@@ -1,6 +1,21 @@
-# 3.2. Review and certify shared items
+# 3.2. 共有アイテムの審査・承認
 
-How to review and certify an item requested to register in a group area:
+グループで共有するアイテムの審査・承認をします。
 
-Click on the \[Certify Group Items\] at the "XooNIps Group Admin menu".
+XooNIps グループメニューのグループ共有アイテム承認をクリックします。
+
+#### Tip
+
+グループIndex Treeや検索を使ってアイテムの詳細画面から審査・承認をすることも出来ます。
+
+![](../../.gitbook/assets/xoonips-operate57.png)
+
+**Figure 5.62. グループ共有アイテムの審査・承認**  
+
+
+インデックスの欄にチェックを付けて「Accept\(承認\)」または「Reject\(取り下げ\)」のボタンを押して、アイテムの公開を承認・却下といった、審査が出来ます。
+
+![](../../.gitbook/assets/xoonips-operate58.png)
+
+ **Figure 5.63. グループ共有アイテムの審査・承認2**
 

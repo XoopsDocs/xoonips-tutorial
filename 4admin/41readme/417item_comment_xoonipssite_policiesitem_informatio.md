@@ -1,42 +1,42 @@
-# 1.7. 'Item Comment' \(XooNIps&gt;&gt;Site Policies&gt;&gt;Item Information&gt;&gt;Item Comment\)
+# 1.7. コメント機能
 
-Comment settings for the item. This function depends on d3forum module.
+コメント機能を利用するには外部モジュールのaltsys,d3forumモジュールのインストールが必須です。
 
-It has to be installed d3forum module and create forum before setting these options.
+d3forumモジュールであらかじめフォーラムを作成しておくことも必須です。
 
-* "Directory setting"
+* ディレクトリ名の設定
 
-  Set the directory name of d3forum used by comment function.
+  コメント機能で利用するd3forumのディレクトリ名を指定します。
 
-* "Forum ID setting"
+* フォーラムIDの設定
 
-  Set the forum ID made with d3forum.
+  あらかじめコメント用にd3forumで作成したフォーラムID番号を指定します。
 
-![&quot;Item Comment&quot;](../../.gitbook/assets/xoonips-policy9.png)
+![&quot;Item Comment&quot;](../../.gitbook/assets/xoonips-policy9%20%281%29.png)
 
-**Figure 4.9. "Item Comment"**
+**Figure 4.9.**  **コメント機能の設定**
 
-Other settings:
+その他に必要な設定として
 
-Modify the last line of "xoonips\_detail.html" by using the template editing function of altsys module.
+altsysモジュールのテンプレート編集機能等を利用してxoonips\_detail.htmlの最終行を修正します。
 
-Delete &lt;_{3 letters and the last 3 letters}_&gt; at the beginning.
+先頭の&lt;{\* 3文字と最後の3文字 \*}&gt; を削除します。
 
-![Item Comment \(Setting 2\)](../../.gitbook/assets/xoonips-policy10.png)
+![Item Comment \(Setting 2\)](../../.gitbook/assets/xoonips-policy10%20%281%29.png)
 
-**Figure 4.10. Item Comment \(Setting 2\)**
+**Figure 4.10.**  **コメント機能の設定2**
 
-![Item Comment \(Setting - 3\)](../../.gitbook/assets/xoonips-policy11%20%281%29.png)
+![Item Comment \(Setting - 3\)](../../.gitbook/assets/xoonips-policy11.png)
 
-**Figure 4.11. Item Comment \(Setting - 3\)**
+**Figure 4.11.**  **コメント機能の設定3**
 
-Enter the line below at the "Format for comment-integration" field \(Item comment&gt;&gt;Forum Manager\).
+d3forumのフォーラム管理画面で「コメント統合時の参照方法」の欄に
 
-**{XOOPS\_URL}/modules/xoonips/detail.php?item\_id=%s**
+**{XOOPS\_URL}/modules/xoonips/detail.php?item\_id=%s**と入力します。
 
-![Item Comment \(Setting - 4\)](../../.gitbook/assets/xoonips-policy12.png)
+![Item Comment \(Setting - 4\)](../../.gitbook/assets/xoonips-policy12%20%281%29.png)
 
-**Figure 4.12. Item Comment \(Setting - 4\)**
+**Figure 4.12.**  **コメント機能の設定4**
 
-Now, comments can be added to an item on its "Detail" screen.
+ アイテムの詳細画面でアイテムに対してコメントを付けることが出来るようになります。
 
