@@ -1,0 +1,82 @@
+# 2. XooNIps を利用したデータベースサイトの一部紹介
+
+J-Node Portal\(神経科学分野のデータベース\):
+
+* J-Node portal
+
+  INCF日本ノードポータルサイト
+
+  国内外のニューロインフォマティクス情報の配信や日本国内のニューロインフォマティクスサイトへのリンクがあります。
+
+  `http://www.neuroinf.jp/`
+
+* Visiome Platform
+
+  視覚神経科学プラットフォーム
+
+  視覚神経科学に関するデータベースです。数理モデル・ツール・データ等を収集して登録することにより、データベースとしての有用性を増進することを目的としています。
+
+  `http://platform.visiome.neuroinf.jp/`
+
+* Neuron Glia Platform
+
+  細胞・局所神経回路網
+
+  `http://platform.neuron-glia.neuroinf.jp/`
+
+* Brain Machine Interface Platform
+
+  脳とロボット
+
+  `http://platform.bmi.neuroinf.jp/`
+
+* Invertebrate Brain Platform
+
+  無脊椎動物脳
+
+  `http://platform.invbrain.neuroinf.jp/`
+
+* Cerebellar Development Transcriptome Database
+
+  マウス小脳発達トランスクリプトーム
+
+  `http://www.cdtdb.brain.riken.jp/CDT/top.jsp`
+
+* Integrative Brain Research
+
+  ニューロイメージング
+
+  `http://sns.ibr.neuroinf.jp/modules/xoonips/`
+
+* Cerebellar Platform
+
+  小脳
+
+  `http://platform.cerebellum.neuroinf.jp/`
+
+XooNIpsを利用したニューロインフォマティクス分野以外の学術情報サイト例
+
+* 旭川医科大学 AMCoR
+
+  `http://amcor.asahikawa-med.ac.jp/modules/xoonips/`
+
+* 慶應義塾大学, KOARA
+
+  `http://koara.lib.keio.ac.jp/xoonips/modules/news/`
+
+* 奈良県立図書情報館, NLMC
+
+  `http://www2.library.pref.nara.jp/nlmc/modules/xoonips/`
+
+* 奈良文化財研究所, RIR
+
+  `http://repository.nabunken.go.jp/modules/xoonips/`
+
+* 近畿大学, KURep
+
+  `http://kurepo.clib.kindai.ac.jp/modules/news/`
+
+* 埼玉大学, SUCRA
+
+  `http://sucra.saitama-u.ac.jp/modules/xoonips/`
+
