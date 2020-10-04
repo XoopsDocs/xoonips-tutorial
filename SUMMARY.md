@@ -100,9 +100,9 @@
     * [5.5. Harvest metadata](5operations/50readme/55harvest_metadata.md)
     * [5.6. Change the moderator](5operations/50readme/56change_the_moderator.md)
 * [6. Copyright notice](6copyright.md)
-* [Appendix A](appendix-a./README.md)
-  * [1. Organizations](appendix-a./1organizations.md)
-  * [2. XooNIps based Online Databases](appendix-a./2xoonips_based_online_databases.md)
+* [Appendix A](appendix-a/README.md)
+  * [1. Organizations](appendix-a/1organizations.md)
+  * [2. XooNIps based Online Databases](appendix-a/2xoonips_based_online_databases.md)
 * [Module Credits](module-credits.md)
 * [About XOOPS CMS](about-xoops-cms.md)
 
