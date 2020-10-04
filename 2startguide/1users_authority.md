@@ -7,5 +7,5 @@
 | \*Moderator\(webmaster\) | Approve a new user account |
 | \*System Administrator | Decide and configure the site policies on the database site |
 
-\*XooNIps is a module of XOOPS. If you will perform as a Moderator/System administrator, please be prepared with the basic knowledge of XOOPS \(This manual does not cover the basic information on XOOPS; please refer to guide books\).
+\*XooNIps is a module for XOOPS and XCube. If you will perform as a Moderator/System administrator, please be prepared with the basic knowledge of XOOPS \(This manual does not cover the basic information on XOOPS; please refer to guide books\).
 

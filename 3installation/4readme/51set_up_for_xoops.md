@@ -1,6 +1,10 @@
 # 5.1. Set up for XOOPS
 
-Access to [http://server](http://server) name/
+You can use XOOPS or XCube for XooNips. The screenshots are from XCube. 
+
+To learn how to install XOOPS, you can read this [XOOPS Installation Guide](https://xoops.gitbook.io/xoops-installation-guide/) 
+
+Access to [http://YourServerName](http://server)/
 
 ![](../../.gitbook/assets/xoops01%20%281%29.png)
 

@@ -18,27 +18,5 @@
   * [We love feedback](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part2/feedback_please.md)
   * [Better tools for authors](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part2/better_tools.md)
 
-## Summary
-
-### Part I
-
-* [Part I](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part1/README.md)
-  * [Writing is nice](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part1/README.md#writing)
-  * [GitBook is nice](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part1/README.md#gitbook)
-* [Part II](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part2/README.md)
-  * [We love feedback](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part2/README.md#feedback)
-  * [Better tools for authors](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part2/README.md#tools)    
-
-## Summary
-
-### Part I
-
-* [Writing is nice](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part1/writing.md)
-* [GitBook is nice](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part1/gitbook.md)
-
-### Part II
-
-* [We love feedback](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part2/feedback_please.md)
-* [Better tools for authors](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part2/better_tools.md)
-* [Last part without title](https://github.com/XoopsDocs/xoonips-tutorial/tree/b212e31226a6e7cba442f80b219f598c12991c7a/en/book/3installation/part3/title.md)
+## 
 

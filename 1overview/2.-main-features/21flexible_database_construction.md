@@ -4,7 +4,7 @@
 
 The site's operation environment, \(ex. manner of user registration and item publication, etc.\) can be easily set up by following the directions given on the Administration screen. You will simply choose the most appropriate one from the pulldown lists.
 
-![Administration screen](../../.gitbook/assets/overview01.png)
+![Administration screen \(XCube\)](../../.gitbook/assets/overview01.png)
 
 **Figure 1.1. Administration screen**
 
