@@ -41,5 +41,5 @@ The following are the benefits from using XOOPS.
 
 ![CMS system](../../.gitbook/assets/overview02.png)
 
-**Figure 1.2. CMS system**
+**Figure 1.2. XOOPS CMS Architecture**
 
