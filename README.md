@@ -4,7 +4,7 @@
 
 ## Module XooNIps: Neuroinformatics Base Platform System
 
-#### for XOOPS 2.10+
+#### for XOOPS 2.10+ and XCube 2.3+
 
 Module Version 3.49
 
