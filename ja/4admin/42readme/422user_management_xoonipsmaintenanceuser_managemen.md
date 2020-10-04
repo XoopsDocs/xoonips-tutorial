@@ -43,27 +43,28 @@
   <table>
     <thead>
       <tr>
-        <th style="text-align:left">名称</th>
-        <th style="text-align:left">説明</th>
+        <th style="text-align:left">&#x540D;&#x79F0;</th>
+        <th style="text-align:left">&#x8AAC;&#x660E;</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="text-align:left">サイト管理者</td>
-        <td style="text-align:left">XOOPSで指定されているWebmastersグループに所属させます</td>
+        <td style="text-align:left">&#x30B5;&#x30A4;&#x30C8;&#x7BA1;&#x7406;&#x8005;</td>
+        <td style="text-align:left">XOOPS&#x3067;&#x6307;&#x5B9A;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;Webmasters&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;</td>
       </tr>
       <tr>
-        <td style="text-align:left">登録ユーザ</td>
+        <td style="text-align:left">&#x767B;&#x9332;&#x30E6;&#x30FC;&#x30B6;</td>
         <td style="text-align:left">
-          <p>XOOPSで指定されているRegistered Usersグループに所属させます。</p>
-          <p>一般登録ユーザーの場合にはこのグループのみに所属させます。</p>
+          <p>XOOPS&#x3067;&#x6307;&#x5B9A;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;Registered
+            Users&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;&#x3002;</p>
+          <p>&#x4E00;&#x822C;&#x767B;&#x9332;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306E;&#x5834;&#x5408;&#x306B;&#x306F;&#x3053;&#x306E;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306E;&#x307F;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;&#x3002;</p>
         </td>
       </tr>
       <tr>
         <td style="text-align:left">moderator</td>
         <td style="text-align:left">
-          <p>XooNIpsのmoderatorグループに所属させます。</p>
-          <p>新規登録ユーザーがモデレーターの場合にはこのグループに所属させます。</p>
+          <p>XooNIps&#x306E;moderator&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;&#x3002;</p>
+          <p>&#x65B0;&#x898F;&#x767B;&#x9332;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x30E2;&#x30C7;&#x30EC;&#x30FC;&#x30BF;&#x30FC;&#x306E;&#x5834;&#x5408;&#x306B;&#x306F;&#x3053;&#x306E;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;&#x3002;</p>
         </td>
       </tr>
     </tbody>
@@ -160,30 +161,30 @@
   <table>
     <thead>
       <tr>
-        <th style="text-align:left">表示モード</th>
-        <th style="text-align:left">説明</th>
+        <th style="text-align:left">&#x8868;&#x793A;&#x30E2;&#x30FC;&#x30C9;</th>
+        <th style="text-align:left">&#x8AAC;&#x660E;</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="text-align:left">ネスト表示</td>
+        <td style="text-align:left">&#x30CD;&#x30B9;&#x30C8;&#x8868;&#x793A;</td>
         <td style="text-align:left">
-          <p>コメントがネスト表示されます。</p>
-          <p>ツリーに従ってコメントの部分はインデントされます。</p>
+          <p>&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x304C;&#x30CD;&#x30B9;&#x30C8;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+          <p>&#x30C4;&#x30EA;&#x30FC;&#x306B;&#x5F93;&#x3063;&#x3066;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x306E;&#x90E8;&#x5206;&#x306F;&#x30A4;&#x30F3;&#x30C7;&#x30F3;&#x30C8;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
         </td>
       </tr>
       <tr>
-        <td style="text-align:left">フラット表示</td>
+        <td style="text-align:left">&#x30D5;&#x30E9;&#x30C3;&#x30C8;&#x8868;&#x793A;</td>
         <td style="text-align:left">
-          <p>コメントがフラット表示になります。</p>
-          <p>全てのコメントが投稿時間順に全文表示されます。</p>
+          <p>&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x304C;&#x30D5;&#x30E9;&#x30C3;&#x30C8;&#x8868;&#x793A;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+          <p>&#x5168;&#x3066;&#x306E;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x304C;&#x6295;&#x7A3F;&#x6642;&#x9593;&#x9806;&#x306B;&#x5168;&#x6587;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
         </td>
       </tr>
       <tr>
-        <td style="text-align:left">スレッド表示</td>
+        <td style="text-align:left">&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x8868;&#x793A;</td>
         <td style="text-align:left">
-          <p>コメントが件名によってグループ化して表示されます（スレッド表示）</p>
-          <p>スレッドの最初の投稿のみ全文表示され、コメントはタイトルだけその下に並びます。</p>
+          <p>&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x304C;&#x4EF6;&#x540D;&#x306B;&#x3088;&#x3063;&#x3066;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x5316;&#x3057;&#x3066;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059;&#xFF08;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x8868;&#x793A;&#xFF09;</p>
+          <p>&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x306E;&#x6700;&#x521D;&#x306E;&#x6295;&#x7A3F;&#x306E;&#x307F;&#x5168;&#x6587;&#x8868;&#x793A;&#x3055;&#x308C;&#x3001;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x306F;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3060;&#x3051;&#x305D;&#x306E;&#x4E0B;&#x306B;&#x4E26;&#x3073;&#x307E;&#x3059;&#x3002;</p>
         </td>
       </tr>
     </tbody>

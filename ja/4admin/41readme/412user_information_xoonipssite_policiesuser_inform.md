@@ -48,31 +48,33 @@
   <table>
     <thead>
       <tr>
-        <th style="text-align:left">項目</th>
-        <th style="text-align:left">説明</th>
+        <th style="text-align:left">&#x9805;&#x76EE;</th>
+        <th style="text-align:left">&#x8AAC;&#x660E;</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="text-align:left">最大アイテム数</td>
+        <td style="text-align:left">&#x6700;&#x5927;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x6570;</td>
         <td style="text-align:left">
-          <p>Private(個人領域)に登録出来るアイテムの上限数を指定します。</p>
-          <p>デフォルト値は５００で５００個までアイテムを登録できます。</p>
+          <p>Private(&#x500B;&#x4EBA;&#x9818;&#x57DF;)&#x306B;&#x767B;&#x9332;&#x51FA;&#x6765;&#x308B;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x306E;&#x4E0A;&#x9650;&#x6570;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+          <p>&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x5024;&#x306F;&#xFF15;&#xFF10;&#xFF10;&#x3067;&#xFF15;&#xFF10;&#xFF10;&#x500B;&#x307E;&#x3067;&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x3092;&#x767B;&#x9332;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
         </td>
       </tr>
       <tr>
-        <td style="text-align:left">最大インデックス数</td>
-        <td style="text-align:left">
-          <p>Private(個人領域)に登録出来るインデックスの数を指定します。</p>
-          <p>デフォルト値は２００で２００個までインデックスを登録出来ます。</p>
-        </td>
+        <td style="text-align:left">&#x6700;&#x5927;&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;&#x6570;</td>
+        <td
+        style="text-align:left">
+          <p>Private(&#x500B;&#x4EBA;&#x9818;&#x57DF;)&#x306B;&#x767B;&#x9332;&#x51FA;&#x6765;&#x308B;&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;&#x306E;&#x6570;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+          <p>&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x5024;&#x306F;&#xFF12;&#xFF10;&#xFF10;&#x3067;&#xFF12;&#xFF10;&#xFF10;&#x500B;&#x307E;&#x3067;&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;&#x3092;&#x767B;&#x9332;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</p>
+          </td>
       </tr>
       <tr>
-        <td style="text-align:left">最大ディスク容量</td>
-        <td style="text-align:left">
-          <p>Private(個人領域)で使用されるHDDの最大容量をMB単位で指定します。</p>
-          <p>デフォルト値は５００MBで個人が利用できるディスク使用量は５００MBになります。</p>
-        </td>
+        <td style="text-align:left">&#x6700;&#x5927;&#x30C7;&#x30A3;&#x30B9;&#x30AF;&#x5BB9;&#x91CF;</td>
+        <td
+        style="text-align:left">
+          <p>Private(&#x500B;&#x4EBA;&#x9818;&#x57DF;)&#x3067;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x308B;HDD&#x306E;&#x6700;&#x5927;&#x5BB9;&#x91CF;&#x3092;MB&#x5358;&#x4F4D;&#x3067;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+          <p>&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x5024;&#x306F;&#xFF15;&#xFF10;&#xFF10;MB&#x3067;&#x500B;&#x4EBA;&#x304C;&#x5229;&#x7528;&#x3067;&#x304D;&#x308B;&#x30C7;&#x30A3;&#x30B9;&#x30AF;&#x4F7F;&#x7528;&#x91CF;&#x306F;&#xFF15;&#xFF10;&#xFF10;MB&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+          </td>
       </tr>
     </tbody>
   </table>
