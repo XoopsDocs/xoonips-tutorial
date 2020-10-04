@@ -1,18 +1,18 @@
-# 2.4. ユーザ表示順
+# 2.4. 'User List' \(XooNIps&gt;&gt;Maintenance&gt;&gt;User List\)
 
-表示順の項目に職名内での表示順を設定して更新ボタンを押すことによって変更が反映されます。
+Order each of the user by entering numbers at the "Weight" field and click on the \[UPDATE\] button.
 
-表示順が0未満ならそのユーザーは表示されません。
+If the user is set as 0 or less, it will not be displayed.
 
-ここでの表示順設定は職名内でのみ有効となります。
+"Position" is the only to be applied for reorganizing the User List.
 
-![&quot;User List&quot;](../../.gitbook/assets/xoonips-mente10.png)
+![&quot;User List&quot;](../../.gitbook/assets/xoonips-mente10%20%281%29.png)
 
-**Figure 4.25.**  **ユーザ表示順**
+**Figure 4.25. "User List"**
 
- 表示結果はホームページのXooNIpsメニューのユーザ一覧から確認出来ます。
+The result can be found at the "User List" of the intended XooNIps website.
 
-![User List - 2](../../.gitbook/assets/xoonips-mente11.png)
+![User List - 2](../../.gitbook/assets/xoonips-mente11%20%281%29.png)
 
-**Figure 4.26.**  **ユーザ表示順2**
+**Figure 4.26. User List - 2**
 

@@ -1,10 +1,10 @@
-# 日本語 \(にほんご\)
+# Introduction
 
-![](.gitbook/assets/logoxoops.jpg)
+![logoXoops.jpg](.gitbook/assets/logoxoops.jpg)
 
 ## Module XooNIps: Neuroinformatics Base Platform System
 
-#### for XOOPS 2.10+
+#### for XOOPS 2.10+ and XCube 2.3+
 
 Module Version 3.49
 
@@ -16,15 +16,15 @@ Tutorial Version 3.45
 
 ### View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/xoonips-tutorial/)
 
-© 2020 [XOOPS Project](https://xoops.org) , [XooNIps](http://xoonips.osdn.jp/), & [Riken](http://www.riken.jp/)
+© 2020 [XOOPS Project](https://xoops.org) , [XooNIps](http://xoonips.osdn.jp/), [Riken](http://www.riken.jp/)
 
 ### Module Purpose
 
-XooNIps is an easy-to-use software that can facilitates to build a database website for organizing enormous volume of information in various types of electronic formats, such as research papers, experrimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
+**XooNIps** is an easy-to-use software that can facilitates building a database-driven website for organizing enormous volume of information in various types of electronic formats, such as research papers, experimental data, mathematical models, and programs along with the metadata, and to share them with users worldwide on the internet.
 
 ![](.gitbook/assets/image001.png)
 
-_Figure 1: Main view of the XooNIps Module \(Admin side\)_
+_Figure 1: Main view of the XooNIps Architecture_
 
 ### Download/Fork the Module ![](https://xoops.org/images/forkit.png)
 
@@ -38,7 +38,7 @@ Editing the book can be done either by updating the markdown files with a text e
 
 ## Table of Content
 
-* [Introduction]()
+* [Introduction](./)
 * [Overview](https://github.com/xoops/xoonips-tutorial/tree/2e1c9e6992f3e81173bcdb0057db192c607a743e/book/1overview/README.md)
 * [Start guide](https://github.com/xoops/xoonips-tutorial/tree/2e1c9e6992f3e81173bcdb0057db192c607a743e/book/2startguide/README.md)
 * [Installation](https://github.com/xoops/xoonips-tutorial/tree/2e1c9e6992f3e81173bcdb0057db192c607a743e/book/3installation/README.md)
@@ -54,5 +54,5 @@ Editing the book can be done either by updating the markdown files with a text e
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 Unless specified, this content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-All derivative works are to be attributed to [XOOPS Project](www.xoops.org), [XooNIps](http://xoonips.osdn.jp/),  & [Riken](http://www.riken.jp/)
+All derivative works are to be attributed to [XOOPS Project](https://xoops.org) , [XooNIps](http://xoonips.osdn.jp/), [Riken](http://www.riken.jp/)
 

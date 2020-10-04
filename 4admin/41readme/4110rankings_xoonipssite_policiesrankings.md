@@ -1,30 +1,30 @@
-# 1.10. ランキング
+# 1.10. 'Rankings' \(XooNIps&gt;&gt;Site Policies&gt;&gt;Rankings\)
 
-ランキングの表示に関する設定です。
+Policy settings for the access rankings.
 
-* ブロック：ランキング
+* "Block: XooNIps Ranking"
 
-  表示するの項目にチェックを入れると、その項目が表示されるようになります。
+  Check the checkbox of the items to be displayed.
 
-  並べ替えの三角で表示順の並べ替えが出来ます。ドロップダウンリストで4段分まで一度に上下することも可能です。
+  The display order can be changed by choosing either of the icons up or down at "Sort". The pulldown list can indicate the stages either up/downward by 1-4 levels.
 
-  _2を選んで上三角をクリックすれば、項目は2つ分上に移動します。_
+  _If choose 2 and click on the upward triangle, the item will be shifted 2 levels upward._
 
-  各ランキングの上位何件まで表示するかを決定できます。
+  Define the range of ranking \(top 10, 20 or 30 ...\)
 
-* ブロック：新着
+* "Block: XooNIps Update"
 
-  新着情報の表示に関する設定です。
+  Setup for newly arrived items setting:
 
-  各新着情報の上位何件まで表示するかを決定できます。
+  Define the range of ranking for newly arrived items.
 
-* ランキング対象期間
+* "Calculation Days"
 
-  ランキング対象期間の設定
+  Duration for displaying the ranking.
 
-  チェックボックスにチェックを入れた場合、その期間のファイルはランキングに反映されません。
+  If the checkbox is checked, the sum-file does not affect to access ranking.
 
-![&quot;Rankings&quot;](../../.gitbook/assets/xoonips-policy15%20%281%29.png)
+![&quot;Rankings&quot;](../../.gitbook/assets/xoonips-policy15.png)
 
-**Figure 4.15.**  **ランキング設定**
+**Figure 4.15. "Rankings"**
 

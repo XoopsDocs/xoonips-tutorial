@@ -1,10 +1,10 @@
-# 5.6. モデレーターの変更
+# 5.6. Change the moderator
 
-モデレーターの変更は管理メニューのメンテナンス ユーザ管理 の項目で所属グループにユーザーをモデレーターグループに追加することで変更出来ます。
+Go to the "User Management" \("Administration Menu" at "XooNIps User Menu; "XOOPS&gt;&gt;XooNIps&gt;&gt;Maintenance&gt;&gt;User Management\). Click on the pen-icon of the intended user to go to the "Modify User Information". Choose "moderator" at the "User's Groups" field.
 
-正確には、システム設定の基本設定モデレータグループで設定したXooNIpsのモデレーターとなっているXOOPSグループを選択して追加します。
+Note: the pulldown menu derives from the "Moderator Group" \("XOOPS&gt;&gt;XooNIps&gt;&gt;System Configuration&gt;&gt;Basic Configurations&gt;&gt;Moderator Group\).
 
-![Change the moderator](../../.gitbook/assets/xoonips-operate78%20%281%29.png)
+![Change the moderator](../../.gitbook/assets/xoonips-operate78.png)
 
-**Figure 5.94.**  **モデレーターの変更**
+**Figure 5.94. Change the moderator**
 

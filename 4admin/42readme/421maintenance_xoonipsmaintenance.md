@@ -1,8 +1,8 @@
-# 2.1. メンテナンス
+# 2.1. 'Maintenance' \(XooNIps&gt;&gt;Maintenance\)
 
- ユーザーの追加や、メタデータのハーベストなど、日常的に行う作業項目です。
+There are various operations to manage a XooNIps website.
 
-![&quot;Maintenance&quot;](../../.gitbook/assets/xoonips-mente1%20%281%29.png)
+![&quot;Maintenance&quot;](../../.gitbook/assets/xoonips-mente1.png)
 
-**Figure 4.16.**  **メンテナンス**
+**Figure 4.16. "Maintenance"**
 

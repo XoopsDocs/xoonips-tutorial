@@ -1,46 +1,42 @@
-# 2.7. アイテム移譲
+# 2.7. Item transfer
 
+Basically, an item's edit authority is given only to the user who originally registered/requested to register the item.
 
+When the user resigns from the membership, he/she can transfer their items to another user.
 
-アイテムの編集権限はそのアイテムを登録したユーザにあります。
+* How to transfer an item:
 
-ユーザが退会する場合などにアイテムの編集権限を他のユーザに移譲することができます。
+  Click on the link \[Request Item Transfer\] on XooNIps user menu.
 
-* 編集権限を移譲するユーザの操作
+  ![&quot;Request Item Transfer&quot;](../../.gitbook/assets/xoonips-operate95.png)
 
-  XooNIpsユーザメニューのアイテム移譲要求のリンクをクリックします。
+  **Figure 5.53. "Request Item Transfer"**
 
-![](../../.gitbook/assets/xoonips-operate95%20%282%29.png)
+  Identify the item to be transferred. Use either of \[Item List\], \[Index keyword\], \[Search\] at "Add items from" for searching it.
 
-**Figure 5.53.**  **アイテム移譲要求**  
-  
+  ![Request Item Transfer 2](../../.gitbook/assets/xoonips-operate96%20%281%29.png)
 
+  **Figure 5.54. Request Item Transfer 2**
 
- 「次からアイテムを追加」の欄にある「検索」ボタンなどで編集権限を移譲するアイテムを検索して選択します。
+  Choose the user who transfers his/her authority \(transferee\) by the dropdown list and click on the \[Next\] button.
 
-![](../../.gitbook/assets/xoonips-operate96.png)
+  ![Request Item Transfer 3](../../.gitbook/assets/xoonips-operate97%20%281%29.png)
 
-**Figure 5.54.**  **アイテム移譲要求2**
+  **Figure 5.55. Request Item Transfer 3**
 
- ドロップダウンリストで権限を移譲するユーザを選択して「次へ」ボタンを押します。
+  A confirmation screen will appear. Click on the \[execute transfer\] button.
 
-![](../../.gitbook/assets/xoonips-operate97%20%282%29.png)
+  ![Request Item transfer 4](../../.gitbook/assets/xoonips-operate98.png)
 
-**Figure 5.55.**  **アイテム移譲要求3**
+  **Figure 5.56. Request Item transfer 4**
 
- 確認画面が表示されるので「移譲の実行」ボタンを押します。
+* How to transfer a user's editing authority to another user:
 
-![](../../.gitbook/assets/xoonips-operate98%20%282%29.png)
+  Click on the link of "Accept Item Transfer".
 
-**Figure 5.56.**  **アイテム移譲要求4**
+  Choose an index tree keyword to register the transferred item and click on the \[Accept\] button.
 
-* 編集権限を移譲されるユーザの操作
+  ![Accept Item Transfer](../../.gitbook/assets/xoonips-operate99%20%281%29.png)
 
-  XooNIpsユーザメニューのアイテム移譲許可リンクをクリックします。
-
-  ドロップダウンリストから編集権限を移譲されたアイテムを登録するIndex Tree Keywordを選択して「移譲許可」ボタンを押します。
-
-![](../../.gitbook/assets/xoonips-operate99.png)
-
-**Figure 5.57.**  **アイテム移譲許可**
+  **Figure 5.57. Accept Item Transfer**
 

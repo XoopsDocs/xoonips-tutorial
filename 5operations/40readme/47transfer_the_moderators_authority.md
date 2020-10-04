@@ -1,4 +1,4 @@
-# 4.7. モデレーター権限の移譲
+# 4.7. Transfer the moderator's authority
 
- システム管理者がモデレーター権限をユーザーに付与出来るので、システム管理者に連絡を取ってください。
+Contact the system administrator to request for transferring the moderator's authority to another user.
 

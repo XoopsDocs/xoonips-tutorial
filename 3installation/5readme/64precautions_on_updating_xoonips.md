@@ -1,10 +1,8 @@
-# 6.4. XooNIpsモジュールのアップデート
+# 6.4. Precautions on updating XooNIps
 
-新しいバージョンのXooNIpsが公開された場合にはXOOPSの他のモジュールと同様にアップデートすることができます。
+Make sure to overwrite the directories before updating XooNIps modules and item type modules.
 
-新しいバージョンのモジュールをアップロードした後、「互換モジュール」＞＞「モジュールの管理」画面でアップデートボタンを押してアップデートを実行します。
+Updating to the version XooNIps 3.30 or later is supported only if the original version is XooNIps 3.24 or later.
 
-同様にアイテムタイプについてもアップデートを実行してください。
-
-![](../../.gitbook/assets/xoonips-install33.png)
+For updating the version from XooNIps 3.2x to XooNIps 3.4, make sure to install the Binder item type modules.
 

@@ -1,22 +1,20 @@
-# 3.4. グループIndexの編集
+# 3.4. Edit group indexes
 
-Privateと同様の手順でグループIndexのKeywordも追加・削除など編集を行うことが出来ます。
+Keywords at a group index can be added, deleted and edited in the same manner as Private.
 
-XooNIps グループメニューのグループツリー編集をクリックします。
+Click on the \[Edit Group Tree\] on the "XooNIps Group Admin Menu".
 
-![Edit a group index.](../../.gitbook/assets/xoonips-operate60%20%281%29.png)
+![Edit a group index.](../../.gitbook/assets/xoonips-operate60.png)
 
-**Figure 5.65.**  **グループIndexの編集**
+**Figure 5.65. Edit a group index.**
 
+How to edit group indexes: \(If you are an administrator managing more than one group, choose an intended group index tab.\)
 
+1. Click on the group index tab.
+2. Click on a keyword to be edited.
+3. Continue to edit the group index.
 
-複数のグループ管理者の権限を持っている場合は、複数のグループIndexKeywordの編集が出来ます。
+![Edit a group index 2](../../.gitbook/assets/xoonips-operate61.png)
 
-1. 編集したいグループIndexのタブをクリックします。
-2. 編集したいグループIndexのKeywordをクリックします。
-3. クリックしたグループIndexの編集が可能になります。
-
-![Edit a group index 2](../../.gitbook/assets/xoonips-operate61%20%281%29.png)
-
-**Figure 5.66.**  **グループIndexの編集2**
+**Figure 5.66. Edit a group index 2**
 

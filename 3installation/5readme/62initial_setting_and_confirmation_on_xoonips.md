@@ -1,236 +1,188 @@
-# 6.2. XooNIpsの初期設定と確認
+# 6.2. Initial setting and confirmation on XooNIps
 
- XooNIpsを使用するための設定をします。
+How to set up XooNIps.
 
-![](../../.gitbook/assets/xoonips-install08%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install08.png)
 
- 管理者メニューで\[XooNIps\]をクリックします。
+Click on \[XooNIps\] on the Administration menu.
 
-![](../../.gitbook/assets/xoonips-install09%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install09.png)
 
- \[システム設定\]をクリックします。
+Click on \[System Configuration\].
 
-## 6.2.1. **ファイルアップロードディレクトリの変更** <a id="6-2-1-change-the-file-upload-directory"></a>
+## 6.2.1. Change the file upload directory. <a id="6-2-1-change-the-file-upload-directory"></a>
 
-Webサーバの権限で書き込みが出来るディレクトリを指定する必要があります。
+Assign a directory where the web server is authorized to write.
 
-| `[root@xoonips-server ~]#` **mkdir /var/www/xoonipsupload** | ← ディレクトリを作成 |
+| **\[root@xoonips-server ~\]\# mkdir /var/www/xoonipsupload** | ← Create a directory. |
 | :--- | :--- |
-| `[root@xoonips-server ~]#` **chmod a+w /var/www/xoonipsupload** | ← パーミッションを変更する。 |
+| **\[root@xoonips-server ~\]\# chmod a+w /var/www/xoonipsupload** | ← Change permissions. |
 
-|  |
-| :--- |
+![](../../.gitbook/assets/xoonips-install10.png)
 
+Click on \[Basic Configuration\].
 
-![](../../.gitbook/assets/xoonips-install10%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install11.png)
 
- \[基本設定\]をクリックします。
+**Enter /var/www/xoonipsupload at \[File Upload Directory\]**
 
-![](../../.gitbook/assets/xoonips-install11%20%281%29.png)
+Click on \[UPDATE\].
 
-\[ファイルアップロードディレクトリ\]の項目に**/var/www/xoonipsupload**と入力します。
+## 6.2.2. Setup inline frame <a id="6-2-2-setup-inline-frame"></a>
 
-更新ボタンをクリックして変更した設定を有効にします。
+How to change the display area of an index tree:
 
-## 6.2.2. **インラインフレーム設定** <a id="6-2-2-setup-inline-frame"></a>
+![](../../.gitbook/assets/xoonips-install12.png)
 
- ここではインデックスツリーの表示領域を変更することが出来ます。
+Click on \[Inline Frame\]
 
-![](../../.gitbook/assets/xoonips-install12%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install13.png)
 
- \[インラインフレーム表示設定\]をクリックします。
+Enter the desired value of width and height of the index tree and click on the \[UPDATE\] button.
 
-![](../../.gitbook/assets/xoonips-install13%20%281%29.png)
-
-インデックスツリーの幅とインデックスツリーの高さを数値で入力して更新ボタンを押します。
-
-インデックスツリーの幅を割合（％）で指定することによりブロック内での表示領域の割合を変更できます。
+The size of display area within the block can be changed by indicating the width of the index tree in percentage \(%\).
 
 | Width indicated in 100%. | Width indicated in 50%. |
 | :--- | :--- |
-| ![](../../.gitbook/assets/xoonips-install14%20%281%29.png) | ![](../../.gitbook/assets/xoonips-install15.png) |
+| ![](../../.gitbook/assets/xoonips-install14.png) | ![](../../.gitbook/assets/xoonips-install15%20%281%29.png) |
 
- インデックスツリーの高さをピクセルで指定することにより表示領域の大きさを変更できます。
+The range of display area can be changed by indicating the height of the index tree in pixels.
 
 | Height indicated in 400 pixels. | Height indicated in 200 pixels. |
 | :--- | :--- |
-| ![](../../.gitbook/assets/xoonips-install16.png) | ![](../../.gitbook/assets/xoonips-install17.png) |
+| ![](../../.gitbook/assets/xoonips-install16%20%281%29.png) | ![](../../.gitbook/assets/xoonips-install17%20%281%29.png) |
 
-## 6.2.3. **印刷設定** <a id="6-2-3-setup-print-formats"></a>
+## 6.2.3. Setup print formats <a id="6-2-3-setup-print-formats"></a>
 
- ここではページを印刷する際にヘッダとして表示させる情報を入力することが出来ます。
+How to set the information to be shown as headers on printing:
 
-![](../../.gitbook/assets/xoonips-install18%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install18.png)
 
- \[印刷設定\]をクリックします。
+Click on \[Printer Friendly\].
 
-![](../../.gitbook/assets/xoonips-install19%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install19.png)
 
- 入力した情報は詳細画面などを印刷の際ヘッダ情報として同時に印刷されます。
+The entered information will be printed as a header.
 
-## 6.2.4. **RSS配信設定** <a id="6-2-4-set-up-for-rss-distribution"></a>
+## 6.2.4. Set up for RSS distribution <a id="6-2-4-set-up-for-rss-distribution"></a>
 
-XooNIpsはRSS1.0\(RDF\)、RSS2.0、Atom1.0の３種類のフィード形式をサポートしています。
+XooNIps supports three types of feed formats: RSS1.0\(RDF\), RSS2.0, Atom1.0
 
-設定画面で表示されるURLを公開することでアイテムの更新情報及びグループの新規作成状況がアナウンス出来ます。
+Announcements about newly registered items and the current status within a group can be made by publishing the URL indicated on the "RSS Feeds".
 
-![](../../.gitbook/assets/xoonips-install20%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install20.png)
 
- \[RSS設定\]をクリックします。
+Click on \[RSS Feeds\]
 
-![](../../.gitbook/assets/xoonips-install21.png)
+![](../../.gitbook/assets/xoonips-install21%20%281%29.png)
 
- 利用するフィード形式のテキストボックスの内容をコピーして公開してください。
+Choose a feed format and copy it to use for publication.
 
-## 6.2.5. **OAI-PMH設定** <a id="6-2-5-set-up-oai-pmh"></a>
+## 6.2.5. Set up OAI-PMH <a id="6-2-5-set-up-oai-pmh"></a>
 
-XooNIpsはメタデータの情報を機械的に収集する仕組みとしてOAI-PMHを採用しています。
+XooNIps adopts OAI-PMH as a structure to automatically collect metadata.
 
-ここではOAI-PMHに対応した別のサーバにメタデータを提供するための設定（リポジトリ設定）とOAI-PMHに対応した別のサーバからメタデータを収集するための設定（ハーベスタ設定）の両方が行えます。.
+There are two ways: 1. setup for providing metadata to another server applicable to OAI-PMH. \(Repository setup\), 2. setup for harvesting metadata from another server applicable to OAI-PMH \(Harvester setup）.
 
-![](../../.gitbook/assets/xoonips-install22.png)
+![](../../.gitbook/assets/xoonips-install22%20%281%29.png)
 
- \[OAI-PMH設定\]をクリックします。
+Click on \[OAI-PMH\].
 
-![](../../.gitbook/assets/xoonips-install23%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install23.png)
 
-*  リポジトリ設定はメタデータを他のサーバに提供する為の設定です。
+* "Repository Configurations" is for providing metadata to another server.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p></p>
-        <ul>
-          <li>
-            <table>
-              <thead>
-                <tr>
-                  <th style="text-align:left">&#x30EA;&#x30DD;&#x30B8;&#x30C8;&#x30EA;&#x540D;</th>
-                  <th style="text-align:left">&#x4F8B;&#xFF1A;INCF Japan Node XooNIps site</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th style="text-align:left">&#x30C7;&#x30FC;&#x30BF;&#x30D9;&#x30FC;&#x30B9;ID</th>
-                  <th style="text-align:left">&#x30B5;&#x30A4;&#x30C8;&#x540D;&#x7B49;&#x3092;&#x5229;&#x7528;&#x3057;&#x3066;&#x30B5;&#x30A4;&#x30C8;&#x3092;&#x533A;&#x5225;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x8B58;&#x5225;&#x5B50;&#x3092;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;&#x4F8B;&#xFF1A;www.neuroinf.jp</th>
-                </tr>
-                <tr>
-                  <th style="text-align:left">&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x306E;&#x524A;&#x9664;&#x72B6;&#x614B;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x65E5;&#x6570;</th>
-                  <th
-                  style="text-align:left">&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x3092;&#x524A;&#x9664;&#x3057;&#x305F;&#x3068;&#x3044;&#x3046;&#x60C5;&#x5831;&#x306E;&#x4FDD;&#x5B58;&#x65E5;&#x6570;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</th>
-      </tr>
-      <tr>
-        <th style="text-align:left">institution&#x306E;&#x5024;</th>
-        <th style="text-align:left">OAI-PMH&#x306E;&#x5FDC;&#x7B54;&#x306B;&#x5FC5;&#x8981;&#x306A;institution&#x306E;&#x5024;&#x3092;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</th>
-      </tr>
-      <tr>
-        <th style="text-align:left">publisher&#x306E;&#x5024;</th>
-        <th style="text-align:left">OAI-PMH&#x306E;&#x5FDC;&#x7B54;&#x306B;&#x5FC5;&#x8981;&#x306A;publisher&#x306E;&#x5024;&#x3092;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</th>
-      </tr>
-      </tbody>
-      </table>
-      </li>
-      <li>&#x30CF;&#x30FC;&#x30D9;&#x30B9;&#x30BF;&#x8A2D;&#x5B9A;&#x306F;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x4ED6;&#x306E;&#x30B5;&#x30FC;&#x30D0;&#x304B;&#x3089;&#x53CE;&#x96C6;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x8A2D;&#x5B9A;&#x3067;&#x3059;&#x3002;</li>
-      </ul>
-      <p>&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x53CE;&#x96C6;&#x3059;&#x308B;&#x30B5;&#x30FC;&#x30D0;&#x306E;URL&#x3092;&#x6539;&#x884C;&#x533A;&#x5207;&#x308A;&#x3067;&#x5165;&#x529B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
-      <p>&#x884C;&#x306E;&#x5148;&#x982D;&#x306B;(&#x30BB;&#x30DF;&#x30B3;&#x30ED;&#x30F3;);&#x3092;&#x4ED8;&#x3051;&#x305F;&#x5834;&#x5408;&#x306F;&#x305D;&#x306E;&#x884C;&#x306F;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-
-## 6.2.6. **プロキシ設定** <a id="6-2-6-proxy-configuration"></a>
-
- XooNIpsから他のサーバへアクセスする際プロキシを利用する場合に設定します。
-
-![](../../.gitbook/assets/xoonips-install24.png)
-
- \[プロキシ設定\]をクリックします。
-
-![](../../.gitbook/assets/xoonips-install25.png)
-
-
-
-| ホスト名 | プロキシサーバのホスト名を設定します |
+| Repository Name | Example：INCF Japan Node XooNIps site |
 | :--- | :--- |
+| Database ID | Set identification data by using site name, etc. to distinguish sites. Example: www.neuroinf.jp |
+| Number of days for tracking item deletion | Indicate the days for tracking the item deletion. |
+| \(institution\) variable | Set the variable of institution for reply. |
+| \(publisher\) variable | Set the variable of publisher for reply. |
 
+* The harvester setup is for collecting metadata from another server.
 
-| ポート番号 | プロキシサーバのポート番号を設定します |
+Enter the URLs of the servers for harvesting metadata one by one \(press the enter key before entering another URL\).
+
+If the line begins with semicolon\(;\), it is identified as a comment.
+
+## 6.2.6. Proxy Configuration <a id="6-2-6-proxy-configuration"></a>
+
+This section explains proxy configurations, which are required in the case of using proxy when accessing from XooNIps to another server.
+
+![](../../.gitbook/assets/xoonips-install24%20%281%29.png)
+
+Click on \[Proxy\].
+
+![](../../.gitbook/assets/xoonips-install25%20%281%29.png)
+
+| Host | Enter a host name or IP address of the proxy server. |
 | :--- | :--- |
+| Port | Enter the port number of the proxy server. |
+| User Name | Enter the user name if required to authenticate the proxy server. |
+| Password | Enter the password for authentication. |
 
+## 6.2.7. Setup for event notification <a id="6-2-7-setup-for-event-notification"></a>
 
-| ユーザ名 | ユーザ認証が必要な場合にユーザ名を設定します |
-| :--- | :--- |
+Decide the kinds of event to be notified to the XooNIps users by using a XOOPS function.
 
+![](../../.gitbook/assets/xoonips-install26%20%281%29.png)
 
-| パスワード | ユーザ認証のパスワードを設定します |
-| :--- | :--- |
+Click on \[Notifications\].
 
+Choose one from the following.
 
-## 6.2.7. **イベント通知設定** <a id="6-2-7-setup-for-event-notification"></a>
+* Disable Notification \(both styles\)
+* Enable only Block-style
+* Enable only Inline-style
+* Enable Notification \(both styles\)
 
- XOOPSが本来持っているイベント通知機能を利用してXooNIpsがユーザに対して伝えることの出来るイベントを指定します。
+"Enable Specific Events" accepts multiple choices.
 
-![](../../.gitbook/assets/xoonips-install26.png)
+| To whom | Indications at the pulldown menu | Purposes |
+| :---: | :---: | :---: |
+| Administrator: | Administrator: Item transferred | Notify when an item has been transferred. |
+| Administrator: | Administrator: Account certified | Notify when an account has been certified. |
+| Administrator: | Administrator: Item certified | Notify when a publishing item has been certified. |
+| Administrator: | Administrator: Request for group item certification | Notify when there is a request for approval of transferring an item to a group area. |
+| User | XooNIps User: Item transferred | Notify when an item has been transferred. |
+| User: | XooNIps User: Item updated | Notify when an item has been updated. |
+| User: | XooNIps User: Item certified | Notify when a publishing item has been certified. |
+| User: | XooNIps User: Item rejected | Notify when a publishing item has been rejected. |
+| User: | XooNIps User: File downloaded | Notify when a file has been downloaded. |
+| User: | XooNIps User: Group item certified | Notify when an item has been approved of being registered in a group area. |
+| User: | XooNIps User: Group item rejected | Notify when an item has been rejected to be registered in a group area. |
 
-\[イベント通知設定\]をクリックします。
+## 6.2.8. XOOPS Extension <a id="6-2-8-xoops-extension"></a>
 
-イベント通知設定は以下の４つから選択します。
+Entitle a user to be able to use XooNIps functions if he/she has been registered through the XOOPS user module.
 
-* この機能を無効にする
-* イベント選択オプションをブロックに表示する
-* イベント選択オプションをメインコンテンツ下部に表示する
-* イベント選択オプションをブロックおよびメインコンテンツ下部の両方に表示する
+Delete the user information remained on XooNIps if the user was deleted by the XOOPS user module.
 
-特定イベントを有効にするの項目は複数の選択が可能です。
+![](../../.gitbook/assets/xoonips-install27%20%281%29.png)
 
-| 通知する相手 | 画面での表示 | 設定される内容 |
-| :--- | :--- | :--- |
-| XooNIps管理者 | 管理者：アイテム移譲通知 | アイテムが移譲されたことを通知します。 |
-| 管理者：アカウント承認通知 | アカウントが承認されたことを通知します。 |  |
-| 管理者：アイテム承認通知 | 公開アイテムが承認されたことを通知します。 |  |
-| 管理者：グループアイテム承認要求通知 | グループ領域へのアイテム承認要求があることを通知します。 |  |
-| ユーザ | XooNIpsユーザ：アイテム移譲通知 | アイテムが移譲されたことを通知します。 |
-| XooNIpsユーザ：アイテム更新通知 | アイテムが更新されたことを通知します。 |  |
-| XooNIpsユーザ：アイテム承認通知 | 公開アイテムが承認されたことを通知します。 |  |
-| XooNIpsユーザ：アイテム承認拒否通知 | 公開アイテムの承認が拒否されたことを通知します。 |  |
-| XooNIpsユーザ：ファイルのダウンロードを通知 | ファイルがダウンロードされたことを通知します。 |  |
-| XooNIpsユーザ：グループアイテム承認通知 | グループ領域に登録したアイテムが承認されたことを通知します。 |  |
-| XooNIpsユーザ：グループアイテム承認拒否通知 | グループ領域へのアイテム登録が拒否されたことを通知します。 |  |
+Click on \[XOOPS Extension\].
 
-## 6.2.8. **XOOPS拡張** <a id="6-2-8-xoops-extension"></a>
+![](../../.gitbook/assets/xoonips-install28%20%281%29.png)
 
-XOOPSのユーザーモジュールでユーザの登録を行った場合、そのユーザがXooNIpsの機能を使えるようにします。
+Delete or add users by clicking on the icon appeared at "Action".
 
-XOOPSのユーザーモジュールでユーザの削除を行った場合、XooNIpsに残っているユーザ情報を削除します。
+## 6.2.9. Configuration Test <a id="6-2-9-configuration-test"></a>
 
-![](../../.gitbook/assets/xoonips-install27.png)
+How to check the configurations of XooNIps:
 
- \[XOOPS拡張\]をクリックします。
+![](../../.gitbook/assets/xoonips-install29%20%281%29.png)
 
-![](../../.gitbook/assets/xoonips-install28.png)
+Click on \[Configuration Test\].
 
- 操作欄にあるアイコンをクリックすることでユーザの追加や削除が行えます。
+![](../../.gitbook/assets/xoonips-install30%20%281%29.png)
 
-## 6.2.9. **動作確認** <a id="6-2-9-configuration-test"></a>
+Click on \[Test\].
 
- XooNIpsの動作設定を確認します。
+![](../../.gitbook/assets/xoonips-install31.png)
 
-![](../../.gitbook/assets/xoonips-install29.png)
+The results of XooNIps system configuration test will be displayed.
 
- \[動作確認\]をクリックします。
+If the "Total Result" indicates "OK", the XooNIps system preparation is successfully completed.
 
-![](../../.gitbook/assets/xoonips-install30.png)
-
- \[テスト\]をクリックします。
-
-![](../../.gitbook/assets/xoonips-install31%20%281%29.png)
-
-XooNIpsの設定情報が表示されます。
-
-総合判定がOKになっていればXooNIps動作前の設定は終了です。
-
-赤色で表示された場所がある場合には、画面のコメントに従って修正する必要があります。
+If there are any items indicated in red, it has to be modified as the comment directs.
 

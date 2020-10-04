@@ -1,4 +1,4 @@
-# 3.6. グループ管理者の権限移譲
+# 3.6. Transfer a group administrator's authority
 
- グループ管理の権限者はモデレーターが変更することが出来ますので、モデレーターと連絡を取ってください。
+Moderators are permitted to transfer group administrators' authority. Contact the site's moderator if necessary.
 

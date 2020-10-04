@@ -1,24 +1,24 @@
-# 5.2. ユーザー切り替え機能
+# 5.2. Switch User Accounts
 
-XooNIpsでは登録したアイテムは登録したユーザーのみがアイテムの変更・修正が可能です。
+Basically on XooNIps, the items can be modified only by the user who has originally registered them.
 
-システム管理者は他ユーザー権限での実行が出来ますので、他ユーザーの登録したアイテムであっても変更・修正が可能となります。
+However, system administrators are exclusively entitled to change/modify all the items.
 
-XooNIps ユーザメニューのアカウント切り替えのリンクをクリックします。
+Click on the link \[Switch User Account\] at "XooNIps User Menu".
 
-![Switch User Accounts](../../.gitbook/assets/xoonips-operate75.png)
+![Switch User Accounts](../../.gitbook/assets/xoonips-operate75%20%281%29.png)
 
-**Figure 5.82.**  **ユーザ切り替え機能**
+**Figure 5.82. Switch User Accounts**
 
- ドロップダウンリストからユーザーを選択してシステム管理者のパスワードを入力します。
+Choose a user from the dropdown list and enter the password.
 
-![Switch User Accounts 2](../../.gitbook/assets/xoonips-operate76.png)
+![Switch User Accounts 2](../../.gitbook/assets/xoonips-operate76%20%281%29.png)
 
-**Figure 5.83.**  **ユーザ切り替え機能2**
+**Figure 5.83. Switch User Accounts 2**
 
- ユーザーとしての作業を終了したら、XooNIps ユーザメニューのアカウント切り替え\(ユーザー名\)の終了のリンクをクリックします。
+After completing the procedure, click on the link \[End Switch User \(user name\)\] at the XooNIps User Menu.
 
-![Switch User Accounts 3](../../.gitbook/assets/xoonips-operate77%20%281%29.png)
+![Switch User Accounts 3](../../.gitbook/assets/xoonips-operate77.png)
 
-**Figure 5.84.**  **ユーザ切り替え機能3**
+**Figure 5.84. Switch User Accounts 3**
 

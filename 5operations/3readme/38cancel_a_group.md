@@ -1,4 +1,4 @@
-# 3.8. グループの廃止
+# 3.8. Cancel a group
 
- モデレーターによってグループの廃止が可能ですので、モデレーターと連絡を取ってください。
+Moderators are permitted to cancel groups. Contact the site's moderator if necessary.
 

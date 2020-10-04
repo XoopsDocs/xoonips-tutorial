@@ -1,40 +1,32 @@
-# 3.5. グループIndexの公開
+# 3.5. Publish a group index
 
-グループIndexに登録してあるアイテムをKeyword単位で一括してPublicIndexに登録することが出来ます。
+The items registered in a group index can be collectively transferred to the public index by each keyword:
 
-* グループ管理者
+* Group administrator
 
-  XooNIpsグループメニューのグループツリー編集メニューをクリックします。
+  Click on the \[Edit Group Tree\] at "XooNIps Group Admin menu".
 
-![](../../.gitbook/assets/xoonips-operate101.png)
+  ![Block publishing of group indexes](../../.gitbook/assets/xoonips-operate101%20%282%29.png)
 
-**Figure 5.67. Block publishing of group indexes**
+  **Figure 5.67. Block publishing of group indexes**
 
-At the "Publication group item" check the checkboxes of the keywords to be published.
+  At the "Publication group item" check the checkboxes of the keywords to be published.
 
-By the dropdown list, choose a public index keyword to which the checked index keywords are to be added. Click on the \[Submit\] button.
+  By the dropdown list, choose a public index keyword to which the checked index keywords are to be added. Click on the \[Submit\] button.
 
-  
-グループアイテム公開の欄で公開するKeywordにチェックをつけます。
+  ![Block publishing of group indexes 2](../../.gitbook/assets/xoonips-operate102.png)
 
-PublicIndexの追加したいKeywordをドロップダウンリストから選択して「追加」ボタンを押します。
+  **Figure 5.68. Block publishing of group indexes 2**
 
-![](../../.gitbook/assets/xoonips-operate102%20%282%29.png)
+* Moderator
 
-**Figure 5.68. グループIndexの一括公開2**
+  Click on the link \[Certify Public Group Items\] at the "XooNIps Moderator menu".
 
-モデレータ
+  ![Block publishing of group indexes 3](../../.gitbook/assets/xoonips-operate103%20%282%29.png)
 
-XooNIpsモデレータメニューの公開グループアイテム承認リンクをクリックします。
+  **Figure 5.69. Block publishing of group indexes 3**
 
-![](../../.gitbook/assets/xoonips-operate103%20%281%29.png)
+  Check the checkbox either of \[Approve\] or \[Reject\].
 
-**Figure 5.69. グループIndexの一括公開3**  
-
-
-公開を承認または拒否するインデックスにチェックを付けます。
-
-「Accept\(承認」）または「Reject（拒否）」ボタンをおして公開を承認または拒否します。
-
-
+  Decide whether or not to publish the item by clicking on \[Accept\] or \[Reject\].
 

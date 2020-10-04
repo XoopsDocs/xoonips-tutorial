@@ -1,4 +1,4 @@
-# 2. ユーザー
+# 2. Registered user
 
- 登録ユーザー時の操作
+This section shows the operations that the registered users are entitled to perform on XooNIps.
 

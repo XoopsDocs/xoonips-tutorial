@@ -1,6 +1,6 @@
-# 5.5. メタデータハーベスト
+# 5.5. Harvest metadata
 
-メタデータのハーベストは手動で行う必要があります。
+Harvesting metadata requires manual operations.
 
-メンテナンスOAI-PMH設定の項目を参照してください。
+Please refer to 4.2.7. "OAI-PMH".
 

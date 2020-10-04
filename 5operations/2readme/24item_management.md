@@ -1,185 +1,180 @@
-# 2.4. アイテム管理
+# 2.4. Item management
 
-## 2.4.1. **アイテム登録** <a id="2-4-1-item-management"></a>
+## 2.4.1. Item management <a id="2-4-1-item-management"></a>
 
-アイテムの登録方法を説明します。
+How to register new items:
 
-XooNIps User Menuから新規アイテム登録のリンクをクリックします。
+Click on the link \[Add New Item\] at "XooNIps User Menu".
 
-![New item registration](../../.gitbook/assets/xoonips-operate25%20%281%29.png)
+![New item registration](../../.gitbook/assets/xoonips-operate25.png)
 
-**Figure 5.25.**  **アイテムの新規登録**
+**Figure 5.25. New item registration**
 
- 画面中央のドロップダウンリストから登録したいアイテムタイプを選択します。
+Choose an item type from the dropdown list.
 
-![Choose a new register item type.](../../.gitbook/assets/xoonips-operate26%20%281%29.png)
+![Choose a new register item type.](../../.gitbook/assets/xoonips-operate26.png)
 
-**Figure 5.26.**  **新規登録アイテムタイプの選択**
+**Figure 5.26. Choose a new register item type.**
 
-アイテムタイプを選ぶと登録画面が表示されます。
+After choosing an item type, a "Register" screen appears.
 
-少なくとも一つの登録したいPrivate index keywordにチェックを付けます。
+Check at least one checkbox of a keyword at "Private" index to which the item belongs.
 
-赤色の＊は必須入力項目です。
+The items with "\*" are required.
 
-IDの項目はXooNIps内で固有の一意の値である必要があります。IDが重複する場合はエラーとなります。
+For the "ID" field, always enter the same value. If the ID is duplicated, it will be regarded as an error.
 
-![Register items \(TOOL\)](../../.gitbook/assets/xoonips-operate27%20%281%29.png)
+![Register items \(TOOL\)](../../.gitbook/assets/xoonips-operate27.png)
 
-**Figure 5.27.**  **アイテムの登録 \(TOOL\)**
+**Figure 5.27. Register items \(TOOL\)**
 
-\*\*\*\*
+* "Download Limitation":
 
-* ダウンロード制限
+  Decide whom to be permitted to download the items \(ex. login users only or all the users including guests\).
 
-  このアイテムをダウンロードできるユーザーをログインユーザーに限定するか、ゲストも含めた全てのユーザーにダウンロードを許可するかを選択します。
+* "Download Notification":
 
-* ダウンロード通知
+  An option available only if login users are set to be permitted to download the items.
 
-  上記オプションでログインユーザーを選択した場合のみ有効なオプションとなります。
+  It depends on the system configuration of the site.
 
-  通知の設定はサイトのシステム設定に依存します。
+* "Readme":
 
-* Readme入力ウィンドウ
+  Click on the link \[Edit\], and a window will open. Indicate a file and click on the \[upload\] button; or, directly edit in the textbox and click on the \[OK\] button.
 
-  Readmeの編集リンクをクリックすると、別のウィンドウが開きます。ファイルを指定して「更新」ボタンを押すか、テキストボックスへの直接入力した後「OK」ボタンを押すと登録画面に反映されます
+  ![Edit Readme](../../.gitbook/assets/xoonips-operate28.png)
 
+  **Figure 5.28. Edit Readme**
 
+* "Rights":
 
-![](../../.gitbook/assets/xoonips-operate28%20%282%29.png)
+  To set the Creative Commons license. Or, edit an original license, click on the link \[edit\] to open an edit window.
 
-* **Figure 5.28. Readmeの入力** 
-* Rights
+  Rights edit window:
 
-  Creative Commonsライセンスの設定が出来ます。編集のリンクをクリックすると別ウィンドウが開きますので、独自のライセンスを設定することも可能です。
+  Click on the link \[Edit\] to open an edit window. Indicate a file and click on the \[upload\] button. Or edit an original text in the textbox and click on the \[upload\] button.
 
-  Rights入力ウィンドウ
+  ![Edit Rights](../../.gitbook/assets/xoonips-operate29%20%282%29.png)
 
-  RightsのEditリンクをクリックすると、別のウィンドウが開きます。ファイルを指定して「更新」ボタンを押すか、テキストボックスへの直接入力した後「OK」を押すと登録画面に反映されます。
+  **Figure 5.29. Edit Rights**
 
-![](../../.gitbook/assets/xoonips-operate29.png)
+* "Related to":
 
-* **Figure 5.29. Rightsの入力** 
-* 関連アイテム
+  To indicate other related items.
 
-  関連するアイテムを指定することが出来ます。
+  To identify the items to be registered in a related item, use either of the following 3 commands on the "Register" screen.
 
-  関連アイテムに登録するアイテムを指定する方法は以下の3通りです。
+  * \[Item list\]
 
-  * アイテム一覧
+    Choose items from the item list.
 
-    アイテムの一覧から選択します。
+  * \[Index keyword\]
 
-  * インデックスキーワード
+    Choose the item to be registered in a related item by using Index Tree.
 
-    Index Treeを利用して関連アイテムに登録するアイテムを選択します。
+  * \[Search\]
 
-  * 検索
+    Choose the item to be registered in a related item by using detail search.
 
-    詳細検索を利用して関連アイテムに登録するアイテムを選択します。
+  ![Detail of an item](../../.gitbook/assets/xoonips-operate30%20%281%29.png)
 
-![](../../.gitbook/assets/xoonips-operate30%20%282%29.png)
+  **Figure 5.30. Detail of an item**
 
-**Figure 5.30. アイテム登録画面**  
+  1. How to choose by \[Item list\]
 
+     Click on \[Item list\]. Choose items from the list showing the applicable items \(registered in the Public Index and the user's private index.\)
 
-1. アイテム一覧での選択
+     Check the checkbox of the item to be registered and click on the \[Select\] button to confirm.
 
-   登録可能なアイテム\(Public Indexに登録されているアイテムとユーザーのPrivate Indexに登録されているアイテム\)の一覧から選択します。
+     ![Item registration by \[Item list\]](../../.gitbook/assets/xoonips-operate31%20%281%29.png)
 
-   登録するアイテムにチェックを付けた後、「選択する」ボタンを押して確定します。
+     **Figure 5.31. Item registration by \[Item list\]**
 
-![](../../.gitbook/assets/xoonips-operate31%20%282%29.png)
+  2. How to choose by an index keyword:
 
- **Figure 5.31. アイテム登録画面アイテム一覧**
+     Click on an intended keyword at "Private" index.
 
-**2\)** インデックスキーワードでの選択
+     Check the checkbox of the item to be registered in a related item and click on the \[Select\] button to confirm the registration.
 
-ドロップダウンリストでアイテム一覧を表示して、関連アイテムに登録するアイテムを選択します。
+     ![Item registration by \[Index Keyword\]](../../.gitbook/assets/xoonips-operate132%20%282%29.png)
 
-登録するアイテムにチェックを付けた後、「選択する」ボタンを押して確定します。  
-****
+     **Figure 5.32. Item registration by \[Index Keyword\]**
 
-![](../../.gitbook/assets/xoonips-operate132%20%281%29.png)
+  3. How to choose by \[Search\]
 
- **Figure 5.32. アイテム登録画面インデックスキーワード**
+     Click on \[Search\], and a "Detail" search screen will appear. Search the item to be registered in a related item in the same manner as normal search.
 
-1. 3\) 検索での選択
+     Check the checkbox of the intended item and click on the \[Select\] button.
 
-   詳細検索画面が表示されますので、通常の詳細検索と同様に関連アイテムに登録したいアイテムを検索します。
+  Click on the \[Next\] button to confirm the registration.
 
-   登録するアイテムにチェックを付けた後、「選択する」ボタンを押して確定します。
+  ![Item registration confirmation screen](../../.gitbook/assets/xoonips-operate133%20%281%29.png)
 
-「次へ」ボタンを押して登録します。
+  **Figure 5.33. Item registration confirmation screen**
 
-![](../../.gitbook/assets/xoonips-operate133%20%282%29.png)
+## 2.4.2. Edit items <a id="2-4-2-edit-items"></a>
 
- **Figure 5.33. アイテム登録確認画面**
+Go to the "Detail" screen of the intended item. Use "Index Tree" or "XooNIps Search" to search for it.
 
-## **2.4.2. アイテムの編集**
+![Detail of an item](../../.gitbook/assets/xoonips-operate32.png)
 
-Index TreeやXooNIps検索を利用して編集したいアイテムの詳細画面を表示させます。
+**Figure 5.34. Detail of an item**
 
-![Detail of an item](../../.gitbook/assets/xoonips-operate32%20%281%29.png)
+Click on \[Modify\] button, and a "Modify" screen will appear. Make modifications as necessary and click on \[Next\] button.
 
-**Figure 5.34. アイテム詳細**  
+![Modify details of an item](../../.gitbook/assets/xoonips-operate33.png)
 
+**Figure 5.35. Modify details of an item**
 
-編集画面が表示されますので、項目を修正して「更新」ボタンを押して情報を反映させます。
+On the "Detail" screen, modification history will be shown.
 
-![Modify details of an item](../../.gitbook/assets/xoonips-operate33%20%281%29.png)
+![Item modification history](../../.gitbook/assets/xoonips-operate34%20%282%29.png)
 
-**Figure 5.35.**  **アイテム修正**
+**Figure 5.36. Item modification history**
 
- 詳細画面では変更履歴が表示されます。
+## 2.4.3. How to delete items: <a id="2-4-3-how-to-delete-items"></a>
 
-![Item modification history](../../.gitbook/assets/xoonips-operate34.png)
+Delete items
 
-**Figure 5.36.**  **アイテム更新履歴**
+Go to the "Detail" screen of the item to be deleted. Use "Index Tree" or "XooNIps Search" for search the intended item.
 
-## 2.4.3. **アイテム削除** <a id="2-4-3-how-to-delete-items"></a>
+Click on the \[Delete\] button to open a dialog box and choose \[OK\].
 
-アイテムの削除
+![Delete items](../../.gitbook/assets/xoonips-operate35.png)
 
-Index TreeやXooNIps検索を利用して削除したいアイテムの詳細画面を表示させます。
+**Figure 5.37. Delete items**
 
-「削除」ボタンを押すと、確認のダイヤログが表示されますので「はい」を選択して削除します。
+## 2.4.4. Binder item type <a id="2-4-4-binder-item-type"></a>
 
-![Delete items](../../.gitbook/assets/xoonips-operate35%20%281%29.png)
+"Binder" is an item type, by which items can be collectively managed.
 
-**Figure 5.37.**  **アイテム削除**
+To identify the items to be registered in a Binder, use either of the following 3 commands on the "Register" screen.
 
-## 2.4.4. **Binderアイテムタイプについて** <a id="2-4-4-binder-item-type"></a>
+* \[Item list\]
 
-Binderは他のアイテムを一つにまとめて管理することが出来るアイテムタイプです。
+  Choose items from the item list.
 
-Binderに登録するアイテムを指定する方法は以下の3通りです。
+* \[Index keyword\]
 
-* アイテム一覧
+  Choose the item to be registered in a Binder by using Index Tree.
 
-  アイテムの一覧から選択します。
+* \[Search\]
 
-* インデックスキーワード
+  Choose the item to be registered in a Binder by using detail search.
 
-  Index Treeを利用してBinderに登録するアイテムを選択します。
+![Binder registration screen](../../.gitbook/assets/xoonips-operate36.png)
 
-* 検索
+**Figure 5.38. Binder registration screen**
 
-  詳細検索を利用してBinderに登録するアイテムを選択します。
+1. How to choose by \[Item list\]
 
-![Binder registration screen](../../.gitbook/assets/xoonips-operate36%20%281%29.png)
+   Click on \[Item list\]. Choose items from the list showing the applicable items \(registered in the Public Index and the user's private index.\)
 
-**Figure 5.38.**  **Binder登録画面**
+   Check the checkbox of the item to be registered and click on the \[Select\] button to confirm.
 
-1. アイテム一覧での選択
+   ![Binder registration by \[Item list\]](../../.gitbook/assets/xoonips-operate37.png)
 
-   登録可能なアイテム\(Public Indexに登録されているアイテムとユーザーのPrivate Indexに登録されているアイテム\)の一覧から選択します。
-
-   登録するアイテムにチェックを付けた後、「選択する」ボタンを押して確定します。
-
-   ![Binder registration by \[Item list\]](../../.gitbook/assets/xoonips-operate37%20%281%29.png)
-
-   **Figure 5.39.**  **Binder登録画面アイテム一覧**  
+   **Figure 5.39. Binder registration by \[Item list\]**
 
 2. How to choose by an index keyword:
 
@@ -187,31 +182,35 @@ Binderに登録するアイテムを指定する方法は以下の3通りです�
 
    Check the checkbox of the item to be registered in a Binder and click on the \[Select\] button to confirm the registration.
 
-   ![Binder registration by \[Index Keyword\]](../../.gitbook/assets/xoonips-operate38.png)
+   ![Binder registration by \[Index Keyword\]](../../.gitbook/assets/xoonips-operate38%20%281%29.png)
 
-   **Figure 5.40.**  **Binder登録画面インデックスキーワード**
+   **Figure 5.40. Binder registration by \[Index Keyword\]**
 
-3. 検索での選択 詳細検索画面が表示されますので、通常の詳細検索と同様にBinderに登録したいアイテムを検索します。 登録するアイテムにチェックを付けた後、「選択する」ボタンを押して確定します。
+3. How to choose by \[Search\]
 
-「次へ」ボタンを押して登録します。
+   Click on \[Search\], and a "Detail" search screen will appear. Search the item to be registered in a Binder in the same manner as normal search.
 
-![Binder registration confirmation screen](../../.gitbook/assets/xoonips-operate39%20%281%29.png)
+   Check the checkbox of the intended item and click on the \[Select\] button.
 
-**Figure 5.41.**  **Binder登録確認画面**
+Click on the \[Next\] button to confirm the registration.
 
-## 2.4.5. **Paperアイテムタイプの登録** <a id="2-4-5-register-items-paper-type"></a>
+![Binder registration confirmation screen](../../.gitbook/assets/xoonips-operate39.png)
 
- Paperアイテムの登録画面にはPubMedIDの項目があります。PubMedIDがわかっている場合にはPubMedIDを入力して「Complete」ボタンを押すとその他の情報が自動で補完されます。
+**Figure 5.41. Binder registration confirmation screen**
 
-![&quot;Register&quot; screen for Paper items](../../.gitbook/assets/xoonips-operate41.png)
+## 2.4.5. Register items \(paper type\) <a id="2-4-5-register-items-paper-type"></a>
 
-**Figure 5.42.**  **Paper登録画面**
+On the "Register" screen for Paper items \(XooNIps User Menu&gt;&gt;Add New Item; pulldown menu "Paper" at "Select item type"\), there is "PubMedID" field. If a PubMedID is given, enter the ID and click on the \[Complete\] button, then the other following related information will be automatically filled out.
 
-## 2.4.6. **Bookアイテムタイプの登録** <a id="2-4-6-register-items-book-type"></a>
+![&quot;Register&quot; screen for Paper items](../../.gitbook/assets/xoonips-operate41%20%281%29.png)
 
- Bookアイテムの登録画面にはISBNコードの項目があります。ISBNコード\(10桁又は13桁\)がわかっている場合にはISBNコード\(10桁又は13桁\)を入力して「Complete」ボタンを押すとその他の情報が自動で補完されます。その際のURLにはamazonの書籍情報詳細ページが補完されます。
+**Figure 5.42. "Register" screen for Paper items**
 
-![Registration screen for Book items](../../.gitbook/assets/xoonips-operate90%20%281%29.png)
+## 2.4.6. Register items \(Book type\) <a id="2-4-6-register-items-book-type"></a>
 
-**Figure 5.43.**  **Book登録画面**
+On the "Register" screen for Book item, there is ISBN code field. If the code is identified, enter it \(10 or 13 digits\) and click on the "Complete" button, then the other related information will be automatically filled out. In this case, the URL field will be filled with the detailed information provided by Amazon.
+
+![Registration screen for Book items](../../.gitbook/assets/xoonips-operate90.png)
+
+**Figure 5.43. Registration screen for Book items**
 

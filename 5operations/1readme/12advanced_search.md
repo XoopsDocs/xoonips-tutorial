@@ -1,18 +1,18 @@
-# 1.2. 公開情報の詳細検索
+# 1.2. Advanced search
 
-アイテムタイプ毎にさらに条件を詳しく設定して検索することが出来ます。
+Each item can be searched by detailed conditions.
 
-XooNIps検索ボックスの横にある詳細検索のリンクをクリックします。
+Click on the link \[Advanced\].
 
-![Advanced search](../../.gitbook/assets/xoonips-operate5%20%281%29.png)
+![Advanced search](../../.gitbook/assets/xoonips-operate5.png)
 
-**Figure 5.5.**  **詳細検索**
+**Figure 5.5. Advanced search**
 
-検索したいアイテムタイプにチェックを入れると検索条件が指定できます。画面上下に設置されている「検索」ボタンを押すと検索が実行されます。
+On a "Search Items" screen, check an item type \(ex. "Title", "Presentation Type", etc.\) to open entry fields will appear. Fill in the fields and click on the \[Search\] button to start searching.
 
-複数のアイテムタイプにチェックを入れての検索も可能です。
+Item types can be chosen more than one.
 
-![Advanced search 2](../../.gitbook/assets/xoonips-operate6.png)
+![Advanced search 2](../../.gitbook/assets/xoonips-operate6%20%281%29.png)
 
-**Figure 5.6.**  **詳細検索2**
+**Figure 5.6. Advanced search 2**
 

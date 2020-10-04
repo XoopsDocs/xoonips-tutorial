@@ -1,68 +1,20 @@
-# 2.3. アイテム管理\)
+# 2.3. 'Item Management' \(Maintenance&gt;&gt;Item Management\)
 
-公開アイテムの一括取り下げ、ユーザー毎のアイテムの一括削除、アイテムの移譲が出来ます。
+Operations for item management \(to withdraw, delete and transfer items\).
 
-* 公開アイテム一括取り下げ
+* "Withdraw Items"
 
-  公開アイテムの一括取り下げを行います。
+  Cancel the published items.
 
-* アイテム一括削除
+* "Delete Items"
 
-  アイテム一括削除を行います。
+  Delete the published items.
 
-* アイテムの移譲
+* "Transfer items"
 
-  退会したユーザのアイテムを別のユーザに移譲します。
+  Transfer a resigned user's items to another existing user.
 
-## 2.3.1. **公開アイテム一括取り下げ** <a id="2-3-1-withdraw-items-xoonips-maintenance-item-management-withdraw-items"></a>
+## 2.3.1. "Withdraw Items" \(XooNIps&gt;&gt;Maintenance&gt;&gt;Item Management&gt;&gt;Withdraw Items\) <a id="2-3-1-withdraw-items-xoonips-maintenance-item-management-withdraw-items"></a>
 
-Publicに登録されているアイテムをインデックス毎に選択して削除することが出来ます。
-
-#### Tip
-
-Public indexへの公開が取り下げられるのみでアイテムが削除されることはありません。
-
-## **2.3.2. アイテム一括削除**
-
-ユーザーのアイテムをインデックス毎に削除することができます。
-
-ドロップダウンリストからユーザーを選択します
-
-![](../../.gitbook/assets/xoonips-mente5.png)
-
-**Figure 4.20. アイテム一括削除**  
-
-
-一括削除したいインデックスを選択して、削除ボタンを押すと削除が実行されます。
-
-![](../../.gitbook/assets/xoonips-mente6.png)
-
-**Figure 4.21. アイテム一括削除2**  
-
-
-## **2.3.3. アイテムの移譲**
-
-XooNIpsでは登録したアイテムの修正や変更は登録したユーザのみが行えます。
-
-ユーザがサイトを退会した場合などに登録アイテムの修正や変更が行えるように権限を移譲することが出来ます。
-
-ドロップダウンリストで権限を移譲する側\(From\)とされる側\(To\)のユーザとIndex Keywordを選択します。
-
-![](../../.gitbook/assets/xoonips-mente7.png)
-
-**Figure 4.22. アイテムの移譲**  
-
-
-移譲するアイテムの欄にチェックをつけて移譲するボタンを押すと確認画面が表示されます。
-
-![](../../.gitbook/assets/xoonips-mente8.png)
-
-**Figure 4.23. アイテムの移譲2**  
-
-
-確認画面で実行ボタンを押すと権限が移譲されます。
-
-![](../../.gitbook/assets/xoonips-mente9.png)
-
- **Figure 4.24. アイテムの移譲3**
+Withdraw the items registered in the public area by each index.
 

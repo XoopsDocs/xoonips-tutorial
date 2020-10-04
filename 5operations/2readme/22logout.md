@@ -1,12 +1,4 @@
-# 2.2. ログアウト
+# 2.2. Logout
 
-Logoutのリンクやログアウトのボタンをクリックしてログアウトしてください。
-
-#### Tip
-
-サイトのレイアウトによってはこの位置にあるとは限りません。
-
-![](../../.gitbook/assets/xoonips-operate12.png)
-
- **Figure 5.12. ログアウト**
+Click on the \[logout\] \(a link or button\).
 

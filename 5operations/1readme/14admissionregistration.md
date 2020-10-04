@@ -1,40 +1,8 @@
-# 1.4. サイト入会・登録
+# 1.4. Admission/registration
 
- 新規ユーザー登録の概要を説明します。
+Outline of new user registrations.
 
-## 1.4.1. **サイト登録の流れ** <a id="1-4-1-registration-flowchart"></a>
+## 1.4.1. Registration flowchart <a id="1-4-1-registration-flowchart"></a>
 
-XooNIpsの機能を利用出来るようになるにはユーザー登録の他にモデレーターによる承認が必要です。
-
-#### Tip
-
-サイトポリシーの設定により自動で承認される場合もあります。
-
-![](../../.gitbook/assets/xoonips-operate10.png)
-
-**Figure 5.8. 登録の流れ**  
-
-
-## **1.4.2. 登録の手順**
-
-新規登録のリンクをクリックします。
-
-#### Tip
-
-サイトのデザインによってこの位置にあるとは限りません。
-
-![](../../.gitbook/assets/xoonips-operate8.png)
-
-**Figure 5.9. 新規入会**  
-
-
-必要事項に情報を入力して登録を行ってください。
-
-サイトポリシーで必須入力とされている項目には＊が付いています。
-
-サイトポリシーの設定によっては登録作業後にモデレーターの承認が必要となります。
-
-![](../../.gitbook/assets/xoonips-operate9.png)
-
- **Figure 5.10. 新規登録**
+To use the XooNIps functions, the user has to be approved by a moderator to become a registered user.
 

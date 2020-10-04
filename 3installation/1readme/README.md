@@ -1,4 +1,4 @@
-# 1. Webサイトの計画と設計
+# 1. Plan and design a website
 
- Webサイトを実際に構築する前に、その目的や利用者の特定などについて具体的に計画を立てておくことが重要です。
+Before building a website, it is fundamental to make specific plans on its potential users and purposes, etc.
 

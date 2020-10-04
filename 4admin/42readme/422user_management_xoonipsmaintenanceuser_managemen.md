@@ -1,243 +1,193 @@
-# 2.2. ユーザー管理
+# 2.2. 'User Management' \(XooNIps&gt;&gt;Maintenance&gt;&gt;User Management\)
 
- ユーザー情報の編集と削除、新規ユーザーの追加登録が出来ます。
+How to manage user information \(editing/deleting user information, registering new users, etc.\).
 
-![&quot;User Management&quot;](../../.gitbook/assets/xoonips-mente2%20%281%29.png)
+![&quot;User Management&quot;](../../.gitbook/assets/xoonips-mente2.png)
 
-**Figure 4.17.**  **ユーザ管理**
+**Figure 4.17. "User Management"**
 
-操作欄のペンアイコンをクリックするとユーザ情報の編集が出来ます。
+Click on a pen-icon to edit user information.
 
-操作欄のXアイコンをクリックするとユーザの削除が出来ます。
+Click on a X-icon to delete user information.
 
-## 2.2.1. **新規ユーザーの登録・既存ユーザー情報の編集** <a id="2-2-1-register-new-user-click-on-register-new-user-upper-right-of-the-user-management-screen"></a>
+## 2.2.1. "Register New user" \(click on \[Register New User\], upper right of the "User Management" screen\). <a id="2-2-1-register-new-user-click-on-register-new-user-upper-right-of-the-user-management-screen"></a>
 
-ユーザー情報の編集をします。＊は必須入力項目です。更新が終わったら画面最下部の更新ボタンを押して情報を反映させます。
+Edit the new user's information. The required fields are indicated by "\*". Fill out the fields and click on \[UPDATE\] below.
 
-パスワードの変更はここで変更が可能です。
+Use this screen for changing passwords.
 
-必須項目の数はサイトポリシーのユーザ情報で設定した項目により増減します。
+The required fields vary with the setups made on \(XooNIps - Site Policies -\) User Information.
 
-* ユーザ名
+* Username
 
-  XooNIpsサイト上で表示されるユーザーのニックネームを入力します。
+  Enter a handle \(online name\) of the user to be displayed on XooNIps
 
-* 本名
+* Real Name
 
-  ユーザーの本名を入力します。
+  Enter the user's real name
 
-* メールアドレス
+* Email
 
-  Eメールアドレスを入力します。ユーザー情報としてメールアドレスを公開する場合にはチェックボックスにチェックを付けます。
+  Enter email address. Check the checkbox if allow other users to view the email address.
 
-* ホームページ
+* Website
 
-  ユーザーが公開したいURLを入力します。
+  Enter the URL to be published.
 
-* 所属グループ
+* User's Groups
 
-  ユーザーが所属するXOOPSグループを選択します。
+  Choose a XOOPS group which the user belongs to.
 
-  **Table 4.8. 所属グループ**
+  **Table 4.8. "User's Groups"**
 
-  <table>
-    <thead>
-      <tr>
-        <th style="text-align:left">&#x540D;&#x79F0;</th>
-        <th style="text-align:left">&#x8AAC;&#x660E;</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="text-align:left">&#x30B5;&#x30A4;&#x30C8;&#x7BA1;&#x7406;&#x8005;</td>
-        <td style="text-align:left">XOOPS&#x3067;&#x6307;&#x5B9A;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;Webmasters&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;</td>
-      </tr>
-      <tr>
-        <td style="text-align:left">&#x767B;&#x9332;&#x30E6;&#x30FC;&#x30B6;</td>
-        <td style="text-align:left">
-          <p>XOOPS&#x3067;&#x6307;&#x5B9A;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;Registered
-            Users&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;&#x3002;</p>
-          <p>&#x4E00;&#x822C;&#x767B;&#x9332;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306E;&#x5834;&#x5408;&#x306B;&#x306F;&#x3053;&#x306E;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306E;&#x307F;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;&#x3002;</p>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align:left">moderator</td>
-        <td style="text-align:left">
-          <p>XooNIps&#x306E;moderator&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;&#x3002;</p>
-          <p>&#x65B0;&#x898F;&#x767B;&#x9332;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x30E2;&#x30C7;&#x30EC;&#x30FC;&#x30BF;&#x30FC;&#x306E;&#x5834;&#x5408;&#x306B;&#x306F;&#x3053;&#x306E;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x6240;&#x5C5E;&#x3055;&#x305B;&#x307E;&#x3059;&#x3002;</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-* 職名
-
-  ユーザーの役職名をドロップダウンリストから選択します。
-
-* 所属
-
-  ユーザーの所属部署などを入力します。
-
-* 機関名／大学名／会社名
-
-  ユーザーの所属する機関名・大学名・会社名などを入力します。
-
-* 電話番号
-
-  ユーザーが公開したい電話番号を入力します。
-
-* FAX 番号
-
-  ユーザーが公開したいFAX番号を入力します。
-
-* 住所
-
-  ユーザーが公開したい住所を入力します。
-
-* 国名
-
-  ユーザーの国名を入力します。
-
-* 郵便番号
-
-  ユーザーが公開したい郵便番号を入力します。
-
-* タイムゾーン
-
-  ユーザーの国に合わせたタイムゾーンを選択します。
-
-* 趣味
-
-  ユーザーの公開したい趣味などを入力します。
-
-* 自由記述
-
-  自由記述項目です。
-
-* 署名
-
-  署名を入力します。投稿に署名を必ず追加する場合はチェックボックスにチェックを付けます。
-
-* パスワード
-
-  パスワードを登録します。
-
-* パスワード確認
-
-  上と同じパスワードをもう一度入力してもらうことで、パスワードの確認を行います。
-
-* 送信メール間隔\[日\]
-
-  イベント更新通知メッセージの受け取り方法で新しいアイテムの登録時にメールで情報を受け取る様に設定した場合、メールが送られる間隔を日数で指定します。
-
-  イベント更新通知メッセージの受け取り方法をメールに指定した場合に有効な設定です。
-
-* プライベートの最大アイテム数
-
-  Private領域の最大アイテム数を入力します。
-
-  デフォルト値は５００でPrivate領域に５００アイテムまで登録できます。
-
-* プライベートの最大インデックス数
-
-  Private領域の最大インデックス数を入力します。
-
-  デフォルト値は２００でPrivateIndexに２００個までキーワードを登録できます。
-
-* プライベートの最大ディスク容量 \[MB\]
-
-  Private領域の最大ディスク容量をMB単位で入力します。
-
-  デフォルト値は５００でPrivate領域のディスク使用量は５００MBになります。
-
-* コメント表示モード
-
-  コメントの表示モードを指定します。
-
-  XooNIps3.4のアイテムへのコメント機能の設定ではありません。XOOPS標準のコメント機能についての設定です。
-
-  **Table 4.9. コメント表示モード**
-
-  <table>
-    <thead>
-      <tr>
-        <th style="text-align:left">&#x8868;&#x793A;&#x30E2;&#x30FC;&#x30C9;</th>
-        <th style="text-align:left">&#x8AAC;&#x660E;</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="text-align:left">&#x30CD;&#x30B9;&#x30C8;&#x8868;&#x793A;</td>
-        <td style="text-align:left">
-          <p>&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x304C;&#x30CD;&#x30B9;&#x30C8;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
-          <p>&#x30C4;&#x30EA;&#x30FC;&#x306B;&#x5F93;&#x3063;&#x3066;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x306E;&#x90E8;&#x5206;&#x306F;&#x30A4;&#x30F3;&#x30C7;&#x30F3;&#x30C8;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align:left">&#x30D5;&#x30E9;&#x30C3;&#x30C8;&#x8868;&#x793A;</td>
-        <td style="text-align:left">
-          <p>&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x304C;&#x30D5;&#x30E9;&#x30C3;&#x30C8;&#x8868;&#x793A;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
-          <p>&#x5168;&#x3066;&#x306E;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x304C;&#x6295;&#x7A3F;&#x6642;&#x9593;&#x9806;&#x306B;&#x5168;&#x6587;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align:left">&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x8868;&#x793A;</td>
-        <td style="text-align:left">
-          <p>&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x304C;&#x4EF6;&#x540D;&#x306B;&#x3088;&#x3063;&#x3066;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x5316;&#x3057;&#x3066;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059;&#xFF08;&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x8868;&#x793A;&#xFF09;</p>
-          <p>&#x30B9;&#x30EC;&#x30C3;&#x30C9;&#x306E;&#x6700;&#x521D;&#x306E;&#x6295;&#x7A3F;&#x306E;&#x307F;&#x5168;&#x6587;&#x8868;&#x793A;&#x3055;&#x308C;&#x3001;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x306F;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3060;&#x3051;&#x305D;&#x306E;&#x4E0B;&#x306B;&#x4E26;&#x3073;&#x307E;&#x3059;&#x3002;</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-* コメントの並び順
-
-  コメントの並び順を指定します。
-
-  **Table 4.10. コメントの並び順**
-
-  | 並び順 | 説明 |
+  | Pulldown menu | Description |
   | :--- | :--- |
-  | 古いものから | コメントが古い順に表示されます。 |
-  | 新しいものから | コメントが新しい順に表示されます。 |
+  | Webmasters | Make the user belong to the webmasters group as XOOPS indicates. |
+  | Registered User | Make the user belong to the registered users group as XOOPS indicates. |
+  | Moderator | Make the user belong to the moderator group of XooNIps. |
 
-* ランク
+* Position
 
-  ランクを指定します。
+  Choose the user's position from the pulldown list.
 
-  未選択の状態で問題ありません。
+* Division
 
-* イベント更新通知メッセージの受け取り方法
+  Enter the division the user belongs to.
 
-  イベント通知メッセージの受け取り方法を指定します。
+* Company Name
 
-  **Table 4.11. メッセージ受け取り**
+  Enter the company/university/institution name the user belongs to.
 
-  | メッセージ受け取り方法 | 説明 |
+* Phone Number
+
+  Enter the telephone number if wish to publish it.
+
+* FAX Number
+
+  Enter the fax number if wish to publish it.
+
+* Address
+
+  Enter the address if wish to publish it.
+
+* Country
+
+  Enter the country where the user live.
+
+* Zipcode
+
+  Enter the ZIP code, if wish to publish it.
+
+* Time zone
+
+  Choose a time zone according to the user's country.
+
+* Interests
+
+  Enter the user's interests, if wish to publish it.
+
+* Free Description
+
+  Describe anything you want.
+
+* Signature
+
+  Enter the user's signature. Check/uncheck the checkbox "Always attach my signature".
+
+* Password
+
+  Register a password.
+
+* Verify Password
+
+  Enter the password again to confirm it.
+
+* New Item Mail Notification \[per day\]
+
+  Set the frequency of email notification by the day.:" \(Listed later in this section\).
+
+  This is applicable only if it's been set as "Email \(Pulldown menu\)" at "Notification Method:" \(Listed later in this section\).
+
+* Maximum Private Items
+
+  Enter the maximum number of items to be registered in a private area.
+
+  Default value: 500
+
+* Maximum Private Indexes
+
+  Enter the maximum number of indexes for a private area.
+
+  Default value: 200
+
+* Maximum Disk Space for Private Items \[MB\]
+
+  Enter the maximum disk capacity for a private area by the MB.
+
+  Default value: 500
+
+* Comment Display Mode
+
+  Choose a comment display mode from the pulldown menu.
+
+  This is for XOOPS standard comment function. Note that this is not for adding comments to the items on XooNIps3.4.
+
+  **Table 4.9. Comment Display Mode**
+
+  | Comment Display Mode \(Pulldown\) | Description |
   | :--- | :--- |
-  | 一時的に中止 | イベント通知のメッセージ受け取りを一時的に停止させます。 |
-  | プライベートメッセージ | イベント通知のメッセージをXOOPSのPM機能で受け取ります。 |
-  | メール | イベント通知のメッセージをユーザー情報のEメールアドレスで受信します。 |
+  | Nested | Comments will be nest-displayed. |
+  | Flat | Comments will be flat-displayed. |
+  | Threaded | Comments will be sorted by groups according to the title. |
 
-* イベント通知のタイミング
+* Comments Sort Order
 
-  イベント通知メッセージの通知タイミングを指定します。
+  Choose either of "Oldest First" or "Newest First" from the pulldown menu.
 
-  **Table 4.12. 通知タイミング**
+  **Table 4.10. Comments Sort Order**
 
-  | 通知タイミング | 説明 |
+  | Pulldown menu | Description |
   | :--- | :--- |
-  | イベント更新時に必ず通知する | イベント発生時に必ず通知する設定です。 |
-  | 一度だけ通知する | 一度だけ通知する。 |
-  | 一度通知した後、再度ログインするまで通知しない | 一度通知した後、再度ログインするまで通知しない。 |
+  | Oldest First | Comments will be sorted out from the oldest to the newest. |
+  | Newest First | Comments will be sorted out from the newest to the oldest. |
 
-* 当サイトの新着情報などをメールで受け取る
+* Rank
 
-  当XooNIpsサイトの新着情報等をメールで受け取るか否かを指定します。
+  Setup for ranking
 
-![&quot;Register New User&quot;](../../.gitbook/assets/xoonips-mente3.png)
+  Leave it as it is.
 
-**Figure 4.18.**  **ユーザ登録**
+* Notification Method: When you monitor e.g. a forum, how would you like to receive notifications of updates?
 
- 入力された情報はホームページのXooNIps User Menuのユーザ情報から確認出来ます。
+  Define a manner of receiving notification messages of updated events.
+
+  **Table 4.11. Notification Method**
+
+  | Pulldown menu | Comment |
+  | :--- | :--- |
+  | Temporarily Disable | Temporarily stop receiving the messages. |
+  | Private Message | via PM function of XOOPS. |
+  | Email \(use address in my profile\) | via the registered email address. |
+
+* Default Notification Mode
+
+  Define the timing for being notified.
+
+  **Table 4.12. Default Notification**
+
+  | Pulldown menu | Comment |
+  | :--- | :--- |
+  | Notify me of all selected updates | To be notified every time events are updated. |
+  | Notice me only once | To be notified only once |
+  | Notify me once then disable until I log in again. | Once it notifies, it won't notify until it is logged in again. |
+
+* Receive occasional email notices from administrators and moderators?
+
+  Choose "Yes", if wish to receive email messages about news update on XooNIps.
+
+![&quot;Register New User&quot;](../../.gitbook/assets/xoonips-mente3%20%281%29.png)
+
+**Figure 4.18. "Register New User"**
+
+The entered information can be viewed at the "User Information" \(on a XooNIps website, User Menu &gt;&gt; User List\).
 

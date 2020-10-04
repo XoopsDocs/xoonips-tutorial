@@ -1,12 +1,4 @@
-# 2.1. ログイン
+# 2.1. Login
 
-ユーザー名とパスワードを入力してログインしてください。
-
-#### Tip
-
-サイトのレイアウトによってはこの位置にあるとは限りません。
-
-![](../../.gitbook/assets/xoonips-operate11.png)
-
- **Figure 5.11. ログイン**
+Enter the user name and password to login.
 

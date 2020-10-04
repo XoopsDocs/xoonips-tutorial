@@ -1,4 +1,4 @@
-# 2. メンテナンス
+# 2. "Maintenance"
 
- ユーザーの追加や、メタデータのハーベストなど、日常的に行う作業項目です。
+This section shows how to perform the routine operations such as adding users, harvesting metadata, etc.
 

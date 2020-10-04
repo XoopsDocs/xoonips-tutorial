@@ -1,4 +1,4 @@
-# 1. サイトポリシー
+# 1. "Site Policies"
 
- ユーザ登録方法やアイテム公開方法等を決定します。
+This section shows how to set up the site policies \(user registration, item publishing, etc.\):
 

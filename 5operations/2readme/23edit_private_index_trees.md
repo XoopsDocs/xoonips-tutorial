@@ -1,97 +1,88 @@
-# 2.3. プライベートインデックスツリー編集
+# 2.3. Edit private \(index\) trees
 
-アイテムを管理する個人領域のインデックスツリーの編集が出来ます。
+How to organize and manage the items in a private area:
 
-XooNIps User Menuのプライベートツリー編集のリンクをクリックします。
+Click on the link \[Edit Private Tree\] at "XooNIps User Menu".
 
-![Edit private trees.](../../.gitbook/assets/xoonips-operate13%20%281%29.png)
+![Edit private trees.](../../.gitbook/assets/xoonips-operate13.png)
 
-**Figure 5.13.**  **プライベートツリー編集**
+**Figure 5.13. Edit private trees.**
 
-1. Keywordの新規登録
+1. How to register a new keyword:
 
-   New Index Keywordに作成したいKeywordを入力して「登録」ボタンを押します。
+   Enter a new keyword in the field "New Index Keyword", and click on the \[register\] button.
 
-   ![Edit private trees](../../.gitbook/assets/xoonips-operate14.png)
+   ![Edit private trees](../../.gitbook/assets/xoonips-operate14%20%281%29.png)
 
-   **Figure 5.14.**  **プライベートツリー編集**  
+   **Figure 5.14. Edit private trees**
 
+   A new index keyword will be registered underneath the private tree
 
-    Privateツリーの直下に登録されます。
+   ![Register a new keyword to the private index.](../../.gitbook/assets/xoonips-operate15%20%281%29.png)
 
-   ![Register a new keyword to the private index.](../../.gitbook/assets/xoonips-operate15.png)
+   **Figure 5.15. Register a new keyword to the private index.**
 
-   **Figure 5.15.**  **プライベートインデックスへのKeyword新規登録**  
+2. How to change keywords:
 
-2. Keywordの変更
+   Registered keywords can be modified.
 
-   登録したKeywordは修正することが出来ます。
+   Check the keyword to be modified and enter a new keyword in the field "Rename to", then click on the \[rename\] button.
 
-   操作したいKeywordのチェックを入れた後、新しいKeywordを入力して「改名」ボタンを押します。
+   ![Change keywords](../../.gitbook/assets/xoonips-operate16%20%281%29.png)
 
-   ![Change keywords](../../.gitbook/assets/xoonips-operate16.png)
-
-   **Figure 5.16.**  **Keywordの変更**  
-  
-
+   **Figure 5.16. Change keywords**
 
    The keyword "tool" has been changed to "model".
 
-   ![Index Tree with a changed keyword.](../../.gitbook/assets/xoonips-operate17.png)
+   ![Index Tree with a changed keyword.](../../.gitbook/assets/xoonips-operate17%20%281%29.png)
 
-   **Figure 5.17.**  **Keyword変更後のIndex**  
-  
+   **Figure 5.17. Index Tree with a changed keyword.**
 
-3. Keywordの削除
+3. How to delete a keyword:
 
-   削除したいKeywordにチェックを入れた後、「削除」ボタンを押します。
+   Check the checkbox of the keyword to be deleted and click on the \[delete\] button.
 
-   ![Delete a keyword](../../.gitbook/assets/xoonips-operate18%20%281%29.png)
+   ![Delete a keyword](../../.gitbook/assets/xoonips-operate18.png)
 
-   **Figure 5.18.**  **Keywordの削除**  
-  
+   **Figure 5.18. Delete a keyword**
 
+   ![Index \(the keyword has been deleted\)](../../.gitbook/assets/xoonips-operate19.png)
 
-   ![Index \(the keyword has been deleted\)](../../.gitbook/assets/xoonips-operate19%20%281%29.png)
+   **Figure 5.19. Index \(the keyword has been deleted\)**
 
-   **Figure 5.19.**  **Keywordの削除後のIndex**  
+4. Change the order of keywords:
 
-4. Keywordの表示順の変更
+   How to change the order of Keywords:
 
-   Keywordの表示順の変更が出来ます。
+   Indicate a number from 1 to 10 from the dropdown list at "up/down".
 
-   上へ/下への左にあるドロップダウンリストで1～10までの数を指定しての移動も可能です。
+   ![Change the order of keywords](../../.gitbook/assets/xoonips-operate20.png)
 
-   ![Change the order of keywords](../../.gitbook/assets/xoonips-operate20%20%281%29.png)
+   **Figure 5.20. Change the order of keywords**
 
-   **Figure 5.20.**  **Keywordの表示順変更**
+   ![Index \(the order of keywords has been changed\)](../../.gitbook/assets/xoonips-operate21%20%281%29.png)
 
-   ![Index \(the order of keywords has been changed\)](../../.gitbook/assets/xoonips-operate21.png)
+   **Figure 5.21. Index \(the order of keywords has been changed\)**
 
-   **Figure 5.21.**  **Keyword表示順変更後のIndex**  
+5. Shift keywords
 
-5. Keywordの移動
+   How to shift keywords:
 
-   Keywordの移動が出来ます。
+   Choose one from the dropdown list next to the \[move to\] button and click on it.
 
-   「次へ移動」ボタンの右にあるドロップダウンリストで移動先を選択した後、ボタンを押します。
+   ![Shift keywords](../../.gitbook/assets/xoonips-operate22%20%281%29.png)
 
-   ![Shift keywords](../../.gitbook/assets/xoonips-operate22.png)
+   **Figure 5.22. Shift keywords**
 
-   **Figure 5.22.**  **Keywordの移動**
+   To show the result, click on the \[open all\] button at the "Index Tree".
 
-  
-    移動の確認はIndex Treeの上にある「open all」ボタンを押します。
+   ![Show the shifted keyword](../../.gitbook/assets/xoonips-operate23.png)
 
-   ![Show the shifted keyword](../../.gitbook/assets/xoonips-operate23%20%281%29.png)
+   **Figure 5.23. Show the shifted keyword**
 
-   **Figure 5.23.**  **Keyword移動の確認**
+   The keyword \[tool\] has been shifted underneath \[model\].
 
-  
-  
-    Keyword\[tool\]が\[model\]の下に移動している事が確認出来ます。
+   ![Index \(the keyword has been shifted\)](../../.gitbook/assets/xoonips-operate24.png)
 
-   ![Index \(the keyword has been shifted\)](../../.gitbook/assets/xoonips-operate24%20%281%29.png)
-
-   **Figure 5.24.**  **Keyword移動後のIndex**
+   **Figure 5.24. Index \(the keyword has been shifted\)**
 

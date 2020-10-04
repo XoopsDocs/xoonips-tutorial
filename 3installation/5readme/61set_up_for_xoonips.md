@@ -1,36 +1,36 @@
-# 6.1. XooNIpsセットアップ
+# 6.1. Set up for XooNIps
 
- Webブラウザでhttp://サーバ名/へアクセスをします。
+Access to [http://server](http://server) name/.
 
-![](../../.gitbook/assets/xoonips-install01.png)
+![](../../.gitbook/assets/xoonips-install01%20%281%29.png)
 
- 情報を入力してログインボタンをクリックします。
+Enter the following information and click on the \[Login\] button.
 
-| ユーザ名 | 管理者ユーザ名\(例はAdministrator\) |
+| Username | Administrator's user name \(Example: Administrator\) |
 | :--- | :--- |
-| パスワード | 管理者パスワード |
+| Password | Administrator's password |
 
-![](../../.gitbook/assets/xoonips-install02%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install02.png)
 
- \[管理者メニュー\]をクリックします。
+Click on \[Administration Menu\].
 
-![](../../.gitbook/assets/xoonips-install03%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install03.png)
 
- \[モジュールのインストール\]をクリックします。
+Click on \[Module Installation\].
 
-![](../../.gitbook/assets/xoonips-install04.png)
+![](../../.gitbook/assets/xoonips-install04%20%281%29.png)
 
- 操作欄にあるインストールアイコンをクリックします。
+Click on the install icon at "Control".
 
-![](../../.gitbook/assets/xoonips-install05%20%281%29.png)
+![](../../.gitbook/assets/xoonips-install05.png)
 
- インストールボタンをクリックします。
+Click on the "Install" button.
 
-![](../../.gitbook/assets/xoonips-install06.png)
+![](../../.gitbook/assets/xoonips-install06%20%281%29.png)
 
- \[モジュールの管理\]をクリックします。
+Click on \[Module Management\].
 
-![](../../.gitbook/assets/xoonips-install07.png)
+![](../../.gitbook/assets/xoonips-install07%20%281%29.png)
 
- XooNIpsのインストールが正常に行われていればこの様な画面になります。
+If the XooNIps is successfully installed, the screen shows as above.
 

@@ -1,6 +1,4 @@
-# 5. XooNIpsの操作
+# 5. How to operate a XooNIps database website
 
-実際にXooNIpsを利用する際に必要な操作を解説します
-
-画面デザインはXOOPSのテーマを利用することで容易に変更することが出来ます。
+This section shows the operations that the registered users are entitled to perform on XooNIps.
 

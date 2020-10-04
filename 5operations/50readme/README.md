@@ -1,4 +1,4 @@
-# 5. システム管理者
+# 5. System administrator
 
- システム管理者時として出来ることの説明です。
+This section shows the operations that the system administrators are entitled to perform on XooNIps.
 
