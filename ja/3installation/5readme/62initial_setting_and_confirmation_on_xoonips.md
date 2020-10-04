@@ -102,15 +102,46 @@ XooNIpsはメタデータの情報を機械的に収集する仕組みとしてO
       <th style="text-align:left">
         <p></p>
         <ul>
-          <li>ハーベスタ設定はメタデータを他のサーバから収集するための設定です。</li>
-        </ul>
-        <p>メタデータを収集するサーバのURLを改行区切りで入力します。</p>
-        <p>行の先頭に(セミコロン);を付けた場合はその行はコメントになります。</p>
+          <li>
+            <table>
+              <thead>
+                <tr>
+                  <th style="text-align:left">&#x30EA;&#x30DD;&#x30B8;&#x30C8;&#x30EA;&#x540D;</th>
+                  <th style="text-align:left">&#x4F8B;&#xFF1A;INCF Japan Node XooNIps site</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th style="text-align:left">&#x30C7;&#x30FC;&#x30BF;&#x30D9;&#x30FC;&#x30B9;ID</th>
+                  <th style="text-align:left">&#x30B5;&#x30A4;&#x30C8;&#x540D;&#x7B49;&#x3092;&#x5229;&#x7528;&#x3057;&#x3066;&#x30B5;&#x30A4;&#x30C8;&#x3092;&#x533A;&#x5225;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x8B58;&#x5225;&#x5B50;&#x3092;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;&#x4F8B;&#xFF1A;www.neuroinf.jp</th>
+                </tr>
+                <tr>
+                  <th style="text-align:left">&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x306E;&#x524A;&#x9664;&#x72B6;&#x614B;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x65E5;&#x6570;</th>
+                  <th
+                  style="text-align:left">&#x30A2;&#x30A4;&#x30C6;&#x30E0;&#x3092;&#x524A;&#x9664;&#x3057;&#x305F;&#x3068;&#x3044;&#x3046;&#x60C5;&#x5831;&#x306E;&#x4FDD;&#x5B58;&#x65E5;&#x6570;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</th>
+      </tr>
+      <tr>
+        <th style="text-align:left">institution&#x306E;&#x5024;</th>
+        <th style="text-align:left">OAI-PMH&#x306E;&#x5FDC;&#x7B54;&#x306B;&#x5FC5;&#x8981;&#x306A;institution&#x306E;&#x5024;&#x3092;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</th>
+      </tr>
+      <tr>
+        <th style="text-align:left">publisher&#x306E;&#x5024;</th>
+        <th style="text-align:left">OAI-PMH&#x306E;&#x5FDC;&#x7B54;&#x306B;&#x5FC5;&#x8981;&#x306A;publisher&#x306E;&#x5024;&#x3092;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</th>
+      </tr>
+      </tbody>
+      </table>
+      </li>
+      <li>&#x30CF;&#x30FC;&#x30D9;&#x30B9;&#x30BF;&#x8A2D;&#x5B9A;&#x306F;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x4ED6;&#x306E;&#x30B5;&#x30FC;&#x30D0;&#x304B;&#x3089;&#x53CE;&#x96C6;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x8A2D;&#x5B9A;&#x3067;&#x3059;&#x3002;</li>
+      </ul>
+      <p>&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x53CE;&#x96C6;&#x3059;&#x308B;&#x30B5;&#x30FC;&#x30D0;&#x306E;URL&#x3092;&#x6539;&#x884C;&#x533A;&#x5207;&#x308A;&#x3067;&#x5165;&#x529B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+      <p>&#x884C;&#x306E;&#x5148;&#x982D;&#x306B;(&#x30BB;&#x30DF;&#x30B3;&#x30ED;&#x30F3;);&#x3092;&#x4ED8;&#x3051;&#x305F;&#x5834;&#x5408;&#x306F;&#x305D;&#x306E;&#x884C;&#x306F;&#x30B3;&#x30E1;&#x30F3;&#x30C8;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
       </th>
     </tr>
   </thead>
   <tbody></tbody>
-</table>## 6.2.6. **プロキシ設定** <a id="6-2-6-proxy-configuration"></a>
+</table>
+
+## 6.2.6. **プロキシ設定** <a id="6-2-6-proxy-configuration"></a>
 
  XooNIpsから他のサーバへアクセスする際プロキシを利用する場合に設定します。
 
